@@ -1,0 +1,64 @@
+site_name: UNED - Organización y Gestión del Aula / Organización Familiar y Acción Tutorial
+site_url: https://example.com
+repo_url: https://github.com/your-org/Universidad_Susana
+repo_name: GitHub
+edit_uri: edit/main/docs/
+site_author: Jose Manuel Gonzalez Castillo
+nav:
+  - Principal: index.md
+  - Organización y Gestión del Aula:
+    - section1/index.md
+    - Slides (Módulo): section1/slides/index.md
+    - Unidad 00:
+      - section1/u00/index.md
+      - Presentación: section1/slides/no-disponible.md
+  - Organización Familiar y Acción Tutorial:
+    - section2/index.md
+    - Slides (Módulo): section2/slides/index.md
+    - Unidad 00:
+      - section2/u00/index.md
+      - Presentación: section2/slides/no-disponible.md
+  - Blog: blog.md
+  - Tags: tags.md
+  - Acerca de: about.md
+theme:
+  name: material
+  language: es
+  logo: assets/logo.png
+  favicon: assets/favicon.ico
+  font:
+    text: Roboto
+  palette:
+    - media: '(prefers-color-scheme: light)'
+      scheme: default
+      primary: white
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+    - media: '(prefers-color-scheme: dark)'
+      scheme: slate
+      primary: black
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.tracking
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
+    - content.tooltips
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.annotate
+  icon:
+    tag:
+      etiqueta: octicons/tag-24
+extra_css:
+  - stylesheets/extra.css
+markdown_extensions:
+  - toc:
+      permalink: true
