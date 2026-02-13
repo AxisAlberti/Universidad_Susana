@@ -12,6 +12,9 @@ nav:
     - Unidad 00:
       - section1/u00/index.md
       - Presentación: section1/slides/no-disponible.md
+    - Unidad 01:
+      - section1/u01/index.md
+      - Presentación: section1/slides/no-disponible.md
   - Organización Familiar y Acción Tutorial:
     - section2/index.md
     - Slides (Módulo): section2/slides/index.md

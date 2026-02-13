@@ -166,6 +166,7 @@ Salida generada del sitio MkDocs. No editar manualmente.
 - **Prácticas y GIFT no aparecen en el menú lateral.**
 - Los `.gift` están excluidos del build mediante:
   - `exclude_docs: "**/*.gift"`
+- Es obligatorio mantener menús navegables a izquierda (barra lateral) y derecha (tabla de contenidos) en todo el repositorio.
 
 ## 3. Convenciones y formatos
 
