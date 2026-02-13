@@ -125,7 +125,7 @@ docs/
 ├── section1/                    # Módulo 1
 │   ├── index.md                 # Portada del módulo
 │   ├── recursos/                # Recursos del módulo
-│   ├── u00..u08/                # Unidades didácticas
+│   ├── u01..u08/                # Unidades didácticas
 │   └── A1..A5/                  # Anexos (antiguas u09..u13)
 ├── section2/                    # Módulo 2
 │   ├── index.md

@@ -6,7 +6,7 @@ Materiales para la asignatura **Organización Familiar y Acción Tutorial** (Mó
 
 ## Contenidos
 
-- [Unidad 00](u00/index.md)
+_Sin unidades publicadas todavía._
 
 ## Slides
 
