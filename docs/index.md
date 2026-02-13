@@ -2,8 +2,8 @@
 
 Repositorio con materiales de las asignaturas de la UNED:
 
-- **Organización y Gestión del Aula**
-- **Organización Familiar y Acción Tutorial**
+- **Organización y Gestión del Aula** (Módulo 1)
+- **Organización Familiar y Acción Tutorial** (Módulo 2)
 
 ## Módulos
 

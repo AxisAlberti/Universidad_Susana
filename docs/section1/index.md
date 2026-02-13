@@ -2,7 +2,7 @@
 
 ## Resumen
 
-Materiales para la asignatura de **Organización y Gestión del Aula**.
+Materiales para la asignatura **Organización y Gestión del Aula** (Módulo 1).
 
 ## Contenidos
 
