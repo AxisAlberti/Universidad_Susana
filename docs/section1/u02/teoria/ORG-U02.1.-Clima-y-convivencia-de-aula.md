@@ -47,8 +47,8 @@ El clima de convivencia se analiza en tres dimensiones conectadas:
 
 Cuando estas tres dimensiones se alinean, mejora la pertenencia al grupo, el ajuste emocional y la implicación académica.
 
-![Esquema visual del tema 2 sobre convivencia](assets/pdf_images/tema2-000.jpg)
-_Imagen de apoyo extraída del material base del tema._
+![Normas de aula visibles para convivencia](assets/classroom_rules.jpg)
+_Normas explícitas y comprensibles como base de prevención y seguridad relacional._
 
 ## 3. Calidad de la interacción docente-alumnado
 
@@ -93,6 +93,9 @@ La resolución educativa enseña procedimientos para afrontar conflictos sin esc
 
 La mediación no se aplica a cualquier situación: es útil en conflictos interpersonales, pero no en casos de violencia donde se requieren protocolos de protección y actuación institucional.
 
+![Dinámica de círculo para diálogo y escucha](assets/circle_time_diskusi.jpg)
+_El círculo de aula facilita escucha activa, expresión emocional y acuerdos grupales._
+
 ## 7. Disciplina positiva y lenguaje de conexión
 
 El enfoque de disciplina positiva se centra en enseñar conductas alternativas, no solo en frenar conductas inadecuadas. La diferencia práctica aparece en el lenguaje:
@@ -124,10 +127,22 @@ Ejemplos de frases de conexión:
   - Social/cívica (normas y cultura de aula).
 - Incorporar trabajo cooperativo y responsabilidades de grupo.
 
-![Gráfico del tema 2 sobre clima y aula](assets/pdf_images/tema2-001.jpg)
-_Segundo recurso visual del material base._
+![Aprendizaje cooperativo en el aula](assets/cooperative_learning_river.jpg)
+_La cooperación bien guiada mejora aceptación entre iguales y participación._
 
-## 9. Caso práctico de análisis docente
+## 9. Evidencia internacional para fortalecer la convivencia
+
+Las recomendaciones actuales de organismos internacionales y redes de evidencia convergen en varios puntos:
+
+- Enseñar habilidades socioemocionales de forma explícita y continuada mejora regulación, convivencia y aprendizaje.
+- Las normas funcionan mejor cuando son pocas, claras, enseñadas y revisadas en contexto.
+- El apoyo universal (para todo el grupo) debe combinarse con apoyos adicionales para alumnado en mayor riesgo.
+- La respuesta docente más eficaz combina estructura, vínculo y altas expectativas.
+- La prevención sostenida reduce la necesidad de intervención reactiva o punitiva.
+
+Estas conclusiones aparecen de forma consistente en marcos como UNESCO, OCDE (TALIS), EEF, CASEL y PBIS.
+
+## 10. Caso práctico de análisis docente
 
 Situación: un grupo de 5 años presenta disrupción frecuente, burlas y baja cooperación.
 
@@ -141,7 +156,7 @@ Propuesta de intervención:
 
 Este enfoque permite intervenir sobre causas y no solo sobre síntomas.
 
-## 10. Resumen final (ideas clave)
+## 11. Resumen final (ideas clave)
 
 - El clima de aula es una construcción pedagógica, no un resultado espontáneo.
 - El modelo educativo de convivencia es preventivo, participativo y reparador.
@@ -149,15 +164,22 @@ Este enfoque permite intervenir sobre causas y no solo sobre síntomas.
 - Diferenciar tipos de conflicto mejora la precisión de la respuesta educativa.
 - La convivencia se enseña mediante hábitos, lenguaje, organización y coherencia institucional.
 
-## 11. Referencias y enlaces
+## 12. Referencias y enlaces
 
-- OCDE/OECD - School climate and student outcomes: https://www.oecd.org/education/
 - UNESCO - School violence and bullying (marco global): https://www.unesco.org/en/school-violence-and-bullying
+- OECD - TALIS (teaching and learning international survey): https://www.oecd.org/education/talis/
+- Education Endowment Foundation - Improving Behaviour in Schools: https://educationendowmentfoundation.org.uk/education-evidence/guidance-reports/behaviour
+- CASEL - Fundamentals of SEL: https://casel.org/fundamentals-of-sel/
+- PBIS - Positive Behavioral Interventions and Supports: https://www.pbis.org/
+- What Works Clearinghouse (IES): https://ies.ed.gov/ncee/wwc/
 - Juvonen, J. (2007). Educational Psychologist: https://doi.org/10.1080/00461520701621046
 - Lasky, S. (2005). Teaching and Teacher Education: https://doi.org/10.1016/j.tate.2005.06.003
 - Loukas, A. y Murphy, J. (2007). Journal of School Psychology: https://doi.org/10.1016/j.jsp.2006.10.001
 - Witherspoon, D. et al. (2009). Applied Developmental Science: https://doi.org/10.1080/10888690903288755
 - Ibarrola-García, S. e Iriarte, C. (2012). La convivencia escolar en positivo. Pirámide.
 - Monge, C. et al. (2022). Modelo integrado de gestión de la convivencia escolar. Pirámide.
+- Imagen Classroom Rules (Wikimedia Commons): https://commons.wikimedia.org/wiki/File:Classroom_Rules.jpg
+- Imagen Circle Time Diskusi (Wikimedia Commons): https://commons.wikimedia.org/wiki/File:Circle_Time_Diskusi.jpg
+- Imagen Cooperative learning in RiVER classroom (Wikimedia Commons): https://commons.wikimedia.org/wiki/File:Cooperative_learning_in_RiVER_classroom.jpg
 
 **Fecha de actualización:** 14/02/2026
