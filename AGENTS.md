@@ -373,4 +373,39 @@ Ejemplo para U10 (Tarjetas Gráficas):
 ```gift
 $CATEGORY: CURSO/Desarrollo/Tarjetas_Graficas
 ```
+
+## 9. Indicaciones recientes para generación de apuntes (13/02/2026 y 14/02/2026)
+
+Estas reglas se aplican a los nuevos apuntes y a revisiones de temas ya creados:
+
+- En `section1/uXX/teoria/*.md`, los apuntes deben tener nivel **universitario**:
+  - mayor profundidad conceptual,
+  - base normativa y pedagógica,
+  - conexión entre teoría y aplicación práctica en el aula.
+
+- Cuando se solicite ampliar un tema, añadir:
+  - nuevos apartados con fundamentación académica,
+  - ejemplos de implementación real,
+  - referencias actuales y verificables.
+
+- Está autorizado y recomendado usar **fuentes externas de Internet** para enriquecer contenidos.
+
+- Incluir imágenes adicionales cuando aporten valor didáctico.  
+  En esta estructura de repositorio, desde un archivo dentro de `teoria/`, usar rutas:
+  - `assets/...` (porque los recursos están en `teoria/assets/`).
+
+- Para evitar problemas de renderizado de imágenes:
+  - priorizar sintaxis Markdown directa `![texto](ruta)`,
+  - evitar depender de bloques `<figure markdown>` si no está confirmada la extensión `md_in_html` en `mkdocs.yml`.
+
+- Si se reporta que "no se ve ninguna imagen", revisar **todo el fichero**:
+  - rutas de imágenes,
+  - existencia real de archivos en `assets`,
+  - sintaxis Markdown/HTML,
+  - compilación final con `mkdocs build`.
+
+- Tras editar cualquier `.md`, añadir o actualizar al final:
+  - `**Fecha de actualización:** DD/MM/AAAA`
+
 **Fecha de actualización:** 13/02/2026
+**Fecha de actualización:** 14/02/2026
