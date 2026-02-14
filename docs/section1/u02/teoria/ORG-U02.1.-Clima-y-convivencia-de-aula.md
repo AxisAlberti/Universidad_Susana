@@ -28,6 +28,18 @@ El clima de aula es un factor central para la calidad educativa en Infantil. No 
 - Aplicar estrategias de prevención, mediación y diálogo reflexivo.
 - Diseñar actuaciones concretas para mejorar convivencia en 0-3 y 3-6.
 
+## Vocabulario clave
+
+| Término | Definición didáctica |
+|---|---|
+| Clima de aula | Calidad percibida de relaciones, organización y experiencias de aprendizaje dentro del grupo. |
+| Convivencia escolar | Conjunto de prácticas, normas y relaciones que permiten vivir y aprender juntos con respeto. |
+| Conflicto interpersonal | Desacuerdo entre personas por intereses, necesidades o percepciones incompatibles. |
+| Mediación escolar | Proceso estructurado de diálogo, voluntario y guiado, para construir acuerdos entre partes. |
+| Disciplina positiva | Enfoque que enseña límites y habilidades sin humillación ni castigo punitivo como eje central. |
+| Justicia restaurativa | Respuesta educativa centrada en responsabilizar, reparar el daño y restaurar vínculos. |
+| PBIS | Marco de apoyos conductuales positivos multinivel basado en prevención y análisis de datos. |
+
 ## 1. Marco conceptual de la convivencia escolar
 
 La convivencia puede entenderse desde dos marcos:
@@ -57,8 +69,8 @@ El clima de convivencia se analiza en tres dimensiones conectadas:
 
 Cuando estas tres dimensiones se alinean, mejora la pertenencia al grupo, el ajuste emocional y la implicación académica.
 
-![Normas de aula visibles para convivencia](assets/classroom_rules.jpg)
-_Normas explícitas y comprensibles como base de prevención y seguridad relacional._
+![Clima de aula y convivencia positiva](assets/tema2-000.jpg)
+_Recurso visual en español extraído del tema base._
 
 ## 3. Calidad de la interacción docente-alumnado
 
@@ -106,8 +118,8 @@ La mediación no se aplica a cualquier situación: es útil en conflictos interp
 ![Dinámica de círculo para diálogo y escucha](assets/circle_time_diskusi.jpg)
 _El círculo de aula facilita escucha activa, expresión emocional y acuerdos grupales._
 
-![Estilos de afrontamiento del conflicto](assets/conflict_styles.png)
-_Diagrama comparativo de estilos de gestión del conflicto para análisis docente._
+![Resolución educativa de conflictos](assets/tema2-001.jpg)
+_Esquema en español sobre procesos de convivencia y abordaje del conflicto._
 
 ## 7. Disciplina positiva y lenguaje de conexión
 
@@ -201,21 +213,8 @@ Este enfoque permite intervenir sobre causas y no solo sobre síntomas.
 - Witherspoon, D. et al. (2009). Applied Developmental Science: https://doi.org/10.1080/10888690903288755
 - Ibarrola-García, S. e Iriarte, C. (2012). La convivencia escolar en positivo. Pirámide.
 - Monge, C. et al. (2022). Modelo integrado de gestión de la convivencia escolar. Pirámide.
-- Imagen Classroom Rules (Wikimedia Commons): https://commons.wikimedia.org/wiki/File:Classroom_Rules.jpg
 - Imagen Circle Time Diskusi (Wikimedia Commons): https://commons.wikimedia.org/wiki/File:Circle_Time_Diskusi.jpg
 - Imagen Cooperative learning in RiVER classroom (Wikimedia Commons): https://commons.wikimedia.org/wiki/File:Cooperative_learning_in_RiVER_classroom.jpg
-- Diagrama Conflict Styles (Wikimedia Commons): https://commons.wikimedia.org/wiki/File:Conflict_Styles.png
-
-## 13. Vocabulario clave
-
-| Término | Definición didáctica |
-|---|---|
-| Clima de aula | Calidad percibida de relaciones, organización y experiencias de aprendizaje dentro del grupo. |
-| Convivencia escolar | Conjunto de prácticas, normas y relaciones que permiten vivir y aprender juntos con respeto. |
-| Conflicto interpersonal | Desacuerdo entre personas por intereses, necesidades o percepciones incompatibles. |
-| Mediación escolar | Proceso estructurado de diálogo, voluntario y guiado, para construir acuerdos entre partes. |
-| Disciplina positiva | Enfoque que enseña límites y habilidades sin humillación ni castigo punitivo como eje central. |
-| Justicia restaurativa | Respuesta educativa centrada en responsabilizar, reparar el daño y restaurar vínculos. |
-| PBIS | Marco de apoyos conductuales positivos multinivel basado en prevención y análisis de datos. |
+- Material visual del tema base (PDF en español): `temas/Orga_ges_aula/Org_ges_Aula_tema_2.pdf`
 
 **Fecha de actualización:** 14/02/2026

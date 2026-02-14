@@ -28,6 +28,17 @@ Esta unidad desarrolla una base **universitaria y aplicada** sobre inclusión ed
 - Diseñar propuestas de aula con apoyos multinivel, cooperación y co-docencia.
 - Argumentar decisiones didácticas con base normativa y evidencia pedagógica.
 
+## Vocabulario clave
+
+| Término | Definición didáctica |
+|---|---|
+| Inclusión educativa | Proceso de diseño y mejora escolar para que todo el alumnado participe, aprenda y progrese sin exclusión. |
+| Barrera para el aprendizaje | Obstáculo del contexto (metodología, organización, evaluación o cultura) que dificulta participación y logro. |
+| DUA | Marco de planificación curricular flexible que propone múltiples formas de implicación, representación y expresión. |
+| Andamiaje | Ayuda temporal y ajustada que permite avanzar hacia mayor autonomía. |
+| Co-docencia | Planificación, enseñanza y evaluación compartidas entre docentes en un mismo grupo. |
+| Evaluación formativa | Recogida de evidencias y feedback durante el proceso para mejorar el aprendizaje. |
+
 ## 1. Educación inclusiva y calidad para todos
 
 La inclusión educativa supone un **compromiso institucional** que va más allá de atender casos individuales. Implica revisar cultura, políticas y prácticas para garantizar la presencia, la participación y el progreso de todo el alumnado, con especial atención a quienes afrontan mayor riesgo de exclusión.
@@ -88,14 +99,11 @@ El modelo se articula en tres principios:
 2. **Múltiples formas de representación** (diversidad de formatos para acceder a la información).
 3. **Múltiples formas de acción y expresión** (diversas formas de mostrar lo aprendido).
 
-![Principios del DUA](assets/udl_principles.jpg)
-_Principios del Diseño Universal para el Aprendizaje._
+![Principios del DUA](assets/pdf_images/tema1-004.jpg)
+_Esquema en español del material base para interpretar los principios del DUA._
 
-![Marco visual del DUA (estructura)](assets/udl_grundstruktur.png)
-_Diagrama de la estructura del DUA para planificar acceso, participación y expresión._
-
-![Framework del DUA en práctica](assets/udl_cast_framework.jpg)
-_Representación visual del marco DUA aplicado a decisiones curriculares._
+![Marco de aplicación del DUA](assets/pdf_images/tema1-005.jpg)
+_Diagrama en español sobre diseño de apoyos y accesibilidad curricular._
 
 ### 3.1. Implicación: motivar para participar
 
@@ -176,8 +184,8 @@ La evaluación inclusiva no se centra solo en calificar, sino en mejorar el apre
 - **Evaluación compartida:** incorpora autoevaluación y coevaluación guiadas.
 - **Evaluación flexible:** admite múltiples evidencias y distintos tiempos de demostración.
 
-![Formativa y sumativa en el proceso de aprendizaje](assets/formative_vs_summative.png)
-_Comparativa visual entre evaluación formativa y sumativa._
+![Evaluación en el proceso de aprendizaje](assets/pdf_images/tema1-007.png)
+_Recurso visual en español para apoyar la toma de decisiones evaluativas inclusivas._
 
 ## 7. Estrategias organizativas inclusivas
 
@@ -230,22 +238,8 @@ Caso: grupo de Infantil con alta heterogeneidad lingüística, ritmos dispares y
 - CAST - UDL Guidelines 3.0: https://udlguidelines.cast.org/
 - BOE - Ley Orgánica 3/2020 (LOMLOE): https://www.boe.es/buscar/act.php?id=BOE-A-2006-7899
 - BOE - Real Decreto 95/2022 (ordenación y enseñanzas mínimas de Educación Infantil): https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-1654
-- Imagen DUA (Wikimedia Commons): https://commons.wikimedia.org/wiki/File:Universal_Design_For_Learning_(8527950743).jpg
-- Diagrama UDL Grundstruktur (Wikimedia Commons): https://commons.wikimedia.org/wiki/File:UDL_Grundstruktur.png
-- Marco UDL CAST (Wikimedia Commons): https://commons.wikimedia.org/wiki/File:Universal_Design_for_Learning_from_Center_for_Applied_Special_Technology_(9101797199).jpg
 - Imagen aprendizaje cooperativo (Wikimedia Commons): https://commons.wikimedia.org/wiki/File:Cooperative_learning_in_RiVER_classroom.jpg
 - Imagen aula (Wikimedia Commons): https://commons.wikimedia.org/wiki/File:Wikimedia_in_Education_illustration_classroom.svg
-- Imagen evaluación formativa/sumativa (Wikimedia Commons): https://commons.wikimedia.org/wiki/File:Formative_vs_Summative_Assessments_uk.png
-
-## 12. Vocabulario clave
-
-| Término | Definición didáctica |
-|---|---|
-| Inclusión educativa | Proceso de diseño y mejora escolar para que todo el alumnado participe, aprenda y progrese sin exclusión. |
-| Barrera para el aprendizaje | Obstáculo del contexto (metodología, organización, evaluación o cultura) que dificulta participación y logro. |
-| DUA | Marco de planificación curricular flexible que propone múltiples formas de implicación, representación y expresión. |
-| Andamiaje | Ayuda temporal y ajustada que permite avanzar hacia mayor autonomía. |
-| Co-docencia | Planificación, enseñanza y evaluación compartidas entre docentes en un mismo grupo. |
-| Evaluación formativa | Recogida de evidencias y feedback durante el proceso para mejorar el aprendizaje. |
+- Material visual del tema base (PDF en español): `temas/Orga_ges_aula/Org_ges_Aula_tema_1.pdf`
 
 **Fecha de actualización:** 14/02/2026

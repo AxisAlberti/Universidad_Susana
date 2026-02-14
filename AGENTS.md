@@ -400,8 +400,11 @@ Estas reglas se aplican a los nuevos apuntes y a revisiones de temas ya creados:
 - No limitarse a una imagen por sección: incluir todas las que hagan falta para mejorar comprensión, claridad y calidad didáctica.
 - Si ayuda a clarificar el contenido, incluir tablas comparativas entre conceptos, modelos, metodologías o enfoques.
 - Si ayuda al aprendizaje, incluir tablas de vocabulario con términos clave y sus definiciones didácticas.
+- Las tablas de **Vocabulario clave** deben situarse al principio del documento de apuntes (tras la introducción y antes del desarrollo principal), para facilitar la comprensión desde el inicio.
 - Buscar y descargar diagramas de Internet cuando aporten claridad (mapas conceptuales, esquemas de procesos, marcos visuales, infografías).
 - Integrar esos diagramas en los apuntes con explicación pedagógica breve y relación directa con el apartado tratado.
+- Si se incluye algún diagrama o imagen explicativa, debe estar en **español**. Si está en otro idioma, no se debe incluir.
+- A partir de ahora, las búsquedas de fuentes, imágenes y diagramas deben realizarse **en español** de forma prioritaria.
 
 - Para evitar problemas de renderizado de imágenes:
   - priorizar sintaxis Markdown directa `![texto](ruta)`,
@@ -417,6 +420,10 @@ Estas reglas se aplican a los nuevos apuntes y a revisiones de temas ya creados:
   - `**Fecha de actualización:** DD/MM/AAAA`
 
 **Fecha de actualización:** 13/02/2026
+**Fecha de actualización:** 14/02/2026
+
+**Fecha de actualización:** 14/02/2026
+
 **Fecha de actualización:** 14/02/2026
 
 **Fecha de actualización:** 14/02/2026
