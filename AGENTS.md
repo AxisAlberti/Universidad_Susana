@@ -378,10 +378,11 @@ $CATEGORY: CURSO/Desarrollo/Tarjetas_Graficas
 
 Estas reglas se aplican a los nuevos apuntes y a revisiones de temas ya creados:
 
-- En `section1/uXX/teoria/*.md`, los apuntes deben tener nivel **universitario**:
-  - mayor profundidad conceptual,
-  - base normativa y pedagógica,
-  - conexión entre teoría y aplicación práctica en el aula.
+- En `section1/uXX/teoria/*.md`, los apuntes deben tener nivel **universitario** de forma obligatoria:
+  - mayor profundidad conceptual y terminología académica precisa,
+  - base normativa, pedagógica y de evidencia científica,
+  - conexión entre teoría y aplicación práctica en el aula,
+  - análisis crítico y justificación de decisiones didácticas.
 
 - Cuando se solicite ampliar un tema, añadir:
   - nuevos apartados con fundamentación académica,
@@ -389,10 +390,18 @@ Estas reglas se aplican a los nuevos apuntes y a revisiones de temas ya creados:
   - referencias actuales y verificables.
 
 - Está autorizado y recomendado usar **fuentes externas de Internet** para enriquecer contenidos.
+- Es obligatorio completar los apuntes con fuentes académicas e institucionales actuales cuando aporten valor formativo.
 
-- Incluir imágenes adicionales cuando aporten valor didáctico.  
-  En esta estructura de repositorio, desde un archivo dentro de `teoria/`, usar rutas:
-  - `assets/...` (porque los recursos están en `teoria/assets/`).
+- Incluir imágenes adicionales cuando aporten valor didáctico.
+- Buscar, descargar e incorporar desde Internet todas las imágenes que sean necesarias para complementar adecuadamente los apuntes.
+- Priorizar fuentes abiertas y reutilizables (por ejemplo, Wikimedia Commons, organismos oficiales y recursos educativos institucionales).
+- Todas las imágenes descargadas deben guardarse en `teoria/assets/` y referenciarse con rutas relativas:
+  - `assets/...` (desde el archivo `.md` de `teoria/`).
+- No limitarse a una imagen por sección: incluir todas las que hagan falta para mejorar comprensión, claridad y calidad didáctica.
+- Si ayuda a clarificar el contenido, incluir tablas comparativas entre conceptos, modelos, metodologías o enfoques.
+- Si ayuda al aprendizaje, incluir tablas de vocabulario con términos clave y sus definiciones didácticas.
+- Buscar y descargar diagramas de Internet cuando aporten claridad (mapas conceptuales, esquemas de procesos, marcos visuales, infografías).
+- Integrar esos diagramas en los apuntes con explicación pedagógica breve y relación directa con el apartado tratado.
 
 - Para evitar problemas de renderizado de imágenes:
   - priorizar sintaxis Markdown directa `![texto](ruta)`,
@@ -408,4 +417,8 @@ Estas reglas se aplican a los nuevos apuntes y a revisiones de temas ya creados:
   - `**Fecha de actualización:** DD/MM/AAAA`
 
 **Fecha de actualización:** 13/02/2026
+**Fecha de actualización:** 14/02/2026
+
+**Fecha de actualización:** 14/02/2026
+
 **Fecha de actualización:** 14/02/2026

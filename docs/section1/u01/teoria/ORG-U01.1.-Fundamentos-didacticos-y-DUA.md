@@ -69,6 +69,15 @@ La inclusión no depende solo de la buena voluntad docente; está respaldada por
 
 Este marco legitima decisiones organizativas como apoyos en aula ordinaria, flexibilización metodológica y evaluación formativa.
 
+### 2.1. Tabla comparativa: integración vs inclusión
+
+| Enfoque | Pregunta central | Respuesta educativa habitual | Riesgo pedagógico |
+|---|---|---|---|
+| Integración | ¿Cómo incorporamos a quien queda fuera? | Adaptaciones puntuales sobre currículo ya cerrado | Que la diversidad se trate como excepción |
+| Inclusión | ¿Cómo diseñamos para que todos participen desde el inicio? | Planificación universal, apoyos multinivel y evaluación flexible | Requiere coordinación y reflexión docente continua |
+
+La lógica inclusiva desplaza el foco desde la "adaptación posterior" hacia el diseño universal previo.
+
 ## 3. Diseño Universal del Aprendizaje (DUA)
 
 El DUA propone diseñar el currículo de forma **flexible y accesible** para todo el alumnado. En lugar de adaptar después, se planifica desde el inicio para ofrecer **múltiples caminos** de acceso, participación y expresión.
@@ -81,6 +90,12 @@ El modelo se articula en tres principios:
 
 ![Principios del DUA](assets/udl_principles.jpg)
 _Principios del Diseño Universal para el Aprendizaje._
+
+![Marco visual del DUA (estructura)](assets/udl_grundstruktur.png)
+_Diagrama de la estructura del DUA para planificar acceso, participación y expresión._
+
+![Framework del DUA en práctica](assets/udl_cast_framework.jpg)
+_Representación visual del marco DUA aplicado a decisiones curriculares._
 
 ### 3.1. Implicación: motivar para participar
 
@@ -122,6 +137,15 @@ El DUA dialoga con marcos clásicos y contemporáneos de la didáctica:
 - **Pedagogía crítica:** analizar desigualdades y transformar prácticas que excluyen.
 
 En términos universitarios, esto exige justificar cada decisión metodológica con su fundamento teórico y su impacto esperado en la participación.
+
+### 4.1. Tabla comparativa de fundamentos pedagógicos
+
+| Marco teórico | Idea fuerza | Implicación didáctica |
+|---|---|---|
+| Sociocultural | Aprendemos en interacción mediada | Diseñar tareas dialogadas y andamiajes sociales |
+| Andamiaje | La ayuda se retira gradualmente | Ajustar apoyos según progreso y autonomía |
+| Constructivismo | El aprendizaje reorganiza conocimientos previos | Activar saberes iniciales y conflictos cognitivos |
+| Pedagogía crítica | La educación puede reproducir o transformar desigualdad | Revisar prácticas y sesgos en evaluación y participación |
 
 ## 5. El aula como comunidad educativa
 
@@ -207,8 +231,21 @@ Caso: grupo de Infantil con alta heterogeneidad lingüística, ritmos dispares y
 - BOE - Ley Orgánica 3/2020 (LOMLOE): https://www.boe.es/buscar/act.php?id=BOE-A-2006-7899
 - BOE - Real Decreto 95/2022 (ordenación y enseñanzas mínimas de Educación Infantil): https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-1654
 - Imagen DUA (Wikimedia Commons): https://commons.wikimedia.org/wiki/File:Universal_Design_For_Learning_(8527950743).jpg
+- Diagrama UDL Grundstruktur (Wikimedia Commons): https://commons.wikimedia.org/wiki/File:UDL_Grundstruktur.png
+- Marco UDL CAST (Wikimedia Commons): https://commons.wikimedia.org/wiki/File:Universal_Design_for_Learning_from_Center_for_Applied_Special_Technology_(9101797199).jpg
 - Imagen aprendizaje cooperativo (Wikimedia Commons): https://commons.wikimedia.org/wiki/File:Cooperative_learning_in_RiVER_classroom.jpg
 - Imagen aula (Wikimedia Commons): https://commons.wikimedia.org/wiki/File:Wikimedia_in_Education_illustration_classroom.svg
 - Imagen evaluación formativa/sumativa (Wikimedia Commons): https://commons.wikimedia.org/wiki/File:Formative_vs_Summative_Assessments_uk.png
+
+## 12. Vocabulario clave
+
+| Término | Definición didáctica |
+|---|---|
+| Inclusión educativa | Proceso de diseño y mejora escolar para que todo el alumnado participe, aprenda y progrese sin exclusión. |
+| Barrera para el aprendizaje | Obstáculo del contexto (metodología, organización, evaluación o cultura) que dificulta participación y logro. |
+| DUA | Marco de planificación curricular flexible que propone múltiples formas de implicación, representación y expresión. |
+| Andamiaje | Ayuda temporal y ajustada que permite avanzar hacia mayor autonomía. |
+| Co-docencia | Planificación, enseñanza y evaluación compartidas entre docentes en un mismo grupo. |
+| Evaluación formativa | Recogida de evidencias y feedback durante el proceso para mejorar el aprendizaje. |
 
 **Fecha de actualización:** 14/02/2026

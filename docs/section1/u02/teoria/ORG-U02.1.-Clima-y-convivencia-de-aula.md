@@ -37,6 +37,16 @@ La convivencia puede entenderse desde dos marcos:
 
 En la práctica educativa, ambos pueden coexistir, pero el enfoque actual de calidad apuesta por el modelo educativo por su impacto en desarrollo moral, regulación emocional y clima social estable.
 
+### 1.1. Tabla comparativa: modelo sancionador vs modelo educativo
+
+| Criterio | Modelo sancionador | Modelo educativo |
+|---|---|---|
+| Foco principal | Falta y castigo | Aprendizaje, reparación y convivencia |
+| Momento de intervención | Reactivo | Preventivo y continuo |
+| Rol del alumnado | Receptor de norma | Participante y corresponsable |
+| Tipo de justicia | Retributiva | Restaurativa/formativa |
+| Impacto esperado | Control inmediato | Mejora sostenida del clima y habilidades socioemocionales |
+
 ## 2. Clima de aula como constructo multidimensional
 
 El clima de convivencia se analiza en tres dimensiones conectadas:
@@ -96,6 +106,9 @@ La mediación no se aplica a cualquier situación: es útil en conflictos interp
 ![Dinámica de círculo para diálogo y escucha](assets/circle_time_diskusi.jpg)
 _El círculo de aula facilita escucha activa, expresión emocional y acuerdos grupales._
 
+![Estilos de afrontamiento del conflicto](assets/conflict_styles.png)
+_Diagrama comparativo de estilos de gestión del conflicto para análisis docente._
+
 ## 7. Disciplina positiva y lenguaje de conexión
 
 El enfoque de disciplina positiva se centra en enseñar conductas alternativas, no solo en frenar conductas inadecuadas. La diferencia práctica aparece en el lenguaje:
@@ -142,6 +155,16 @@ Las recomendaciones actuales de organismos internacionales y redes de evidencia 
 
 Estas conclusiones aparecen de forma consistente en marcos como UNESCO, OCDE (TALIS), EEF, CASEL y PBIS.
 
+### 9.1. Tabla comparativa de recomendaciones basadas en evidencia
+
+| Fuente | Recomendación clave | Aplicación práctica en Infantil |
+|---|---|---|
+| UNESCO | Enfoque integral de prevención de violencia y acoso | Protocolos claros, cultura de respeto y trabajo con familias |
+| OECD/TALIS | Liderazgo pedagógico y apoyo docente mejoran clima | Coordinación de equipo y coherencia metodológica |
+| EEF | Enseñar conducta y autorregulación explícitamente | Rutinas entrenadas, modelado y feedback frecuente |
+| CASEL | Integrar aprendizaje socioemocional en currículo | Trabajo sistemático de empatía, autocontrol y toma de decisiones |
+| PBIS | Sistemas de apoyo multinivel y datos para intervenir | Prevención universal y apoyos intensivos para casos de riesgo |
+
 ## 10. Caso práctico de análisis docente
 
 Situación: un grupo de 5 años presenta disrupción frecuente, burlas y baja cooperación.
@@ -181,5 +204,18 @@ Este enfoque permite intervenir sobre causas y no solo sobre síntomas.
 - Imagen Classroom Rules (Wikimedia Commons): https://commons.wikimedia.org/wiki/File:Classroom_Rules.jpg
 - Imagen Circle Time Diskusi (Wikimedia Commons): https://commons.wikimedia.org/wiki/File:Circle_Time_Diskusi.jpg
 - Imagen Cooperative learning in RiVER classroom (Wikimedia Commons): https://commons.wikimedia.org/wiki/File:Cooperative_learning_in_RiVER_classroom.jpg
+- Diagrama Conflict Styles (Wikimedia Commons): https://commons.wikimedia.org/wiki/File:Conflict_Styles.png
+
+## 13. Vocabulario clave
+
+| Término | Definición didáctica |
+|---|---|
+| Clima de aula | Calidad percibida de relaciones, organización y experiencias de aprendizaje dentro del grupo. |
+| Convivencia escolar | Conjunto de prácticas, normas y relaciones que permiten vivir y aprender juntos con respeto. |
+| Conflicto interpersonal | Desacuerdo entre personas por intereses, necesidades o percepciones incompatibles. |
+| Mediación escolar | Proceso estructurado de diálogo, voluntario y guiado, para construir acuerdos entre partes. |
+| Disciplina positiva | Enfoque que enseña límites y habilidades sin humillación ni castigo punitivo como eje central. |
+| Justicia restaurativa | Respuesta educativa centrada en responsabilizar, reparar el daño y restaurar vínculos. |
+| PBIS | Marco de apoyos conductuales positivos multinivel basado en prevención y análisis de datos. |
 
 **Fecha de actualización:** 14/02/2026
