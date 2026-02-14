@@ -20,6 +20,9 @@ tags:
 
 Esta unidad desarrolla una base **universitaria y aplicada** sobre inclusión educativa y Diseño Universal para el Aprendizaje (DUA). El objetivo es comprender cómo se conecta la teoría pedagógica con decisiones reales de planificación, intervención y evaluación en el aula.
 
+![Aula de Educación Infantil](assets/internet/aula_de_infantil.jpg)
+_Contexto real de aula para situar la organización del aprendizaje inclusivo._
+
 ## Objetivos de aprendizaje
 
 - Explicar la inclusión educativa como derecho, principio ético y criterio de calidad.
@@ -99,11 +102,8 @@ El modelo se articula en tres principios:
 2. **Múltiples formas de representación** (diversidad de formatos para acceder a la información).
 3. **Múltiples formas de acción y expresión** (diversas formas de mostrar lo aprendido).
 
-![Principios del DUA](assets/pdf_images/tema1-004.jpg)
-_Esquema en español del material base para interpretar los principios del DUA._
-
-![Marco de aplicación del DUA](assets/pdf_images/tema1-005.jpg)
-_Diagrama en español sobre diseño de apoyos y accesibilidad curricular._
+![Infografía en español sobre principios del DUA](assets/internet/infografia_dua_principios.png)
+_Infografía en español para reforzar la comprensión de los principios del DUA._
 
 ### 3.1. Implicación: motivar para participar
 
@@ -184,9 +184,6 @@ La evaluación inclusiva no se centra solo en calificar, sino en mejorar el apre
 - **Evaluación compartida:** incorpora autoevaluación y coevaluación guiadas.
 - **Evaluación flexible:** admite múltiples evidencias y distintos tiempos de demostración.
 
-![Evaluación en el proceso de aprendizaje](assets/pdf_images/tema1-007.png)
-_Recurso visual en español para apoyar la toma de decisiones evaluativas inclusivas._
-
 ## 7. Estrategias organizativas inclusivas
 
 Una organización inclusiva se concreta en decisiones prácticas sobre espacio, tiempo y metodología:
@@ -238,6 +235,8 @@ Caso: grupo de Infantil con alta heterogeneidad lingüística, ritmos dispares y
 - CAST - UDL Guidelines 3.0: https://udlguidelines.cast.org/
 - BOE - Ley Orgánica 3/2020 (LOMLOE): https://www.boe.es/buscar/act.php?id=BOE-A-2006-7899
 - BOE - Real Decreto 95/2022 (ordenación y enseñanzas mínimas de Educación Infantil): https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-1654
+- Imagen Aula de Infantil (Wikimedia Commons): https://commons.wikimedia.org/wiki/File:Aula_de_Infantil.jpg
+- Infografía DUA en español (Educarchile): https://centroderecursos.educarchile.cl/handle/20.500.12246/60731
 - Imagen aprendizaje cooperativo (Wikimedia Commons): https://commons.wikimedia.org/wiki/File:Cooperative_learning_in_RiVER_classroom.jpg
 - Imagen aula (Wikimedia Commons): https://commons.wikimedia.org/wiki/File:Wikimedia_in_Education_illustration_classroom.svg
 - Material visual del tema base (PDF en español): `temas/Orga_ges_aula/Org_ges_Aula_tema_1.pdf`

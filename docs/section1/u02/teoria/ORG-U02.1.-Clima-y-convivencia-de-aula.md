@@ -69,8 +69,8 @@ El clima de convivencia se analiza en tres dimensiones conectadas:
 
 Cuando estas tres dimensiones se alinean, mejora la pertenencia al grupo, el ajuste emocional y la implicación académica.
 
-![Clima de aula y convivencia positiva](assets/tema2-000.jpg)
-_Recurso visual en español extraído del tema base._
+![Asamblea en Educación Infantil](assets/internet/asamblea_infantil.jpg)
+_Escena de asamblea para contextualizar la regulación de la convivencia diaria._
 
 ## 3. Calidad de la interacción docente-alumnado
 
@@ -118,8 +118,8 @@ La mediación no se aplica a cualquier situación: es útil en conflictos interp
 ![Dinámica de círculo para diálogo y escucha](assets/circle_time_diskusi.jpg)
 _El círculo de aula facilita escucha activa, expresión emocional y acuerdos grupales._
 
-![Resolución educativa de conflictos](assets/tema2-001.jpg)
-_Esquema en español sobre procesos de convivencia y abordaje del conflicto._
+![Espacio de mediación educativa](assets/internet/sala_mediacion_agora.jpg)
+_Entorno de mediación para trabajar escucha, reparación y acuerdo._
 
 ## 7. Disciplina positiva y lenguaje de conexión
 
@@ -166,6 +166,9 @@ Las recomendaciones actuales de organismos internacionales y redes de evidencia 
 - La prevención sostenida reduce la necesidad de intervención reactiva o punitiva.
 
 Estas conclusiones aparecen de forma consistente en marcos como UNESCO, OCDE (TALIS), EEF, CASEL y PBIS.
+
+![Infografía de convivencia positiva en español](assets/internet/sana_convivencia.png)
+_Diagrama de referencia en español sobre convivencia escolar saludable._
 
 ### 9.1. Tabla comparativa de recomendaciones basadas en evidencia
 
@@ -215,6 +218,8 @@ Este enfoque permite intervenir sobre causas y no solo sobre síntomas.
 - Monge, C. et al. (2022). Modelo integrado de gestión de la convivencia escolar. Pirámide.
 - Imagen Circle Time Diskusi (Wikimedia Commons): https://commons.wikimedia.org/wiki/File:Circle_Time_Diskusi.jpg
 - Imagen Cooperative learning in RiVER classroom (Wikimedia Commons): https://commons.wikimedia.org/wiki/File:Cooperative_learning_in_RiVER_classroom.jpg
-- Material visual del tema base (PDF en español): `temas/Orga_ges_aula/Org_ges_Aula_tema_2.pdf`
+- Imagen Asamblea Infantil (Wikimedia Commons): https://commons.wikimedia.org/wiki/File:Educaci%C3%B3n_Infantil_La_asamblea.JPG
+- Imagen Sala de mediación educativa Ágora (Wikimedia Commons): https://commons.wikimedia.org/wiki/File:Sala_de_mediaci%C3%B3n_educativa_%C3%81gora.JPG
+- Infografía SANA CONVIVENCIA (Wikimedia Commons): https://commons.wikimedia.org/wiki/File:SANA_CONVIVENCIA.png
 
 **Fecha de actualización:** 14/02/2026
