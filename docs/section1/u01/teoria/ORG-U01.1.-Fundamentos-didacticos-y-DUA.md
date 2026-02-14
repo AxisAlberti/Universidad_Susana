@@ -1,7 +1,7 @@
 ---
 title: "UD 1 - 1.1 Fundamentos didácticos y Diseño Universal del Aprendizaje"
 description: Principios de inclusión educativa y DUA para organizar el aula de Infantil.
-summary: Unidad centrada en inclusión, DUA y el aula como comunidad educativa.
+summary: Unidad universitaria sobre inclusión, DUA, evaluación y organización avanzada del aula.
 authors:
     - Eduardo Fdez
 date: 2026-02-13
@@ -18,42 +18,58 @@ tags:
 
 ## 1.1. Fundamentos didácticos y Diseño Universal del Aprendizaje
 
-Esta unidad se elabora a partir del tema 1 (desde la página 9) y organiza los contenidos en un formato didáctico para el alumnado. El eje central es la **educación inclusiva** como derecho y el **Diseño Universal del Aprendizaje (DUA)** como marco para planificar aulas accesibles, participativas y justas.
+Esta unidad desarrolla una base **universitaria y aplicada** sobre inclusión educativa y Diseño Universal para el Aprendizaje (DUA). El objetivo es comprender cómo se conecta la teoría pedagógica con decisiones reales de planificación, intervención y evaluación en el aula.
 
 ## Objetivos de aprendizaje
 
-- Explicar la inclusión educativa como proceso de mejora escolar y derecho.
-- Identificar principios de calidad educativa vinculados a la participación y la equidad.
-- Comprender el DUA como modelo para eliminar barreras al aprendizaje.
-- Describir el aula como comunidad educativa activa y participativa.
-- Aplicar estrategias de cooperación, cuidado y apoyo en la organización del aula.
+- Explicar la inclusión educativa como derecho, principio ético y criterio de calidad.
+- Relacionar el DUA con la planificación curricular y la evaluación formativa.
+- Analizar barreras de acceso, participación y aprendizaje en contextos reales.
+- Diseñar propuestas de aula con apoyos multinivel, cooperación y co-docencia.
+- Argumentar decisiones didácticas con base normativa y evidencia pedagógica.
 
 ## 1. Educación inclusiva y calidad para todos
 
-La inclusión educativa supone un **desafío social** y una responsabilidad de la escuela. No se limita a atender casos concretos, sino a **reorganizar la escuela** para garantizar la presencia, la participación y el aprendizaje de todo el alumnado, especialmente de quienes son más vulnerables a la exclusión.
+La inclusión educativa supone un **compromiso institucional** que va más allá de atender casos individuales. Implica revisar cultura, políticas y prácticas para garantizar la presencia, la participación y el progreso de todo el alumnado, con especial atención a quienes afrontan mayor riesgo de exclusión.
 
-Desde este enfoque, la diversidad no es un problema sino un **valor pedagógico**. Una escuela de calidad es aquella que crea oportunidades reales de aprendizaje para todos, evitando segregaciones y ofreciendo apoyos flexibles.
+Desde este enfoque, la diversidad no es una excepción que corregir, sino una condición estructural de cualquier grupo humano. Una educación de calidad es la que anticipa esa diversidad y organiza apoyos para que nadie quede fuera del proceso de aprendizaje.
 
 ### 1.1. ¿Qué significa inclusión educativa?
 
-La inclusión se entiende como un proceso que busca **responder a la diversidad** del alumnado, aumentando la participación en la vida escolar y reduciendo cualquier forma de exclusión. Esto implica revisar prácticas, eliminar barreras y diseñar entornos accesibles desde el inicio.
+La inclusión se entiende como un proceso continuo que persigue:
+
+- Reducir barreras para aprender y participar.
+- Aumentar oportunidades de éxito en condiciones de equidad.
+- Reconocer la voz del alumnado y de las familias en la toma de decisiones.
+
+No es una intervención puntual, sino un criterio para analizar todo el funcionamiento del aula y del centro.
 
 ### 1.2. Barreras habituales y respuestas educativas
 
 En la práctica, las barreras pueden aparecer en:
 
-- **La cultura escolar**: expectativas bajas, estereotipos o falta de participación.
-- **La organización**: tiempos rígidos, espacios poco flexibles, recursos inaccesibles.
-- **La metodología**: tareas homogéneas, pocas opciones para demostrar lo aprendido.
+- **La cultura escolar**: expectativas bajas, estereotipos o decisiones paternalistas.
+- **La organización**: tiempos rígidos, agrupamientos cerrados o recursos de difícil acceso.
+- **La metodología**: tareas homogéneas, una sola vía de explicación y una sola vía de evaluación.
+- **La evaluación**: predominio de pruebas únicas y escaso feedback para mejorar.
 
-La respuesta educativa consiste en **anticiparse** a esas barreras con estrategias de apoyo, flexibilización y acompañamiento.
+La respuesta educativa consiste en **anticiparse**: diseñar contextos flexibles, graduar ayudas y ajustar la enseñanza sin bajar expectativas de aprendizaje.
 
-<figure markdown>
-  ![](assets/pdf_images/tema1-006.jpg)
-  <figcaption>Imagen extraída del tema 1.</figcaption>
-</figure>
+![Escenario de aula inclusiva](assets/pdf_images/tema1-006.jpg)
+_Imagen de referencia del tema base de la unidad._
 
-## 2. Diseño Universal del Aprendizaje (DUA)
+## 2. Marco normativo y de derechos
+
+La inclusión no depende solo de la buena voluntad docente; está respaldada por marcos internacionales y estatales que orientan la práctica educativa.
+
+- **UNESCO (Salamanca, 1994):** plantea la escolarización inclusiva como principio de justicia educativa.
+- **ODS 4 (Agenda 2030):** exige educación inclusiva, equitativa y de calidad.
+- **LOMLOE (España):** refuerza el enfoque competencial, la equidad y la personalización del aprendizaje.
+- **RD 95/2022 (Infantil):** promueve metodologías activas, observación sistemática y atención a la diversidad.
+
+Este marco legitima decisiones organizativas como apoyos en aula ordinaria, flexibilización metodológica y evaluación formativa.
+
+## 3. Diseño Universal del Aprendizaje (DUA)
 
 El DUA propone diseñar el currículo de forma **flexible y accesible** para todo el alumnado. En lugar de adaptar después, se planifica desde el inicio para ofrecer **múltiples caminos** de acceso, participación y expresión.
 
@@ -63,57 +79,83 @@ El modelo se articula en tres principios:
 2. **Múltiples formas de representación** (diversidad de formatos para acceder a la información).
 3. **Múltiples formas de acción y expresión** (diversas formas de mostrar lo aprendido).
 
-<figure markdown>
-  ![](assets/udl_principles.jpg)
-  <figcaption>Principios del Diseño Universal del Aprendizaje (UDL).</figcaption>
-</figure>
+![Principios del DUA](assets/udl_principles.jpg)
+_Principios del Diseño Universal para el Aprendizaje._
 
-### 2.1. Implicación: motivar para participar
+### 3.1. Implicación: motivar para participar
 
 La implicación se refiere a **cómo se engancha el alumnado** a la tarea. Se favorece mediante:
 
 - Elección entre actividades o materiales.
 - Metas claras y alcanzables.
 - Ritmos flexibles y apoyos emocionales.
+- Estrategias de autorregulación (rúbricas simplificadas, diarios de aprendizaje, metas personales).
 
-### 2.2. Representación: múltiples formas de acceso
+### 3.2. Representación: múltiples formas de acceso
 
 La representación consiste en ofrecer **diferentes canales** para comprender la información:
 
 - Textos con apoyos visuales y auditivos.
 - Material manipulativo.
 - Lenguaje claro y ejemplos cercanos.
+- Andamiajes cognitivos: organizadores gráficos, mapas conceptuales y modelado docente.
 
-### 2.3. Acción y expresión: mostrar lo aprendido
+### 3.3. Acción y expresión: mostrar lo aprendido
 
 El alumnado debe poder **demostrar su aprendizaje** de formas diversas:
 
 - Respuestas orales, escritas o gráficas.
 - Producciones manuales o digitales.
 - Trabajo individual o en equipo.
+- Evidencias multimodales (podcast breve, póster académico, microproyecto, portafolio).
 
-## 3. El aula como comunidad educativa
+![Ilustración de entorno educativo flexible](assets/classroom_illustration.svg)
+_Visualización de un aula con múltiples formas de participación y acceso._
+
+## 4. Fundamentos psicopedagógicos para diseñar inclusión
+
+El DUA dialoga con marcos clásicos y contemporáneos de la didáctica:
+
+- **Enfoque sociocultural (Vygotsky):** el aprendizaje se construye en interacción, con mediación y lenguaje.
+- **Andamiaje (Bruner):** ayudas temporales para que el alumnado avance hacia la autonomía.
+- **Constructivismo:** el conocimiento se reorganiza al conectar saber previo y experiencia.
+- **Pedagogía crítica:** analizar desigualdades y transformar prácticas que excluyen.
+
+En términos universitarios, esto exige justificar cada decisión metodológica con su fundamento teórico y su impacto esperado en la participación.
+
+## 5. El aula como comunidad educativa
 
 La inclusión se fortalece cuando el aula se entiende como una **comunidad** que cuida y acompaña. Esto requiere relaciones basadas en la cooperación, la participación y el respeto.
 
-### 3.1. Cooperación y aprendizaje compartido
+### 5.1. Cooperación y aprendizaje compartido
 
 El aprendizaje cooperativo favorece la inclusión porque cada alumno aporta algo al grupo. Para que funcione:
 
 - Se asignan roles claros.
 - Las tareas requieren colaboración real.
 - Se evalúa el proceso, no solo el resultado.
+- Se incorporan estructuras cooperativas breves y frecuentes (folio giratorio, lápices al centro, tutoría entre iguales).
 
-<figure markdown>
-  ![](assets/cooperative_learning.jpg)
-  <figcaption>Trabajo cooperativo en el aula.</figcaption>
-</figure>
+![Trabajo cooperativo en el aula](assets/cooperative_learning.jpg)
+_Interacción cooperativa para mejorar participación y aprendizaje compartido._
 
-### 3.2. Co-docencia y colaboración con familias
+### 5.2. Co-docencia y colaboración con familias
 
 La co-docencia permite que el aula sea atendida por dos docentes que planifican juntos, lo que aumenta la capacidad de apoyo. Además, la participación de las familias fortalece el vínculo escuela-comunidad.
 
-## 4. Estrategias organizativas inclusivas
+## 6. Evaluación inclusiva y toma de decisiones pedagógicas
+
+La evaluación inclusiva no se centra solo en calificar, sino en mejorar el aprendizaje durante el proceso.
+
+- **Evaluación diagnóstica:** identifica barreras de partida y necesidades de apoyo.
+- **Evaluación formativa:** aporta feedback comprensible y orientado a la mejora.
+- **Evaluación compartida:** incorpora autoevaluación y coevaluación guiadas.
+- **Evaluación flexible:** admite múltiples evidencias y distintos tiempos de demostración.
+
+![Formativa y sumativa en el proceso de aprendizaje](assets/formative_vs_summative.png)
+_Comparativa visual entre evaluación formativa y sumativa._
+
+## 7. Estrategias organizativas inclusivas
 
 Una organización inclusiva se concreta en decisiones prácticas sobre espacio, tiempo y metodología:
 
@@ -121,27 +163,52 @@ Una organización inclusiva se concreta en decisiones prácticas sobre espacio, 
 - **Rutinas claras**: anticipación visual y coherencia diaria.
 - **Evaluación formativa**: feedback continuo para mejorar.
 - **Apoyos visuales**: pictogramas, agendas y paneles.
+- **Diseño multinivel**: una misma meta competencial con tareas de complejidad graduada.
 
-## Ejemplos prácticos o casos reales
+## 8. Secuencia didáctica ejemplo (nivel universitario)
+
+Caso: grupo de Infantil con alta heterogeneidad lingüística, ritmos dispares y diferentes niveles de autorregulación.
+
+1. **Diagnóstico inicial**
+   - Observación sistemática de participación.
+   - Registro de barreras (comprensión oral, tiempo de tarea, interacción social).
+2. **Planificación DUA**
+   - Meta común: comprender y comunicar una rutina diaria.
+   - Representación: cuento visual, audio y dramatización.
+   - Acción y expresión: dibujo secuenciado, explicación oral y juego simbólico.
+3. **Implementación**
+   - Grupos cooperativos con roles.
+   - Co-docencia para apoyo en tiempo real.
+4. **Evaluación**
+   - Rúbrica breve de desempeño.
+   - Feedback inmediato y reajuste de apoyos para la sesión siguiente.
+
+## 9. Ejemplos prácticos o casos reales
 
 - Crear un panel de rutinas con pictogramas para anticipar el día.
 - Diseñar actividades con tres niveles de dificultad y opciones de elección.
 - Organizar grupos heterogéneos para proyectos cooperativos.
 - Permitir que un mismo contenido se exprese con dibujo, oralidad o maqueta.
+- Integrar minirrevisiones semanales con evidencias de progreso (portafolio simple).
 
-## Resumen (ideas clave)
+## 10. Resumen (ideas clave)
 
 - La inclusión es un proceso de mejora escolar y un derecho educativo.
-- La calidad se mide por la participación y el éxito de todo el alumnado.
-- El DUA permite diseñar actividades accesibles desde el inicio.
-- El aula como comunidad se construye con cooperación y cuidado.
-- Organización, metodología y apoyos son claves para una escuela justa.
+- La calidad educativa se analiza por participación, aprendizaje y pertenencia.
+- El DUA permite anticipar barreras y diseñar apoyos desde el inicio.
+- Evaluar de forma inclusiva mejora decisiones pedagógicas y resultados.
+- Organización, cooperación y co-docencia fortalecen una escuela justa.
 
-## Referencias y enlaces
+## 11. Referencias y enlaces
 
-- UNESCO: https://www.unesco.org/en/education/inclusion
-- CAST (UDL Guidelines): https://udlguidelines.cast.org/
-- Imagen UDL (Wikimedia Commons): https://commons.wikimedia.org/wiki/File:Universal_Design_For_Learning_(8527950743).jpg
+- UNESCO - The Salamanca Statement and Framework for Action (1994): https://unesdoc.unesco.org/ark:/48223/pf0000098427
+- Naciones Unidas - Objetivo de Desarrollo Sostenible 4: https://sdgs.un.org/goals/goal4
+- CAST - UDL Guidelines 3.0: https://udlguidelines.cast.org/
+- BOE - Ley Orgánica 3/2020 (LOMLOE): https://www.boe.es/buscar/act.php?id=BOE-A-2006-7899
+- BOE - Real Decreto 95/2022 (ordenación y enseñanzas mínimas de Educación Infantil): https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-1654
+- Imagen DUA (Wikimedia Commons): https://commons.wikimedia.org/wiki/File:Universal_Design_For_Learning_(8527950743).jpg
 - Imagen aprendizaje cooperativo (Wikimedia Commons): https://commons.wikimedia.org/wiki/File:Cooperative_learning_in_RiVER_classroom.jpg
+- Imagen aula (Wikimedia Commons): https://commons.wikimedia.org/wiki/File:Wikimedia_in_Education_illustration_classroom.svg
+- Imagen evaluación formativa/sumativa (Wikimedia Commons): https://commons.wikimedia.org/wiki/File:Formative_vs_Summative_Assessments_uk.png
 
-**Fecha de actualización:** 13/02/2026
+**Fecha de actualización:** 14/02/2026
