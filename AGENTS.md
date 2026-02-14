@@ -310,6 +310,13 @@ El nombre de la unidad en la categoría debe estar **normalizado**:
 - Sin tildes ni caracteres especiales
 - Espacios reemplazados por `_`
 - Solo letras, números, `_` y `-`
+- En la cabecera de categoría debe incluirse también la expresión `UD` seguida del número de unidad (por ejemplo: `UD01`, `UD02`, etc.).
+
+Ejemplo recomendado:
+
+```gift
+$CATEGORY: CURSO/Test/UD01_Fundamentos_didacticos_y_DUA/Basico
+```
 
 Para actualizar automáticamente el fichero de categorías tras añadir o renombrar unidades/anexos:
 
@@ -420,6 +427,8 @@ Estas reglas se aplican a los nuevos apuntes y a revisiones de temas ya creados:
   - `**Fecha de actualización:** DD/MM/AAAA`
 
 **Fecha de actualización:** 13/02/2026
+**Fecha de actualización:** 14/02/2026
+
 **Fecha de actualización:** 14/02/2026
 
 **Fecha de actualización:** 14/02/2026
