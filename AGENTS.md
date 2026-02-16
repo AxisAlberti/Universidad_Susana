@@ -395,6 +395,9 @@ Estas reglas se aplican a los nuevos apuntes y a revisiones de temas ya creados:
   - nuevos apartados con fundamentación académica,
   - ejemplos de implementación real,
   - referencias actuales y verificables.
+- Si el usuario facilita un PDF para generar apuntes, es obligatorio cubrir todos los puntos del PDF en el documento final.
+- En apuntes basados en PDF, no se permite una versión resumida que omita bloques: cada apartado relevante del PDF debe aparecer desarrollado en profundidad.
+- Si el PDF incluye secciones específicas (por ejemplo, calendario, horarios, ratios, bienestar o familias), deben tratarse explícitamente en los apuntes.
 
 - Está autorizado y recomendado usar **fuentes externas de Internet** para enriquecer contenidos.
 - Es obligatorio completar los apuntes con fuentes académicas e institucionales actuales cuando aporten valor formativo.
@@ -432,6 +435,10 @@ Estas reglas se aplican a los nuevos apuntes y a revisiones de temas ya creados:
 **Fecha de actualización:** 14/02/2026
 
 **Fecha de actualización:** 14/02/2026
+
+**Fecha de actualización:** 16/02/2026
+
+**Fecha de actualización:** 16/02/2026
 
 **Fecha de actualización:** 14/02/2026
 

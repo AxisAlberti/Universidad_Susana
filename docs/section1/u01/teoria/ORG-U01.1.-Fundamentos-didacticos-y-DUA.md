@@ -184,7 +184,75 @@ La evaluación inclusiva no se centra solo en calificar, sino en mejorar el apre
 - **Evaluación compartida:** incorpora autoevaluación y coevaluación guiadas.
 - **Evaluación flexible:** admite múltiples evidencias y distintos tiempos de demostración.
 
-## 7. Estrategias organizativas inclusivas
+## 7. Propuestas prácticas de inclusión para el aula
+
+Siguiendo el enfoque del tema base, la inclusión se concreta en acciones sistemáticas y sostenidas. No se trata de medidas aisladas, sino de una cultura de centro y de aula que convierte valores inclusivos en práctica cotidiana.
+
+### 7.1. Tabla de acciones prácticas (adaptada de enfoque Index for Inclusion)
+
+| Línea de acción | Aplicación en aula de Infantil | Resultado esperado |
+|---|---|---|
+| Poner valores inclusivos en acción | Revisar lenguaje, normas y expectativas para todo el grupo | Mayor pertenencia y menor exclusión |
+| Aumentar participación | Diseñar tareas con distintos niveles de acceso y expresión | Más implicación del alumnado diverso |
+| Reducir barreras | Identificar obstáculos de cultura, metodología y evaluación | Mejora del acceso y del progreso |
+| Reestructurar prácticas | Ajustar agrupamientos, apoyos y tiempos | Respuesta pedagógica más flexible |
+| Vincular escuela y comunidad | Incorporar familias y entorno en proyectos | Mayor coherencia educativa |
+| Aprender de las diferencias | Usar diversidad como recurso didáctico | Enriquecimiento mutuo del grupo |
+
+Estas propuestas ayudan a pasar de una lógica de "adaptación puntual" a una lógica de transformación sostenida del entorno.
+
+## 8. Comunidad educativa inclusiva: para todos y con todos
+
+El documento de referencia insiste en que una comunidad educativa inclusiva exige redes de colaboración amplias: profesorado, alumnado, familias y entorno local. En esta perspectiva:
+
+- Pertenecer no es una experiencia simbólica, sino una práctica diaria visible.
+- Participar no se reduce a estar presente, sino a tener voz y capacidad de incidencia.
+- Aprender se entiende como construcción compartida entre iguales y adultos.
+
+### 8.1. Participación y sentido de comunidad
+
+Para consolidar una comunidad educativa inclusiva se recomienda:
+
+- Diseñar espacios de diálogo y corresponsabilidad con familias.
+- Incorporar estrategias de apoyo entre iguales.
+- Evitar segregaciones por rendimiento o por necesidad de apoyo.
+- Promover proyectos cooperativos con impacto en la vida del centro.
+
+## 9. Cooperación y co-docencia como ejes de inclusión
+
+El aprendizaje cooperativo y la co-docencia aparecen en el PDF como elementos estructurales, no accesorios.
+
+### 9.1. Aprendizaje cooperativo
+
+La cooperación mejora aprendizaje y convivencia cuando existe:
+
+- Interdependencia positiva.
+- Responsabilidad individual dentro del grupo.
+- Interacción promotora entre compañeros.
+- Evaluación del proceso y del producto.
+
+### 9.2. Co-docencia: modalidades de implementación
+
+| Modalidad | Descripción breve | Ventaja principal |
+|---|---|---|
+| Apoyo en aula | Un docente lidera y otro apoya | Atención inmediata a diversidad |
+| Enseñanza paralela | Dos grupos trabajan contenido similar | Mejor ajuste a ritmos |
+| Estaciones | Docentes organizan tareas por rincones | Mayor participación activa |
+| Enseñanza alternativa | Un docente atiende subgrupo específico | Apoyo focalizado sin exclusión |
+| Enseñanza en equipo | Ambos docentes comparten liderazgo | Coherencia metodológica visible |
+
+## 10. Educar para cuidar y cuidar para educar
+
+En el enfoque inclusivo, cuidado y aprendizaje no se separan. Educar implica construir bienestar social y emocional para sostener la participación académica.
+
+Claves didácticas:
+
+- Reconocer emociones como parte del aprendizaje.
+- Planificar acciones para fortalecer pertenencia, motivación y vínculo.
+- Priorizar relaciones respetuosas y lenguaje no estigmatizante.
+- Integrar el cuidado en la evaluación de la calidad educativa.
+
+## 11. Estrategias organizativas inclusivas
 
 Una organización inclusiva se concreta en decisiones prácticas sobre espacio, tiempo y metodología:
 
@@ -194,7 +262,7 @@ Una organización inclusiva se concreta en decisiones prácticas sobre espacio, 
 - **Apoyos visuales**: pictogramas, agendas y paneles.
 - **Diseño multinivel**: una misma meta competencial con tareas de complejidad graduada.
 
-## 8. Secuencia didáctica ejemplo (nivel universitario)
+## 12. Secuencia didáctica ejemplo (nivel universitario)
 
 Caso: grupo de Infantil con alta heterogeneidad lingüística, ritmos dispares y diferentes niveles de autorregulación.
 
@@ -212,7 +280,7 @@ Caso: grupo de Infantil con alta heterogeneidad lingüística, ritmos dispares y
    - Rúbrica breve de desempeño.
    - Feedback inmediato y reajuste de apoyos para la sesión siguiente.
 
-## 9. Ejemplos prácticos o casos reales
+## 13. Ejemplos prácticos o casos reales
 
 - Crear un panel de rutinas con pictogramas para anticipar el día.
 - Diseñar actividades con tres niveles de dificultad y opciones de elección.
@@ -220,7 +288,7 @@ Caso: grupo de Infantil con alta heterogeneidad lingüística, ritmos dispares y
 - Permitir que un mismo contenido se exprese con dibujo, oralidad o maqueta.
 - Integrar minirrevisiones semanales con evidencias de progreso (portafolio simple).
 
-## 10. Resumen (ideas clave)
+## 14. Resumen (ideas clave)
 
 - La inclusión es un proceso de mejora escolar y un derecho educativo.
 - La calidad educativa se analiza por participación, aprendizaje y pertenencia.
@@ -228,17 +296,22 @@ Caso: grupo de Infantil con alta heterogeneidad lingüística, ritmos dispares y
 - Evaluar de forma inclusiva mejora decisiones pedagógicas y resultados.
 - Organización, cooperación y co-docencia fortalecen una escuela justa.
 
-## 11. Referencias y enlaces
+## 15. Referencias y enlaces
 
 - UNESCO - The Salamanca Statement and Framework for Action (1994): https://unesdoc.unesco.org/ark:/48223/pf0000098427
 - Naciones Unidas - Objetivo de Desarrollo Sostenible 4: https://sdgs.un.org/goals/goal4
 - CAST - UDL Guidelines 3.0: https://udlguidelines.cast.org/
 - BOE - Ley Orgánica 3/2020 (LOMLOE): https://www.boe.es/buscar/act.php?id=BOE-A-2006-7899
 - BOE - Real Decreto 95/2022 (ordenación y enseñanzas mínimas de Educación Infantil): https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-1654
+- Booth, T. y Ainscow, M. - Index for Inclusion: https://www.eenet.org.uk/resources/docs/Index%20Spanish%20South.pdf
+- Echeita, G. y Simón, C. (educación inclusiva): https://doi.org/10.4438/1988-592X-RE-2021-391-478
+- Pujolàs, P. (aprendizaje cooperativo en inclusión): https://redined.educacion.gob.es/xmlui/handle/11162/86644
+- Stainback, S. y Stainback, W. (aulas inclusivas): https://dialnet.unirioja.es/servlet/libro?codigo=7160
+- Santos-Guerra, M. A. (educación emocional y cuidado): https://dialnet.unirioja.es/servlet/articulo?codigo=1118394
 - Imagen Aula de Infantil (Wikimedia Commons): https://commons.wikimedia.org/wiki/File:Aula_de_Infantil.jpg
 - Infografía DUA en español (Educarchile): https://centroderecursos.educarchile.cl/handle/20.500.12246/60731
 - Imagen aprendizaje cooperativo (Wikimedia Commons): https://commons.wikimedia.org/wiki/File:Cooperative_learning_in_RiVER_classroom.jpg
 - Imagen aula (Wikimedia Commons): https://commons.wikimedia.org/wiki/File:Wikimedia_in_Education_illustration_classroom.svg
 - Material visual del tema base (PDF en español): `temas/Orga_ges_aula/Org_ges_Aula_tema_1.pdf`
 
-**Fecha de actualización:** 14/02/2026
+**Fecha de actualización:** 16/02/2026

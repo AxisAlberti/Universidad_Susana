@@ -20,6 +20,16 @@ tags:
 
 El clima de aula es un factor central para la calidad educativa en Infantil. No se limita a evitar conflictos, sino que implica diseñar un entorno donde el alumnado se sienta seguro, valorado y capaz de aprender con otras personas. Esta unidad desarrolla un enfoque universitario del tema con base teórica y aplicación práctica.
 
+## Introducción y enfoque de análisis
+
+El tema base plantea la convivencia desde un modelo educativo frente al sancionador, y subraya que la mejora del clima requiere actuar simultáneamente en:
+
+- Relaciones interpersonales.
+- Organización del aula y del centro.
+- Planificación didáctica y metodológica.
+
+Esta lectura evita respuestas simplistas y sitúa la convivencia como eje transversal del proyecto educativo.
+
 ## Objetivos de aprendizaje
 
 - Diferenciar modelo sancionador y modelo educativo de convivencia.
@@ -72,6 +82,17 @@ Cuando estas tres dimensiones se alinean, mejora la pertenencia al grupo, el aju
 ![Asamblea en Educación Infantil](assets/internet/asamblea_infantil.jpg)
 _Escena de asamblea para contextualizar la regulación de la convivencia diaria._
 
+### 2.1. Estado de la cuestión
+
+El documento de referencia destaca que la evidencia asocia clima positivo con:
+
+- Mejor ajuste psicológico del alumnado.
+- Mayor conectividad entre iguales y sentido de pertenencia.
+- Reducción de conductas disruptivas y de violencia.
+- Mejora indirecta del rendimiento académico.
+
+Por ello, la intervención prioritaria no debe centrarse solo en incidentes concretos, sino en condiciones estructurales del aula.
+
 ## 3. Calidad de la interacción docente-alumnado
 
 En Infantil, la relación educativa cotidiana tiene un efecto directo sobre autorregulación, lenguaje y funciones ejecutivas. La interacción de calidad combina:
@@ -121,6 +142,24 @@ _El círculo de aula facilita escucha activa, expresión emocional y acuerdos gr
 ![Espacio de mediación educativa](assets/internet/sala_mediacion_agora.jpg)
 _Entorno de mediación para trabajar escucha, reparación y acuerdo._
 
+### 6.1. Programas y experiencias de referencia
+
+El PDF recoge programas consolidados que permiten pasar de la teoría a la práctica:
+
+- **Teaching Students to Be Peacemakers**: entrenamiento sistemático en negociación, mediación y consenso.
+- **Currículo de resolución de conflictos** (Alzate): enfoque global que integra disciplina, currículo, cultura escolar y comunidad.
+- **Modelo integrado de convivencia** (Monge et al.): actuación en tres planos (mediación, normas democráticas y marco protector).
+
+Estos programas comparten un elemento: enseñar explícitamente habilidades de convivencia y no delegarlas al azar de la dinámica grupal.
+
+### 6.2. Tipología de conflictos y decisión de intervención
+
+| Tipo de situación | Característica principal | Respuesta educativa recomendada |
+|---|---|---|
+| Conflicto primario | Desajuste cotidiano de convivencia | Diálogo breve, norma clara y reflexión guiada |
+| Conflicto interpersonal | Intereses/necesidades percibidas como incompatibles | Mediación, negociación y seguimiento |
+| Agresión injustificada/violencia | Repetición de daño y asimetría de poder | Activación de protocolo, protección y plan integral |
+
 ## 7. Disciplina positiva y lenguaje de conexión
 
 El enfoque de disciplina positiva se centra en enseñar conductas alternativas, no solo en frenar conductas inadecuadas. La diferencia práctica aparece en el lenguaje:
@@ -134,6 +173,17 @@ Ejemplos de frases de conexión:
 - "Cuéntame qué necesitas y pensamos cómo hacerlo mejor."
 - "¿Qué opción te ayuda a resolver esto sin hacer daño?"
 
+### 7.1. Frases de conexión vs frases de desesperación
+
+El material base insiste en que el lenguaje adulto modela clima emocional y aprendizaje social.
+
+| Estilo de intervención | Ejemplo | Efecto probable |
+|---|---|---|
+| Desesperación | "Siempre igual, te portas fatal" | Culpa, bloqueo y escalada |
+| Conexión | "Entiendo tu enfado, buscamos solución juntos" | Regulación, vínculo y responsabilidad |
+
+La disciplina positiva no elimina límites; redefine cómo se sostienen con amabilidad y firmeza.
+
 ## 8. Orientaciones prácticas para 0-3 y 3-6
 
 ### 8.1. Tramo 0-3
@@ -142,6 +192,8 @@ Ejemplos de frases de conexión:
 - Intervenir en situaciones cotidianas en el momento, sin "dejar pasar".
 - Usar diálogo breve y concreto para modelar regulación emocional.
 - Coordinar mensajes con familias para mantener coherencia educativa.
+- Observar creencias adultas sobre la conducta infantil para evitar respuestas punitivas automáticas.
+- Cuidar el equilibrio entre contención emocional y límites consistentes.
 
 ### 8.2. Tramo 3-6
 
@@ -151,6 +203,8 @@ Ejemplos de frases de conexión:
   - Interpersonal (cómo se relaciona con otros).
   - Social/cívica (normas y cultura de aula).
 - Incorporar trabajo cooperativo y responsabilidades de grupo.
+- Revisar semanalmente "teclas de convivencia": relaciones, orden, pertenencia y participación.
+- Diseñar apoyos diferenciados según perfiles de grupo y momentos críticos de la jornada.
 
 ![Aprendizaje cooperativo en el aula](assets/cooperative_learning_river.jpg)
 _La cooperación bien guiada mejora aceptación entre iguales y participación._
@@ -180,7 +234,17 @@ _Diagrama de referencia en español sobre convivencia escolar saludable._
 | CASEL | Integrar aprendizaje socioemocional en currículo | Trabajo sistemático de empatía, autocontrol y toma de decisiones |
 | PBIS | Sistemas de apoyo multinivel y datos para intervenir | Prevención universal y apoyos intensivos para casos de riesgo |
 
-## 10. Caso práctico de análisis docente
+## 10. Agresiones injustificadas y prevención de la violencia
+
+La unidad debe diferenciar conflicto de violencia para evitar errores de intervención. El tema base destaca que en Infantil ya pueden observarse agresiones injustificadas y que intervenir tempranamente tiene efecto preventivo a medio plazo.
+
+Experiencias señaladas en el material:
+
+- **Be-Prox**: prevención de victimización con enfoque sistémico y apoyo al profesorado.
+- **Método Pikas**: entrevistas individuales y acuerdos progresivos para desactivar dinámicas de acoso.
+- **Hora del círculo**: espacio semanal para expresión, escucha y construcción de normas compartidas.
+
+## 11. Caso práctico de análisis docente
 
 Situación: un grupo de 5 años presenta disrupción frecuente, burlas y baja cooperación.
 
@@ -194,15 +258,16 @@ Propuesta de intervención:
 
 Este enfoque permite intervenir sobre causas y no solo sobre síntomas.
 
-## 11. Resumen final (ideas clave)
+## 12. Resumen final (ideas clave)
 
 - El clima de aula es una construcción pedagógica, no un resultado espontáneo.
 - El modelo educativo de convivencia es preventivo, participativo y reparador.
 - La interacción docente-alumnado determina gran parte del ajuste conductual.
 - Diferenciar tipos de conflicto mejora la precisión de la respuesta educativa.
 - La convivencia se enseña mediante hábitos, lenguaje, organización y coherencia institucional.
+- La prevención de violencia exige protocolos claros, lectura contextual y continuidad de seguimiento.
 
-## 12. Referencias y enlaces
+## 13. Referencias y enlaces
 
 - UNESCO - School violence and bullying (marco global): https://www.unesco.org/en/school-violence-and-bullying
 - OECD - TALIS (teaching and learning international survey): https://www.oecd.org/education/talis/
@@ -216,10 +281,12 @@ Este enfoque permite intervenir sobre causas y no solo sobre síntomas.
 - Witherspoon, D. et al. (2009). Applied Developmental Science: https://doi.org/10.1080/10888690903288755
 - Ibarrola-García, S. e Iriarte, C. (2012). La convivencia escolar en positivo. Pirámide.
 - Monge, C. et al. (2022). Modelo integrado de gestión de la convivencia escolar. Pirámide.
+- Alsaker, F. y Vilén, L. (2010). Bullying en la escuela infantil. Alianza.
+- Alzate, R. (2005). Resolución de conflictos. Mensajero.
 - Imagen Circle Time Diskusi (Wikimedia Commons): https://commons.wikimedia.org/wiki/File:Circle_Time_Diskusi.jpg
 - Imagen Cooperative learning in RiVER classroom (Wikimedia Commons): https://commons.wikimedia.org/wiki/File:Cooperative_learning_in_RiVER_classroom.jpg
 - Imagen Asamblea Infantil (Wikimedia Commons): https://commons.wikimedia.org/wiki/File:Educaci%C3%B3n_Infantil_La_asamblea.JPG
 - Imagen Sala de mediación educativa Ágora (Wikimedia Commons): https://commons.wikimedia.org/wiki/File:Sala_de_mediaci%C3%B3n_educativa_%C3%81gora.JPG
 - Infografía SANA CONVIVENCIA (Wikimedia Commons): https://commons.wikimedia.org/wiki/File:SANA_CONVIVENCIA.png
 
-**Fecha de actualización:** 14/02/2026
+**Fecha de actualización:** 16/02/2026
