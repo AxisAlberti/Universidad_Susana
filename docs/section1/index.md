@@ -8,6 +8,7 @@ Materiales para la asignatura **Organización y Gestión del Aula** (Módulo 1).
 
 - [Unidad 01](u01/index.md)
 - [Unidad 02](u02/index.md)
+- [Unidad 03](u03/index.md)
 
 ## Slides
 
