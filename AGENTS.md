@@ -11,6 +11,7 @@ Este repositorio contiene material educativo para módulos de formación profesi
 - Al finalizar cada generación de cuestiones, se validará el fichero con las reglas incluidas en este AGENTS.md.
 - En cuestiones tipo test y de desarrollo, no se incluirán preguntas que obliguen a memorizar datos numéricos concretos (por ejemplo, nº de núcleos, tasas, latencias u otros valores específicos de dispositivos o conceptos).
 - En preguntas tipo test y de desarrollo, los enunciados deben empezar por ¿ y terminar en ? y respetar tildes y ortografía correcta.
+- Cuando el contenido de origen proceda de una transcripción, los apuntes generados no deben mencionar ni hacer referencia a que provienen de una transcripción; deben redactarse y presentarse como un texto académico/universitario autónomo.
 
 ## Estructura de documentos teóricos (teoria/)
 
