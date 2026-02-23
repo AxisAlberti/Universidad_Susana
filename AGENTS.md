@@ -13,6 +13,7 @@ Este repositorio contiene material educativo para módulos de formación profesi
 - En cuestiones tipo test y de desarrollo, no se incluirán preguntas que obliguen a memorizar datos numéricos concretos (por ejemplo, nº de núcleos, tasas, latencias u otros valores específicos de dispositivos o conceptos).
 - En preguntas tipo test y de desarrollo, los enunciados deben empezar por ¿ y terminar en ? y respetar tildes y ortografía correcta.
 - Cuando el contenido de origen proceda de una transcripción, los apuntes generados no deben mencionar ni hacer referencia a que provienen de una transcripción; deben redactarse y presentarse como un texto académico/universitario autónomo.
+- En todas las imágenes de los ficheros `.md`, el pie de imagen debe situarse justo debajo de la imagen, nunca en la misma línea ni pegado sin separación visual. Formato obligatorio: línea de imagen, una línea en blanco y, a continuación, el pie de imagen.
 
 ## Estructura de documentos teóricos (teoria/)
 

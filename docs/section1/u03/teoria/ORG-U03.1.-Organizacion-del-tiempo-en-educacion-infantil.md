@@ -21,6 +21,7 @@ tags:
 La organización del tiempo en Educación Infantil no es una cuestión administrativa menor. Es una decisión didáctica con impacto directo en el desarrollo emocional, la autonomía, la participación y la calidad del aprendizaje.
 
 ![Infografía en español sobre gestión del tiempo](assets/internet/infografia_gestion_tiempo.png)
+
 _Infografía de apoyo en español para analizar planificación, prioridades y equilibrio temporal._
 
 ## Objetivos de aprendizaje
@@ -54,9 +55,11 @@ La cultura contemporánea empuja hacia la inmediatez y la aceleración. En Infan
 - Bienestar emocional sostenido durante la jornada.
 
 ![Aula escolar como entorno temporal compartido](assets/internet/aula_escolar.jpg)
+
 _Imagen de contexto para analizar cómo el espacio condiciona ritmos y organización del tiempo._
 
 ![Reloj de arena como metáfora del ritmo](assets/internet/reloj_de_arena.jpg)
+
 _Imagen de contexto para trabajar la idea pedagógica de pausa, espera y proceso._
 
 ### 1.1. Tabla comparativa: tiempo cronológico y tiempo cualitativo
@@ -90,6 +93,7 @@ En la práctica educativa aparecen diferencias entre ciclos y centros (duración
 Por ello, toda propuesta horaria debe revisarse con criterios de calidad educativa y bienestar.
 
 ![Infografía INTEF de secuenciación temporal](assets/internet/I_3_003_2025_0052_IF_01921.png)
+
 _Infografía en español para trabajar secuencia temporal y estructuración del día._
 
 ### 3.1. Tabla comparativa: enfoque rígido vs enfoque flexible de horario
@@ -113,6 +117,7 @@ Aspectos clave para un análisis universitario:
 - Pausas y recreo: el tiempo no lectivo también educa; no debe entenderse solo como descanso logístico.
 
 ![Recurso INTEF sobre secuenciación en Infantil](assets/internet/I_3_003_2025_0052_FT_01922.jpg)
+
 _Imagen de apoyo para trabajar organización temporal del día en Educación Infantil._
 
 #### 3.2.1. Tabla comparativa: primer ciclo y segundo ciclo de Infantil
@@ -149,6 +154,7 @@ Estrategias concretas:
 - Tiempos de transición sin prisa excesiva.
 
 ![Recurso visual de secuencia temporal](assets/internet/I_3_003_2025_0052_IL_01929.png)
+
 _Diagrama visual en español para anticipar acciones y transiciones con niños y niñas._
 
 ## 5. Momentos de vida cotidiana con valor educativo
@@ -163,6 +169,7 @@ En Infantil, alimentación, higiene, descanso y juego no son tiempos “logísti
 La calidad educativa depende de cómo se acompañan estos momentos.
 
 ![Asamblea en Educación Infantil](assets/internet/asamblea_infantil.jpg)
+
 _Escena de organización grupal para trabajar turnos, escucha y referencias temporales._
 
 ## 6. Tiempo, creatividad y atención
@@ -177,6 +184,7 @@ Claves para favorecer creatividad y atención:
 - Incorporar pausas de observación y conversación reflexiva.
 
 ![Propuesta visual para trabajo de ritmos y atención](assets/internet/I_3_003_2025_0052_IL_01932.png)
+
 _Apoyo gráfico en español para diseñar tiempos largos y continuidad en las tareas._
 
 ## 7. Ritmos colectivos frente a ritmos individuales
@@ -277,6 +285,7 @@ Elementos de calidad:
 - Cultura de centro que valore procesos, no solo cumplimiento de horarios.
 
 ![Recurso visual INTEF sobre vida cotidiana en Infantil](assets/internet/I_3_003_2025_0052_FT_01923.jpg)
+
 _Imagen en español para reforzar el vínculo entre tiempo, cuidado y bienestar._
 
 ## 11. Encuentros con familias y agentes externos

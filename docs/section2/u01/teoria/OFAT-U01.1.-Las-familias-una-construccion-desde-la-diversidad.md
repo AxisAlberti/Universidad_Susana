@@ -22,6 +22,7 @@ tags:
 Esta unidad estudia la familia como una realidad plural, histórica y cambiante. El enfoque combina fundamentos teóricos con orientaciones prácticas para la intervención educativa, la orientación familiar y la acción tutorial en contextos de diversidad.
 
 ![Diversidad familiar y acogida](assets/internet/diversidad-familiar-adopcion.jpg)
+
 _Imagen de referencia sobre diversidad familiar y acogida. Fuente: Wikimedia Commons._
 
 ## Objetivos de aprendizaje
@@ -48,6 +49,7 @@ _Imagen de referencia sobre diversidad familiar y acogida. Fuente: Wikimedia Com
 Este esquema organiza visualmente los bloques centrales de la unidad y facilita el estudio progresivo de contenidos.
 
 ![Esquema del Tema 1](assets/esquema/esquema-tema1.png)
+
 _Esquema base del Tema 1 (documento proporcionado por la asignatura)._ 
 
 ## 2. Perspectivas teóricas sobre familias
@@ -92,6 +94,7 @@ La familia se entiende como un sistema abierto: cuando cambia un miembro, cambia
 El modelo ecológico conecta familia, escuela, comunidad y cultura como sistemas interdependientes.
 
 ![Modelo ecológico de Bronfenbrenner (versión en español)](assets/internet/bronfenbrenner-modelo-ecologico-es.png)
+
 _Modelo ecológico de Bronfenbrenner en español (Teoría ecológica). Fuente: Wikimedia Commons._
 
 ### 2.3. Familia como construcción social
@@ -161,6 +164,7 @@ Principios clave:
 La evidencia señala que prácticas parentales positivas se asocian con mejores indicadores de desarrollo y menor riesgo de retrasos conductuales y socioemocionales.
 
 ![Lectura compartida en familia](assets/internet/family-reading.jpg)
+
 _Interacción familiar positiva en contexto de lectura compartida. Fuente: Wikimedia Commons._
 
 ### 3.6. Diversidad familiar y escuela

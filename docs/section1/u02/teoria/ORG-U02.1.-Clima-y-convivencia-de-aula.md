@@ -80,6 +80,7 @@ El clima de convivencia se analiza en tres dimensiones conectadas:
 Cuando estas tres dimensiones se alinean, mejora la pertenencia al grupo, el ajuste emocional y la implicación académica.
 
 ![Asamblea en Educación Infantil](assets/internet/asamblea_infantil.jpg)
+
 _Escena de asamblea para contextualizar la regulación de la convivencia diaria._
 
 ### 2.1. Estado de la cuestión
@@ -137,9 +138,11 @@ La resolución educativa enseña procedimientos para afrontar conflictos sin esc
 La mediación no se aplica a cualquier situación: es útil en conflictos interpersonales, pero no en casos de violencia donde se requieren protocolos de protección y actuación institucional.
 
 ![Dinámica de círculo para diálogo y escucha](assets/circle_time_diskusi.jpg)
+
 _El círculo de aula facilita escucha activa, expresión emocional y acuerdos grupales._
 
 ![Espacio de mediación educativa](assets/internet/sala_mediacion_agora.jpg)
+
 _Entorno de mediación para trabajar escucha, reparación y acuerdo._
 
 ### 6.1. Programas y experiencias de referencia
@@ -207,6 +210,7 @@ La disciplina positiva no elimina límites; redefine cómo se sostienen con amab
 - Diseñar apoyos diferenciados según perfiles de grupo y momentos críticos de la jornada.
 
 ![Aprendizaje cooperativo en el aula](assets/cooperative_learning_river.jpg)
+
 _La cooperación bien guiada mejora aceptación entre iguales y participación._
 
 ## 9. Evidencia internacional para fortalecer la convivencia
@@ -222,6 +226,7 @@ Las recomendaciones actuales de organismos internacionales y redes de evidencia 
 Estas conclusiones aparecen de forma consistente en marcos como UNESCO, OCDE (TALIS), EEF, CASEL y PBIS.
 
 ![Infografía de convivencia positiva en español](assets/internet/sana_convivencia.png)
+
 _Diagrama de referencia en español sobre convivencia escolar saludable._
 
 ### 9.1. Tabla comparativa de recomendaciones basadas en evidencia

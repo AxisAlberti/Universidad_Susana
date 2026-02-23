@@ -21,6 +21,7 @@ tags:
 Esta unidad desarrolla una base **universitaria y aplicada** sobre inclusión educativa y Diseño Universal para el Aprendizaje (DUA). El objetivo es comprender cómo se conecta la teoría pedagógica con decisiones reales de planificación, intervención y evaluación en el aula.
 
 ![Aula de Educación Infantil](assets/internet/aula_de_infantil.jpg)
+
 _Contexto real de aula para situar la organización del aprendizaje inclusivo._
 
 ## Objetivos de aprendizaje
@@ -70,6 +71,7 @@ En la práctica, las barreras pueden aparecer en:
 La respuesta educativa consiste en **anticiparse**: diseñar contextos flexibles, graduar ayudas y ajustar la enseñanza sin bajar expectativas de aprendizaje.
 
 ![Escenario de aula inclusiva](assets/pdf_images/tema1-006.jpg)
+
 _Imagen de referencia del tema base de la unidad._
 
 ## 2. Marco normativo y de derechos
@@ -103,6 +105,7 @@ El modelo se articula en tres principios:
 3. **Múltiples formas de acción y expresión** (diversas formas de mostrar lo aprendido).
 
 ![Infografía en español sobre principios del DUA](assets/internet/infografia_dua_principios.png)
+
 _Infografía en español para reforzar la comprensión de los principios del DUA._
 
 ### 3.1. Implicación: motivar para participar
@@ -133,6 +136,7 @@ El alumnado debe poder **demostrar su aprendizaje** de formas diversas:
 - Evidencias multimodales (podcast breve, póster académico, microproyecto, portafolio).
 
 ![Ilustración de entorno educativo flexible](assets/classroom_illustration.svg)
+
 _Visualización de un aula con múltiples formas de participación y acceso._
 
 ## 4. Fundamentos psicopedagógicos para diseñar inclusión
@@ -169,6 +173,7 @@ El aprendizaje cooperativo favorece la inclusión porque cada alumno aporta algo
 - Se incorporan estructuras cooperativas breves y frecuentes (folio giratorio, lápices al centro, tutoría entre iguales).
 
 ![Trabajo cooperativo en el aula](assets/cooperative_learning.jpg)
+
 _Interacción cooperativa para mejorar participación y aprendizaje compartido._
 
 ### 5.2. Co-docencia y colaboración con familias
