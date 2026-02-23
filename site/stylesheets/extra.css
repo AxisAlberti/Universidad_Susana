@@ -26,6 +26,16 @@
   font-size: 1.25rem;
 }
 
+/* Aumentar legibilidad de tablas (incluye "Vocabulario clave") en todas las secciones */
+.md-typeset table:not([class]) {
+  font-size: 1.2em;
+}
+
+.md-typeset table:not([class]) th,
+.md-typeset table:not([class]) td {
+  line-height: 1.6;
+}
+
 /* Homogeneizar tamaño visual de los diagramas/tablas insertados en las unidades */
 .md-typeset img[alt^="Diagrama"] {
   display: block;
