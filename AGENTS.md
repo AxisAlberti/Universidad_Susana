@@ -5,6 +5,7 @@ Este repositorio contiene material educativo para módulos de formación profesi
 ## Normas de redacción de apuntes
 
 - Los apuntes deben ser claros, didácticos y orientados al aprendizaje del alumnado.
+- Cuando aparezcan listados breves de conceptos (por ejemplo: \"Conyugal\", \"Parental\", \"Fraternal\"), se debe ampliar cada elemento con una explicación clara, ejemplos de aplicación educativa y su relevancia pedagógica; no se dejarán como enumeraciones sin desarrollo.
 - Cada vez que se edite un fichero `.md`, se añadirá al final una línea con la fecha de actualización, con el formato: `**Fecha de actualización:** 31/01/2026`.
 - Las cuestiones generadas se guardarán en un fichero en la raíz del repositorio. El nombre del fichero debe incluir el nombre del módulo y el nivel de dificultad.
 - Siempre se generarán 30 cuestiones de tipo cuestionario en formato GIFT.

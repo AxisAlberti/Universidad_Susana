@@ -43,7 +43,14 @@ _Imagen de referencia sobre diversidad familiar y acogida. Fuente: Wikimedia Com
 | Competencias parentales | Capacidades para cuidar, educar y promover el desarrollo integral de hijos e hijas. |
 | Modelo ecológico | Enfoque que explica el desarrollo por la interacción entre persona, familia y entorno social. |
 
-## 1. Perspectivas teóricas sobre familias
+## 1. Esquema del tema
+
+Este esquema organiza visualmente los bloques centrales de la unidad y facilita el estudio progresivo de contenidos.
+
+![Esquema del Tema 1](assets/esquema/esquema-tema1.png)
+_Esquema base del Tema 1 (documento proporcionado por la asignatura)._ 
+
+## 2. Perspectivas teóricas sobre familias
 
 El estudio de las familias requiere una visión multidimensional. Las teorías no compiten entre sí, sino que aportan lentes complementarias para comprender la complejidad de las relaciones familiares.
 
@@ -84,8 +91,8 @@ La familia se entiende como un sistema abierto: cuando cambia un miembro, cambia
 
 El modelo ecológico conecta familia, escuela, comunidad y cultura como sistemas interdependientes.
 
-![Modelo ecológico del desarrollo](assets/internet/bronfenbrenner-ecological-theory.png)
-_Representación del modelo ecológico de Bronfenbrenner. Fuente: Wikimedia Commons._
+![Modelo ecológico de Bronfenbrenner (versión en español)](assets/internet/bronfenbrenner-modelo-ecologico-es.png)
+_Modelo ecológico de Bronfenbrenner en español (Teoría ecológica). Fuente: Wikimedia Commons._
 
 ### 1.3. Familia como construcción social
 
@@ -101,7 +108,7 @@ La familia también se configura por contextos históricos, normas culturales y 
 - Permite identificar desigualdades y estereotipos que afectan al reparto de cuidados y autoridad.
 - Refuerza prácticas educativas inclusivas y respetuosas con la diversidad.
 
-## 2. Conceptos de familia desde la diversidad
+## 3. Conceptos de familia desde la diversidad
 
 ### 2.1. Definición de familia y funciones
 
@@ -120,10 +127,10 @@ En la práctica educativa conviven diferentes configuraciones familiares: nuclea
 
 Las familias cambian con el tiempo y atraviesan transiciones que pueden generar tensión. Se reconocen, entre otras, crisis:
 
-- Accidentales.
-- Vitales o evolutivas.
-- Estructurales.
-- De cuidado o dependencia.
+- Crisis accidentales: aparecen de forma imprevista (por ejemplo, una enfermedad grave o una pérdida repentina) y exigen reorganización inmediata de roles, tiempos y apoyos.
+- Crisis vitales o evolutivas: se vinculan a cambios esperables del ciclo de vida (nacimiento de un hijo, inicio de la adolescencia, emancipación) y requieren reajustes progresivos en normas, responsabilidades y estilos de relación.
+- Crisis estructurales: se relacionan con patrones familiares rígidos o disfuncionales mantenidos en el tiempo, lo que suele dificultar la comunicación y la resolución colaborativa de conflictos.
+- Crisis de cuidado o dependencia: se producen cuando un miembro necesita atención continuada; este escenario incrementa la carga familiar y hace imprescindible activar redes comunitarias y coordinación socioeducativa.
 
 Comprender estos procesos facilita la prevención y la intervención temprana desde la escuela.
 
@@ -131,9 +138,9 @@ Comprender estos procesos facilita la prevención y la intervención temprana de
 
 Los principales subsistemas son:
 
-- Conyugal.
-- Parental.
-- Fraternal.
+- Subsistema conyugal: integra la relación entre las personas adultas de la pareja. Su calidad influye en la estabilidad emocional del hogar, en la toma de decisiones y en el clima educativo cotidiano.
+- Subsistema parental: organiza las funciones de cuidado, protección y orientación hacia hijos e hijas. Desde la acción tutorial, es clave para alinear pautas educativas entre familia y escuela.
+- Subsistema fraternal: se construye entre hermanos y hermanas como primer espacio de aprendizaje entre iguales. Favorece competencias sociales como negociación, cooperación, manejo de conflictos y empatía.
 
 Un funcionamiento saludable requiere límites claros, firmes y flexibles para favorecer autonomía, cooperación y sentido de pertenencia.
 
@@ -143,11 +150,11 @@ La parentalidad positiva se orienta al interés superior del menor y combina afe
 
 Principios clave:
 
-- Afecto y seguridad emocional.
-- Entorno estructurado y predecible.
-- Estimulación y apoyo al aprendizaje.
-- Comunicación y reconocimiento.
-- Educación sin violencia.
+- Afecto y seguridad emocional: el vínculo cálido y estable permite que niños y niñas desarrollen confianza básica, autorregulación y apertura al aprendizaje.
+- Entorno estructurado y predecible: las rutinas y normas claras reducen incertidumbre, mejoran la convivencia y facilitan la interiorización de hábitos.
+- Estimulación y apoyo al aprendizaje: acompañar con expectativas ajustadas y andamiajes favorece autonomía, motivación y progreso evolutivo.
+- Comunicación y reconocimiento: escuchar, validar emociones y reconocer logros fortalece autoestima, pertenencia y competencia social.
+- Educación sin violencia: la disciplina formativa, basada en límites coherentes y reparación del daño, protege derechos y promueve conductas prosociales.
 
 La evidencia señala que prácticas parentales positivas se asocian con mejores indicadores de desarrollo y menor riesgo de retrasos conductuales y socioemocionales.
 
@@ -166,12 +173,6 @@ Líneas de actuación recomendadas:
 - Prevención de estereotipos y sesgos en materiales y prácticas de aula.
 - Formación docente específica en diversidad familiar.
 
-## 3. Esquema del tema
-
-Este esquema organiza visualmente los bloques centrales de la unidad y facilita el estudio progresivo de contenidos.
-
-![Esquema del Tema 1](assets/esquema/esquema-tema1.png)
-_Esquema base del Tema 1 (documento proporcionado por la asignatura)._ 
 
 ## 4. Aportes complementarios de fuentes en internet
 
