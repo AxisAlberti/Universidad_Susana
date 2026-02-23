@@ -24,6 +24,10 @@ nav:
   - Orientación Familiar y Acción Tutorial:
     - section2/index.md
     - Slides (Módulo): section2/slides/index.md
+    - Unidad 01:
+      - section2/u01/index.md
+      - "OFAT U01.1 Las familias: una construcción desde la diversidad": section2/u01/teoria/OFAT-U01.1.-Las-familias-una-construccion-desde-la-diversidad.md
+      - Presentación: section2/slides/no-disponible.md
   - Blog: blog.md
   - Tags: tags.md
   - Acerca de: about.md
