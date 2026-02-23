@@ -89,6 +89,16 @@ Para evitar confusiones en la práctica profesional, es importante diferenciar e
 
 **Tabla 2.2 (parte 4).** Diferencias entre orientación familiar, mediación y terapia.
 
+#### Resumen aclaratorio de la Tabla 2.2
+
+Para interpretar correctamente la comparación entre orientación familiar, mediación y terapia, conviene distinguir su finalidad principal y el tipo de problema al que responden:
+
+- **Orientación familiar**: intervención psicoeducativa y preventiva. Se centra en mejorar competencias parentales, comunicación y toma de decisiones cotidianas, incluso cuando no existe un conflicto jurídico abierto. El foco está en el desarrollo y en el fortalecimiento de recursos familiares.
+- **Mediación familiar**: procedimiento de gestión de conflictos entre partes, con intervención de una persona mediadora neutral, para que sean las propias partes quienes alcancen acuerdos voluntarios. Su núcleo es el acuerdo, no el tratamiento clínico.
+- **Terapia familiar**: intervención clínica/psicoterapéutica cuando hay malestar relacional o emocional significativo y patrones disfuncionales mantenidos. Trabaja el sistema familiar para producir cambio terapéutico y mejorar el funcionamiento global.
+
+En términos prácticos: si la necesidad principal es **formativa y preventiva**, procede orientación; si el objetivo es **acordar** en un conflicto, procede mediación; y si existe **sufrimiento psicológico o relacional intenso y persistente**, procede terapia familiar.
+
 ### 1.2. Niveles de intervención
 
 El tema distingue tres niveles complementarios:
@@ -255,6 +265,9 @@ Aplicado a los modelos estudiados en esta unidad:
 - WHO. Nurturing care for early childhood development: https://www.who.int/teams/maternal-newborn-child-adolescent-health-and-ageing/child-health/nurturing-care
 - OECD. PISA 2022 Results (Volume V): https://www.oecd.org/en/publications/pisa-2022-results-volume-v_c2e44201-en/full-report/component-13.html
 - UNESCO SDG4. Family-school-community partnerships: https://www.unesco.org/sdg4education2030/en/knowledge-hub/building-partnerships-where-families-schools-and-communities-stand-together-sierra-leone
+- BOE. Ley 5/2012, de mediación en asuntos civiles y mercantiles: https://www.boe.es/buscar/doc.php?id=BOE-A-2012-9112
+- NHS. Systemic and family psychotherapist (ámbito y funciones): https://www.healthcareers.nhs.uk/explore-roles/psychological-therapies/roles/systemic-and-family-psychotherapist
+- CCAA de Cantabria. Ley 1/2011 de Mediación de Cantabria (definición de mediación familiar): https://www.boe.es/buscar/pdf/2011/BOE-A-2011-14014-consolidado.pdf
 - Wikimedia Commons (imágenes de apoyo):
   - https://commons.wikimedia.org/wiki/File:Parent_teacher_meeting_at_the_Baozhong_Junior_High_School_20120411.jpg
   - https://commons.wikimedia.org/wiki/File:Parents_Teachers_Meeting_in_Jabarrah_High_School,_purulia,_west_bengal.jpg
