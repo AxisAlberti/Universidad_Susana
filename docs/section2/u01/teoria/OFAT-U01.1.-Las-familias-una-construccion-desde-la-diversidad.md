@@ -112,7 +112,9 @@ La familia también se configura por contextos históricos, normas culturales y 
 
 ### 3.1. Definición de familia y funciones
 
-La familia puede definirse como un sistema de vínculos de cuidado, socialización y apoyo mutuo. Entre sus funciones principales destacan:
+<p class="texto-reducido-20">La familia puede definirse como un sistema de vínculos de cuidado, socialización y apoyo mutuo.</p>
+
+Entre sus funciones principales destacan:
 
 - Protección física y emocional.
 - Socialización en valores y normas.

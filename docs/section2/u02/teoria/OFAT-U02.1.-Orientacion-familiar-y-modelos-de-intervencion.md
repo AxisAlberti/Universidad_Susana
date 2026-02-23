@@ -48,7 +48,7 @@ _Encuentro entre familias y centro educativo. Fuente: Wikimedia Commons._
 
 ### 1.1. Concepto y funciones
 
-La orientación familiar puede definirse como una disciplina científica y profesional orientada a facilitar el desarrollo positivo de las personas vinculadas por relaciones familiares, a lo largo del ciclo vital y en distintos contextos de convivencia.
+<p class="texto-reducido-20">La orientación familiar puede definirse como una disciplina científica y profesional orientada a facilitar el desarrollo positivo de las personas vinculadas por relaciones familiares, a lo largo del ciclo vital y en distintos contextos de convivencia.</p>
 
 ![Diagrama 1 del tema 2](assets/imagenes/diagrama-u02-01.png)
 
@@ -73,21 +73,14 @@ Funciones principales:
 
 Para evitar confusiones en la práctica profesional, es importante diferenciar estos tres marcos de intervención.
 
-![Diagrama 3 del tema 2](assets/imagenes/diagrama-u02-03.png)
+**Tabla 2.2.** Diferencias entre orientación familiar, mediación y terapia (dividida en cuatro partes).
 
-**Tabla 2.2 (parte 1).** Diferencias entre orientación familiar, mediación y terapia.
-
-![Diagrama 4 del tema 2](assets/imagenes/diagrama-u02-04.png)
-
-**Tabla 2.2 (parte 2).** Diferencias entre orientación familiar, mediación y terapia.
-
-![Diagrama 5 del tema 2](assets/imagenes/diagrama-u02-05.png)
-
-**Tabla 2.2 (parte 3).** Diferencias entre orientación familiar, mediación y terapia.
-
-![Diagrama 6 del tema 2](assets/imagenes/diagrama-u02-06.png)
-
-**Tabla 2.2 (parte 4).** Diferencias entre orientación familiar, mediación y terapia.
+<div class="tabla22-bloque">
+  <img src="../assets/imagenes/diagrama-u02-03.png" alt="Diagrama 3 del tema 2" class="tabla22-img">
+  <img src="../assets/imagenes/diagrama-u02-04.png" alt="Diagrama 4 del tema 2" class="tabla22-img">
+  <img src="../assets/imagenes/diagrama-u02-05.png" alt="Diagrama 5 del tema 2" class="tabla22-img">
+  <img src="../assets/imagenes/diagrama-u02-06.png" alt="Diagrama 6 del tema 2" class="tabla22-img">
+</div>
 
 #### Resumen aclaratorio de la Tabla 2.2
 

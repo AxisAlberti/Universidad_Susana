@@ -1,11 +1,20 @@
 /* Aumentar ligeramente el tamaño de letra global para mejorar legibilidad */
 :root {
-  font-size: 108%;
+  font-size: 97%;
 }
 
 .md-typeset {
   font-size: 0.9rem;
   line-height: 1.65;
+}
+
+/* Unificar tamaño de texto en todos los apuntes al mismo cuerpo base */
+.md-typeset p,
+.md-typeset li,
+.md-typeset table:not([class]),
+.md-typeset table:not([class]) th,
+.md-typeset table:not([class]) td {
+  font-size: inherit !important;
 }
 
 .md-nav,
@@ -26,14 +35,38 @@
   font-size: 1.25rem;
 }
 
-/* Aumentar legibilidad de tablas (incluye "Vocabulario clave") en todas las secciones */
-.md-typeset table:not([class]) {
-  font-size: 1.2em;
-}
-
 .md-typeset table:not([class]) th,
 .md-typeset table:not([class]) td {
   line-height: 1.6;
+}
+
+/* Objetivos de aprendizaje al mismo tamaño exacto que el texto base */
+.md-typeset :is(h2, h3)[id^="objetivos-de-aprendizaje"] + ul,
+.md-typeset :is(h2, h3)[id^="objetivos-de-aprendizaje"] + ol {
+  font-size: 0.9rem !important;
+  line-height: 1.65 !important;
+}
+
+/* Vocabulario clave al mismo tamaño exacto que el texto base */
+.md-typeset :is(h2, h3)[id^="vocabulario-clave"] + .md-typeset__table,
+.md-typeset :is(h2, h3)[id^="vocabulario-clave"] + .md-typeset__table table,
+.md-typeset :is(h2, h3)[id^="vocabulario-clave"] + .md-typeset__table table th,
+.md-typeset :is(h2, h3)[id^="vocabulario-clave"] + .md-typeset__table table td {
+  font-size: 0.9rem !important;
+  line-height: 1.65 !important;
+}
+
+/* Tabla 2.2 sin huecos entre partes */
+.tabla22-bloque {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.tabla22-bloque .tabla22-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
 }
 
 /* Homogeneizar tamaño visual de los diagramas/tablas insertados en las unidades */
@@ -42,35 +75,41 @@
   width: 100%;
   max-width: 900px;
   height: auto;
-  margin: 0.4rem auto 0.6rem auto;
+  margin: 0.1rem auto 0.15rem auto;
 }
 
 /* Usar todo el ancho disponible de pantalla */
 .md-grid {
-  max-width: 100% !important;
+  max-width: none !important;
+  width: 100% !important;
 }
 
 .md-main__inner {
-  max-width: 100%;
+  max-width: none !important;
+  width: 100% !important;
+  margin: 0 !important;
 }
 
 .md-content {
-  max-width: 100%;
+  max-width: none !important;
+  width: 100% !important;
 }
 
 .md-content__inner {
-  max-width: 100%;
-  margin: 0 1rem;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 0.35rem !important;
 }
 
 .md-typeset {
-  max-width: 100%;
+  max-width: none !important;
+  width: 100% !important;
 }
 
 /* Mantener márgenes razonables en móvil */
 @media screen and (max-width: 44.9375em) {
   :root {
-    font-size: 103%;
+    font-size: 93%;
   }
 
   .md-typeset {
@@ -81,4 +120,9 @@
   .md-content__inner {
     margin: 0 0.5rem;
   }
+}
+
+/* Reducción puntual del 20% para párrafos marcados */
+.texto-reducido-20 {
+  font-size: 0.8em !important;
 }
