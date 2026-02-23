@@ -75,11 +75,11 @@ Para evitar confusiones en la práctica profesional, es importante diferenciar e
 
 **Tabla 2.2.** Diferencias entre orientación familiar, mediación y terapia (dividida en cuatro partes).
 
-<div class="tabla22-bloque">
-  <img src="../assets/imagenes/diagrama-u02-03.png" alt="Diagrama 3 del tema 2" class="tabla22-img">
-  <img src="../assets/imagenes/diagrama-u02-04.png" alt="Diagrama 4 del tema 2" class="tabla22-img">
-  <img src="../assets/imagenes/diagrama-u02-05.png" alt="Diagrama 5 del tema 2" class="tabla22-img">
-  <img src="../assets/imagenes/diagrama-u02-06.png" alt="Diagrama 6 del tema 2" class="tabla22-img">
+<div class="tabla22-bloque" style="max-width:900px;margin:0 auto;line-height:0;">
+  <img src="/Universidad_Susana/section2/u02/teoria/assets/imagenes/diagrama-u02-03.png" alt="Diagrama 3 del tema 2" class="tabla22-img" style="display:block;width:100%;height:auto;margin:0;">
+  <img src="/Universidad_Susana/section2/u02/teoria/assets/imagenes/diagrama-u02-04.png" alt="Diagrama 4 del tema 2" class="tabla22-img" style="display:block;width:100%;height:auto;margin:0;">
+  <img src="/Universidad_Susana/section2/u02/teoria/assets/imagenes/diagrama-u02-05.png" alt="Diagrama 5 del tema 2" class="tabla22-img" style="display:block;width:100%;height:auto;margin:0;">
+  <img src="/Universidad_Susana/section2/u02/teoria/assets/imagenes/diagrama-u02-06.png" alt="Diagrama 6 del tema 2" class="tabla22-img" style="display:block;width:100%;height:auto;margin:0;">
 </div>
 
 #### Resumen aclaratorio de la Tabla 2.2
