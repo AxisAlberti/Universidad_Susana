@@ -8,6 +8,16 @@ Esta unidad introduce el estudio de **las familias desde la diversidad**, con ba
 
 - [Las familias: una construcción desde la diversidad](teoria/OFAT-U01.1.-Las-familias-una-construccion-desde-la-diversidad.md)
 
+## Anexos
+
+### Anexo 1. Guía para promover una parentalidad positiva
+
+- [Abrir anexo 1 (PDF)](anexos/Guia-para-promover-una-parentalidad-positiva.pdf)
+
+### Anexo 2. Parentalidad positiva: ganar salud y bienestar de 0-3 años
+
+- [Abrir anexo 2 (PDF)](anexos/Parentalidad-positiva-ganar-salud-y-bienestar-0-3-guia-talleres.pdf)
+
 ## Slides
 
 - [Presentación](../slides/no-disponible.md)
