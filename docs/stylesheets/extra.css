@@ -1,0 +1,36 @@
+/* Ajuste de ancho de contenido para mejorar legibilidad en pantallas grandes */
+@media screen and (min-width: 76.25em) {
+  .md-grid {
+    max-width: 88rem;
+  }
+
+  .md-content {
+    max-width: 70rem;
+  }
+
+  .md-typeset {
+    max-width: 68rem;
+  }
+}
+
+/* En pantallas muy grandes, ampliar un poco más sin perder confort de lectura */
+@media screen and (min-width: 120em) {
+  .md-grid {
+    max-width: 96rem;
+  }
+
+  .md-content {
+    max-width: 76rem;
+  }
+
+  .md-typeset {
+    max-width: 72rem;
+  }
+}
+
+/* Mantener márgenes razonables en móvil */
+@media screen and (max-width: 44.9375em) {
+  .md-content__inner {
+    margin: 0 0.6rem;
+  }
+}
