@@ -2,6 +2,9 @@
 from __future__ import annotations
 
 import argparse
+import contextlib
+import importlib
+import io
 import json
 import logging
 import os
@@ -10,10 +13,12 @@ import shutil
 import ssl
 import sys
 import tempfile
+import time
+import warnings
 from datetime import datetime
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Any
+from typing import Any, Iterable, Iterator
 
 LOGGER = logging.getLogger("transcribir_video")
 ALLOWED_MODELS = ("tiny", "base", "small", "medium", "large")
@@ -57,21 +62,124 @@ class TranscriptionConfig:
     notes_module: str
     notes_author: str
     template_file: Path
+    topic_threshold: float
     overwrite: bool
 
 
 class ProgressTracker:
     def __init__(self) -> None:
         self.current = -1
+        self.start_ts = time.monotonic()
+        self.bar_width = 28
 
-    def update(self, value: int) -> None:
+    def _format_eta(self, value: int) -> str:
+        if value <= 0:
+            return "--:--"
+        elapsed = time.monotonic() - self.start_ts
+        total_estimated = elapsed / (value / 100.0)
+        eta = max(total_estimated - elapsed, 0.0)
+        eta_min = int(eta // 60)
+        eta_sec = int(eta % 60)
+        return f"{eta_min:02d}:{eta_sec:02d}"
+
+    def update(self, value: int, *, stage: str = "", detail: str = "") -> None:
         value = max(0, min(100, int(value)))
-        if value == self.current:
+        if value == self.current and not stage and not detail:
             return
         self.current = value
-        print(f"\rProgreso: {value:3d}%", end="", flush=True)
+        elapsed = time.monotonic() - self.start_ts
+        elapsed_min = int(elapsed // 60)
+        elapsed_sec = int(elapsed % 60)
+        eta = self._format_eta(value)
+        suffix_parts = []
+        if stage:
+            suffix_parts.append(stage)
+        if detail:
+            suffix_parts.append(detail)
+        suffix = " | ".join(suffix_parts)
+        if suffix:
+            suffix = " | " + suffix
+        filled = int((value / 100) * self.bar_width)
+        empty = self.bar_width - filled
+        bar = "[" + ("█" * filled) + ("░" * empty) + "]"
+        msg = (
+            f"\rProgreso: {value:3d}% {bar} | Transcurrido: {elapsed_min:02d}:{elapsed_sec:02d} "
+            f"| ETA: {eta}{suffix}"
+        )
+        if sys.stdout.isatty():
+            term_width = shutil.get_terminal_size((120, 20)).columns
+            clean = msg.replace("\r", "")
+            if len(clean) > term_width - 1:
+                clean = clean[: max(1, term_width - 2)] + "…"
+            # Limpia la linea antes de reescribir para evitar restos de texto previo.
+            print(f"\r\033[2K{clean}", end="", flush=True)
+        else:
+            print(msg, end="", flush=True)
         if value >= 100:
             print()
+
+    def whisper_realtime_update(self, ratio: float) -> None:
+        """
+        Actualiza progreso en tiempo real durante la transcripcion.
+        Mapea [0..1] de Whisper al rango [55..80] del flujo global.
+        """
+        ratio = max(0.0, min(1.0, float(ratio)))
+        mapped = 55 + int(ratio * 25)
+        self.update(
+            mapped,
+            stage="Transcripcion",
+            detail=f"Procesando audio ({int(ratio * 100):02d}%)",
+        )
+
+
+class _RealtimeTqdm:
+    """
+    Sustituto silencioso de tqdm para capturar avance real de Whisper sin imprimir barras externas.
+    """
+
+    def __init__(
+        self,
+        iterable: Iterable[Any] | None = None,
+        *,
+        total: int | None = None,
+        progress: ProgressTracker | None = None,
+        **_: Any,
+    ) -> None:
+        self._iterable = iterable
+        self._total = total if total is not None else (len(iterable) if iterable is not None and hasattr(iterable, "__len__") else None)
+        self._n = 0
+        self._progress = progress
+        self._last_percent = -1
+
+    def _emit(self) -> None:
+        if self._progress is None or not self._total or self._total <= 0:
+            return
+        ratio = self._n / self._total
+        percent = int(ratio * 100)
+        if percent != self._last_percent:
+            self._last_percent = percent
+            self._progress.whisper_realtime_update(ratio)
+
+    def __iter__(self) -> Iterator[Any]:
+        if self._iterable is None:
+            return iter(())
+        for item in self._iterable:
+            self._n += 1
+            self._emit()
+            yield item
+
+    def update(self, n: int = 1) -> None:
+        self._n += int(n)
+        self._emit()
+
+    def close(self) -> None:
+        self._emit()
+
+    def __enter__(self) -> "_RealtimeTqdm":
+        return self
+
+    def __exit__(self, exc_type: Any, exc: Any, tb: Any) -> None:
+        self.close()
 
 
 def parse_args() -> argparse.Namespace:
@@ -79,8 +187,16 @@ def parse_args() -> argparse.Namespace:
         description="Transcribe un video a texto usando Whisper."
     )
     parser.add_argument(
-        "video",
+        "--config",
         type=Path,
+        default=None,
+        help="Ruta de archivo de configuracion (.yaml/.yml/.json).",
+    )
+    parser.add_argument(
+        "video",
+        nargs="?",
+        type=Path,
+        default=None,
         help="Ruta del archivo de video a transcribir.",
     )
     parser.add_argument(
@@ -127,6 +243,12 @@ def parse_args() -> argparse.Namespace:
         "--timestamps",
         action="store_true",
         help="Incluye marcas de tiempo por segmento en la salida.",
+    )
+    parser.add_argument(
+        "--topic-threshold",
+        type=float,
+        default=0.22,
+        help="Umbral (0-1) para detectar cambios de tema entre segmentos.",
     )
     parser.add_argument(
         "--analyze",
@@ -185,6 +307,11 @@ def parse_args() -> argparse.Namespace:
         help="Permite sobrescribir el fichero de salida si ya existe.",
     )
     parser.add_argument(
+        "--bundle",
+        action="store_true",
+        help="Genera en una pasada: txt + md + analisis + apuntes.",
+    )
+    parser.add_argument(
         "--log-level",
         default="ERROR",
         choices=("DEBUG", "INFO", "WARNING", "ERROR"),
@@ -210,6 +337,112 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
+def load_config_file(config_path: Path) -> dict[str, Any]:
+    if not config_path.exists() or not config_path.is_file():
+        raise FileNotFoundError(f"No existe el archivo de configuracion: {config_path}")
+
+    suffix = config_path.suffix.lower()
+    text = config_path.read_text(encoding="utf-8")
+
+    if suffix == ".json":
+        data = json.loads(text)
+    elif suffix in (".yaml", ".yml"):
+        try:
+            import yaml  # type: ignore
+        except ImportError as exc:
+            raise RuntimeError(
+                "Para usar configuracion YAML instala PyYAML: pip install pyyaml"
+            ) from exc
+        data = yaml.safe_load(text)
+    else:
+        raise RuntimeError("Formato de config no soportado. Usa .json, .yaml o .yml")
+
+    if not isinstance(data, dict):
+        raise RuntimeError("El archivo de configuracion debe contener un objeto clave-valor.")
+    return data
+
+
+def _coerce_value(attr: str, value: Any) -> Any:
+    path_fields = {
+        "video",
+        "output",
+        "analysis_output",
+        "notes_output",
+        "template_file",
+        "ssl_cert_file",
+    }
+    if attr in path_fields and value is not None:
+        return Path(str(value))
+    if attr == "extra_formats":
+        if value is None:
+            return ()
+        if isinstance(value, str):
+            return (value,)
+        if isinstance(value, (list, tuple)):
+            return tuple(str(v) for v in value)
+    return value
+
+
+def apply_config_overrides(args: argparse.Namespace) -> argparse.Namespace:
+    if args.config is None:
+        return args
+
+    cfg = load_config_file(args.config.resolve())
+    defaults: dict[str, Any] = {
+        "video": None,
+        "output": None,
+        "model": "base",
+        "language": "es",
+        "format": "txt",
+        "extra_formats": (),
+        "timestamps": False,
+        "topic_threshold": 0.22,
+        "analyze": False,
+        "analysis_output": None,
+        "generate_notes": False,
+        "notes_output": None,
+        "notes_title": None,
+        "notes_module": "AUTO",
+        "notes_author": "Generador automatico",
+        "template_file": None,
+        "overwrite": False,
+        "bundle": False,
+        "log_level": "ERROR",
+        "ssl_cert_file": None,
+        "insecure_ssl": False,
+    }
+
+    allowed = set(defaults.keys())
+    for key, raw_value in cfg.items():
+        if key not in allowed:
+            continue
+        current = getattr(args, key)
+        if current == defaults[key]:
+            setattr(args, key, _coerce_value(key, raw_value))
+
+    return args
+
+
+def apply_bundle_mode(args: argparse.Namespace) -> argparse.Namespace:
+    if not args.bundle:
+        return args
+
+    args.analyze = True
+    args.generate_notes = True
+    args.timestamps = True
+
+    formats = set(args.extra_formats)
+    formats.add(args.format)
+    if "txt" not in formats:
+        formats.add("txt")
+    if "md" not in formats:
+        formats.add("md")
+
+    # Preserva el formato principal solicitado y añade el resto como extras.
+    args.extra_formats = tuple(sorted(fmt for fmt in formats if fmt != args.format))
+    return args
+
+
 def ensure_dependencies() -> None:
     if shutil.which("ffmpeg") is None:
         raise RuntimeError(
@@ -224,6 +457,34 @@ def ensure_dependencies() -> None:
             "Falta la dependencia 'openai-whisper'. "
             "Instala con: pip install openai-whisper"
         ) from exc
+
+
+def configure_runtime_noise_suppression() -> None:
+    # Evita warning recurrente de Whisper en CPU (FP16 -> FP32).
+    warnings.filterwarnings(
+        "ignore",
+        message="FP16 is not supported on CPU; using FP32 instead",
+        category=UserWarning,
+    )
+
+
+@contextlib.contextmanager
+def suppress_external_output() -> Any:
+    """
+    Silencia salida de librerias externas (warnings/barras tqdm de Whisper),
+    manteniendo la salida propia del script.
+    """
+    original_stdout = sys.stdout
+    original_stderr = sys.stderr
+    sink_out = io.StringIO()
+    sink_err = io.StringIO()
+    try:
+        sys.stdout = sink_out
+        sys.stderr = sink_err
+        yield
+    finally:
+        sys.stdout = original_stdout
+        sys.stderr = original_stderr
 
 
 def build_output_path(video_path: Path, output_arg: Path | None, output_format: str) -> Path:
@@ -429,7 +690,7 @@ def build_analysis_markdown(result: dict[str, Any], config: TranscriptionConfig)
     generated_at = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     segments = result.get("segments") or []
     segment_summary = summarize_segments(segments, keyword_limit=3)
-    topic_changes = detect_topic_changes(segments, threshold=0.22)
+    topic_changes = detect_topic_changes(segments, threshold=config.topic_threshold)
 
     lines = [
         "# Analisis de transcripcion",
@@ -820,13 +1081,22 @@ def write_text_atomic(path: Path, content: str) -> None:
 
 
 def build_config(args: argparse.Namespace) -> TranscriptionConfig:
+    if args.video is None:
+        raise FileNotFoundError("Debes indicar un video por CLI o en --config.")
     video_path = args.video.resolve()
     if not video_path.exists() or not video_path.is_file():
         raise FileNotFoundError(f"No existe el video: {video_path}")
 
     language = None if str(args.language).strip().lower() == "auto" else str(args.language).strip()
     output_format = str(args.format).strip().lower()
+    if output_format not in ALLOWED_FORMATS:
+        raise RuntimeError(f"Formato principal no soportado: {output_format}")
     extra_formats = tuple(str(fmt).strip().lower() for fmt in args.extra_formats)
+    invalid_formats = [fmt for fmt in extra_formats if fmt not in ALLOWED_FORMATS]
+    if invalid_formats:
+        raise RuntimeError(f"Formatos extra no soportados: {', '.join(invalid_formats)}")
+    if not (0.0 <= float(args.topic_threshold) <= 1.0):
+        raise RuntimeError("--topic-threshold debe estar entre 0 y 1.")
     output_path = build_output_path(video_path, args.output, output_format)
     analysis_output = build_analysis_output_path(args, output_path) if args.analyze else None
     notes_output = build_notes_output_path(args, output_path) if args.generate_notes else None
@@ -865,60 +1135,104 @@ def build_config(args: argparse.Namespace) -> TranscriptionConfig:
         notes_module=str(args.notes_module).strip() or "AUTO",
         notes_author=str(args.notes_author).strip() or "Generador automatico",
         template_file=template_file,
+        topic_threshold=float(args.topic_threshold),
         overwrite=bool(args.overwrite),
     )
 
 
 def transcribir_video(config: TranscriptionConfig, progress: ProgressTracker) -> None:
     import whisper
+    whisper_transcribe_module = importlib.import_module("whisper.transcribe")
 
-    progress.update(35)
-    model = whisper.load_model(config.model)
-    progress.update(55)
-    result = model.transcribe(
-        str(config.video_path),
-        language=config.language,
-        task="transcribe",
-        verbose=False,
+    progress.update(35, stage="Carga de modelo", detail=f"Whisper {config.model}")
+    with suppress_external_output():
+        model = whisper.load_model(config.model)
+    progress.update(55, stage="Transcripcion", detail="Procesando audio del video")
+    original_tqdm_fn = whisper_transcribe_module.tqdm.tqdm
+    whisper_transcribe_module.tqdm.tqdm = (
+        lambda iterable=None, *args, **kwargs: _RealtimeTqdm(
+            iterable=iterable,
+            total=kwargs.get("total"),
+            progress=progress,
+        )
     )
-    progress.update(80)
+    try:
+        # No se envuelve en suppress_external_output para permitir progreso real del callback.
+        result = model.transcribe(
+            str(config.video_path),
+            language=config.language,
+            task="transcribe",
+            verbose=False,
+        )
+    finally:
+        whisper_transcribe_module.tqdm.tqdm = original_tqdm_fn
+    progress.update(80, stage="Postproceso", detail="Generando salidas")
     output_paths = build_output_paths(config)
     total_outputs = len(output_paths) + (1 if config.analyze and config.analysis_output is not None else 0) + (1 if config.generate_notes and config.notes_output is not None else 0)
     completed_outputs = 0
     for fmt, path in output_paths.items():
+        progress.update(
+            80 + int((completed_outputs / max(total_outputs, 1)) * 18),
+            stage="Escritura",
+            detail=f"[{completed_outputs + 1}/{total_outputs}] {fmt} -> {path.name}",
+        )
         output_text = render_output(result, config, fmt)
         write_text_atomic(path, output_text)
         completed_outputs += 1
-        progress.update(80 + int((completed_outputs / max(total_outputs, 1)) * 18))
 
     if config.analyze and config.analysis_output is not None:
+        progress.update(
+            80 + int((completed_outputs / max(total_outputs, 1)) * 18),
+            stage="Escritura",
+            detail=f"[{completed_outputs + 1}/{total_outputs}] analysis -> {config.analysis_output.name}",
+        )
         analysis_md = build_analysis_markdown(result, config)
         write_text_atomic(config.analysis_output, analysis_md)
         completed_outputs += 1
-        progress.update(80 + int((completed_outputs / max(total_outputs, 1)) * 18))
 
     if config.generate_notes and config.notes_output is not None:
+        progress.update(
+            80 + int((completed_outputs / max(total_outputs, 1)) * 18),
+            stage="Escritura",
+            detail=f"[{completed_outputs + 1}/{total_outputs}] notes -> {config.notes_output.name}",
+        )
         notes_md = build_notes_markdown(result, config)
         write_text_atomic(config.notes_output, notes_md)
         completed_outputs += 1
-        progress.update(80 + int((completed_outputs / max(total_outputs, 1)) * 18))
 
-    progress.update(99)
+    progress.update(99, stage="Finalizacion", detail="Validando resultados")
 
 
 def main() -> int:
     args = parse_args()
+    args = apply_config_overrides(args)
+    args = apply_bundle_mode(args)
     configure_logging(args.log_level)
+    configure_runtime_noise_suppression()
     progress = ProgressTracker()
-    progress.update(5)
+    progress.update(5, stage="Inicio", detail="Preparando ejecucion")
 
     try:
-        progress.update(10)
+        progress.update(10, stage="Configuracion", detail="Aplicando SSL")
         configure_ssl(args.ssl_cert_file, args.insecure_ssl)
-        progress.update(20)
+        progress.update(20, stage="Validacion", detail="Comprobando dependencias")
         ensure_dependencies()
-        progress.update(30)
+        progress.update(30, stage="Validacion", detail="Construyendo configuracion")
         config = build_config(args)
+        outputs_preview = [config.output_format, *config.extra_formats]
+        if config.analyze:
+            outputs_preview.append("analysis")
+        if config.generate_notes:
+            outputs_preview.append("notes")
+        video_size_mb = config.video_path.stat().st_size / (1024 * 1024)
+        progress.update(
+            32,
+            stage="Configuracion lista",
+            detail=(
+                f"Video={config.video_path.name} ({video_size_mb:.1f} MB), "
+                f"Idioma={config.language or 'auto'}, Salidas={','.join(outputs_preview)}"
+            ),
+        )
         transcribir_video(config, progress)
     except KeyboardInterrupt:
         LOGGER.error("Proceso interrumpido por el usuario.")
@@ -938,7 +1252,7 @@ def main() -> int:
         LOGGER.error("Error en la transcripcion: %s", exc)
         return 1
 
-    progress.update(100)
+    progress.update(100, stage="Completado", detail="Proceso finalizado correctamente")
     generated = build_output_paths(config)
     print("Transcripcion generada:")
     for fmt, path in generated.items():

@@ -1,8 +1,8 @@
-# Organización Familiar y Acción Tutorial
+# Orientación Familiar y Acción Tutorial
 
 ## Resumen
 
-Materiales para la asignatura **Organización Familiar y Acción Tutorial** (Módulo 2).
+Materiales para la asignatura **Orientación Familiar y Acción Tutorial** (Módulo 2).
 
 ## Contenidos
 

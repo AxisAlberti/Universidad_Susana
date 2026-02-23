@@ -1,4 +1,4 @@
-site_name: UNED - Organización y Gestión del Aula / Organización Familiar y Acción Tutorial
+site_name: UNED - Organización y Gestión del Aula / Orientación Familiar y Acción Tutorial
 site_url: https://axisalberti.github.io/Universidad_Susana/
 repo_url: https://github.com/AxisAlberti/Universidad_Susana
 repo_name: GitHub
@@ -21,7 +21,7 @@ nav:
       - section1/u03/index.md
       - ORG U03.1 Organización del tiempo en Educación Infantil: section1/u03/teoria/ORG-U03.1.-Organizacion-del-tiempo-en-educacion-infantil.md
       - Presentación: section1/slides/no-disponible.md
-  - Organización Familiar y Acción Tutorial:
+  - Orientación Familiar y Acción Tutorial:
     - section2/index.md
     - Slides (Módulo): section2/slides/index.md
   - Blog: blog.md

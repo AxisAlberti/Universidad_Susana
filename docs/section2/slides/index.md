@@ -1,4 +1,4 @@
-# Slides - Organización Familiar y Acción Tutorial
+# Slides - Orientación Familiar y Acción Tutorial
 
 - [Presentación no disponible](no-disponible.md)
 

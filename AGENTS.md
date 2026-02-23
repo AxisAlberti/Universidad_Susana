@@ -116,7 +116,7 @@ También es importante incluir imágenes o diagramas para ilustrar conceptos com
 Contiene la documentación principal en formato MkDocs Material. Está organizada por módulos:
 
 - **section1**: Organización y Gestión del Aula
-- **section2**: Organización Familiar y Acción Tutorial
+- **section2**: Orientación Familiar y Acción Tutorial
 
 #### Estructura general por módulo
 
