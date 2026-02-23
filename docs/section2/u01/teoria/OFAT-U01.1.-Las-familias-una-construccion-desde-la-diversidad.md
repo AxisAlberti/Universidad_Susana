@@ -58,17 +58,17 @@ El estudio de las familias requiere una visión multidimensional. Las teorías n
 
 La familia se analiza desde los significados, roles y normas que se construyen en la vida cotidiana.
 
-#### 1.1.1. Interaccionismo simbólico
+#### 2.1.1. Interaccionismo simbólico
 
 - Examina cómo se construyen identidad y roles familiares mediante símbolos y comunicación.
 - Ayuda a interpretar expectativas, acuerdos y conflictos dentro de la convivencia.
 
-#### 1.1.2. Teoría del conflicto
+#### 2.1.2. Teoría del conflicto
 
 - Considera el conflicto como fenómeno normal en toda relación social.
 - Permite analizar el peso de factores sociales (clase, género, exclusión, empleo) sobre la dinámica familiar.
 
-#### 1.1.3. Teoría del intercambio
+#### 2.1.3. Teoría del intercambio
 
 - Analiza la permanencia o deterioro de relaciones según reciprocidad, costes y beneficios percibidos.
 - Aporta criterios útiles para comprender desequilibrios y dependencia en vínculos familiares.
@@ -77,17 +77,17 @@ La familia se analiza desde los significados, roles y normas que se construyen e
 
 La familia se entiende como un sistema abierto: cuando cambia un miembro, cambia el conjunto.
 
-#### 1.2.1. Teoría del desarrollo familiar
+#### 2.2.1. Teoría del desarrollo familiar
 
 - Explica que cada etapa del ciclo vital exige tareas evolutivas específicas.
 - Subraya la necesidad de adaptación ante transiciones y crisis.
 
-#### 1.2.2. Teoría de sistemas
+#### 2.2.2. Teoría de sistemas
 
 - Analiza estructura, límites, reglas y comunicación familiar.
 - Permite diseñar intervenciones centradas en patrones relacionales y no solo en casos individuales.
 
-#### 1.2.3. Modelos ecológicos
+#### 2.2.3. Modelos ecológicos
 
 El modelo ecológico conecta familia, escuela, comunidad y cultura como sistemas interdependientes.
 
@@ -98,12 +98,12 @@ _Modelo ecológico de Bronfenbrenner en español (Teoría ecológica). Fuente: W
 
 La familia también se configura por contextos históricos, normas culturales y relaciones de poder.
 
-#### 1.3.1. Fenomenología y construcción social de la realidad
+#### 2.3.1. Fenomenología y construcción social de la realidad
 
 - Sitúa la experiencia subjetiva y el significado como claves para comprender la vida familiar.
 - Favorece una orientación basada en escucha activa y comprensión contextual.
 
-#### 1.3.2. Pensamiento crítico y enfoque de género
+#### 2.3.2. Pensamiento crítico y enfoque de género
 
 - Permite identificar desigualdades y estereotipos que afectan al reparto de cuidados y autoridad.
 - Refuerza prácticas educativas inclusivas y respetuosas con la diversidad.
