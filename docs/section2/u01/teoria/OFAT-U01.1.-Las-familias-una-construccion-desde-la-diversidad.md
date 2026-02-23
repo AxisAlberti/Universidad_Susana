@@ -17,7 +17,7 @@ tags:
     - Acción_tutorial
 ---
 
-## 1.1. Las familias: una construcción desde la diversidad
+## Introducción
 
 Esta unidad estudia la familia como una realidad plural, histórica y cambiante. El enfoque combina fundamentos teóricos con orientaciones prácticas para la intervención educativa, la orientación familiar y la acción tutorial en contextos de diversidad.
 
@@ -54,7 +54,7 @@ _Esquema base del Tema 1 (documento proporcionado por la asignatura)._
 
 El estudio de las familias requiere una visión multidimensional. Las teorías no compiten entre sí, sino que aportan lentes complementarias para comprender la complejidad de las relaciones familiares.
 
-### 1.1. Familia como interacción
+### 2.1. Familia como interacción
 
 La familia se analiza desde los significados, roles y normas que se construyen en la vida cotidiana.
 
@@ -73,7 +73,7 @@ La familia se analiza desde los significados, roles y normas que se construyen e
 - Analiza la permanencia o deterioro de relaciones según reciprocidad, costes y beneficios percibidos.
 - Aporta criterios útiles para comprender desequilibrios y dependencia en vínculos familiares.
 
-### 1.2. Familia como sistema
+### 2.2. Familia como sistema
 
 La familia se entiende como un sistema abierto: cuando cambia un miembro, cambia el conjunto.
 
@@ -94,7 +94,7 @@ El modelo ecológico conecta familia, escuela, comunidad y cultura como sistemas
 ![Modelo ecológico de Bronfenbrenner (versión en español)](assets/internet/bronfenbrenner-modelo-ecologico-es.png)
 _Modelo ecológico de Bronfenbrenner en español (Teoría ecológica). Fuente: Wikimedia Commons._
 
-### 1.3. Familia como construcción social
+### 2.3. Familia como construcción social
 
 La familia también se configura por contextos históricos, normas culturales y relaciones de poder.
 
@@ -110,7 +110,7 @@ La familia también se configura por contextos históricos, normas culturales y 
 
 ## 3. Conceptos de familia desde la diversidad
 
-### 2.1. Definición de familia y funciones
+### 3.1. Definición de familia y funciones
 
 La familia puede definirse como un sistema de vínculos de cuidado, socialización y apoyo mutuo. Entre sus funciones principales destacan:
 
@@ -119,11 +119,11 @@ La familia puede definirse como un sistema de vínculos de cuidado, socializaci�
 - Construcción de identidad y pertenencia.
 - Acompañamiento del desarrollo y del aprendizaje.
 
-### 2.2. Tipos de familias
+### 3.2. Tipos de familias
 
 En la práctica educativa conviven diferentes configuraciones familiares: nucleares, extensas, monoparentales, reconstituidas, homoparentales, adoptivas, acogedoras y otras. El foco pedagógico debe situarse en la calidad del cuidado y en la red de apoyos, no en un modelo único de familia.
 
-### 2.3. Ciclos vitales familiares
+### 3.3. Ciclos vitales familiares
 
 Las familias cambian con el tiempo y atraviesan transiciones que pueden generar tensión. Se reconocen, entre otras, crisis:
 
@@ -134,7 +134,7 @@ Las familias cambian con el tiempo y atraviesan transiciones que pueden generar 
 
 Comprender estos procesos facilita la prevención y la intervención temprana desde la escuela.
 
-### 2.4. Subsistemas familiares
+### 3.4. Subsistemas familiares
 
 Los principales subsistemas son:
 
@@ -144,7 +144,7 @@ Los principales subsistemas son:
 
 Un funcionamiento saludable requiere límites claros, firmes y flexibles para favorecer autonomía, cooperación y sentido de pertenencia.
 
-### 2.5. Parentalidad positiva: estilos educativos y competencias parentales
+### 3.5. Parentalidad positiva: estilos educativos y competencias parentales
 
 La parentalidad positiva se orienta al interés superior del menor y combina afecto, reconocimiento, guía y límites.
 
@@ -161,7 +161,7 @@ La evidencia señala que prácticas parentales positivas se asocian con mejores 
 ![Lectura compartida en familia](assets/internet/family-reading.jpg)
 _Interacción familiar positiva en contexto de lectura compartida. Fuente: Wikimedia Commons._
 
-### 2.6. Diversidad familiar y escuela
+### 3.6. Diversidad familiar y escuela
 
 La acción tutorial debe integrar la diversidad familiar en el proyecto educativo del centro.
 
