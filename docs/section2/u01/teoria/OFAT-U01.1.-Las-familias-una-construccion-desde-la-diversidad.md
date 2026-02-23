@@ -1,7 +1,7 @@
 ---
 title: "UD 1 - 1.1 Las familias: una construcción desde la diversidad"
-description: Fundamentos teóricos para comprender la diversidad familiar y su relación con la orientación educativa.
-summary: Perspectivas teóricas, tipos de familia, ciclos vitales, subsistemas y parentalidad positiva.
+description: Fundamentos teóricos y aplicados para comprender la diversidad familiar y orientar la acción tutorial en contextos educativos.
+summary: Perspectivas teóricas, tipos de familia, ciclo vital, subsistemas, parentalidad positiva y claves de intervención escuela-familia.
 authors:
     - Eduardo Fdez
 date: 2026-02-23
@@ -19,176 +19,215 @@ tags:
 
 ## 1.1. Las familias: una construcción desde la diversidad
 
-Esta unidad aborda la familia como una realidad **plural, dinámica y en transformación**, y ofrece un marco teórico para intervenir en contextos familiares diversos desde la orientación familiar y la acción tutorial.
+Esta unidad estudia la familia como una realidad plural, histórica y cambiante. El enfoque combina fundamentos teóricos con orientaciones prácticas para la intervención educativa, la orientación familiar y la acción tutorial en contextos de diversidad.
 
-![Portada del tema 1](assets/pdf_images/tema1-001.png)
-_Imagen extraída del material base del Tema 1._
+![Diversidad familiar y acogida](assets/internet/diversidad-familiar-adopcion.jpg)
+_Imagen de referencia sobre diversidad familiar y acogida. Fuente: Wikimedia Commons._
 
 ## Objetivos de aprendizaje
 
-- Reconocer las principales perspectivas teóricas para el estudio de las familias.
-- Comprender la diversidad familiar y su impacto en la escuela.
-- Analizar los ciclos vitales y los subsistemas familiares.
-- Identificar los principios de la parentalidad positiva.
-- Relacionar orientación familiar y acción tutorial con situaciones de riesgo y vulnerabilidad.
+- Conocer las principales perspectivas teóricas para analizar la vida familiar.
+- Comprender la diversidad de estructuras y dinámicas familiares actuales.
+- Identificar fases del ciclo vital familiar y tipos de crisis.
+- Analizar la parentalidad positiva y las competencias parentales.
+- Diseñar líneas de acción tutorial para fortalecer la relación escuela-familia.
 
 ## Vocabulario clave
 
 | Término | Definición didáctica |
 |---|---|
-| Diversidad familiar | Existencia de múltiples estructuras y dinámicas familiares, sin un único modelo válido. |
-| Perspectiva sistémica | Enfoque que entiende la familia como un sistema de relaciones interdependientes. |
-| Ciclo vital familiar | Secuencia de etapas por las que transita una familia a lo largo del tiempo. |
-| Subsistemas familiares | Relaciones diferenciadas dentro de la familia (conyugal, parental y fraternal). |
-| Parentalidad positiva | Ejercicio de la responsabilidad parental orientado al bienestar y desarrollo integral del menor. |
-| Competencias parentales | Capacidades de madres y padres para cuidar, educar, proteger y orientar de forma ajustada. |
+| Diversidad familiar | Conjunto de formas de organización familiar existentes en una sociedad. |
+| Ciclo vital familiar | Proceso de etapas y transiciones que vive una familia a lo largo del tiempo. |
+| Subsistema familiar | Estructura relacional interna de la familia (conyugal, parental y fraternal). |
+| Parentalidad positiva | Ejercicio de la responsabilidad parental basado en afecto, guía y límites no violentos. |
+| Competencias parentales | Capacidades para cuidar, educar y promover el desarrollo integral de hijos e hijas. |
+| Modelo ecológico | Enfoque que explica el desarrollo por la interacción entre persona, familia y entorno social. |
 
 ## 1. Perspectivas teóricas sobre familias
 
-El estudio de las familias en Ciencias Sociales se ha enriquecido con marcos diversos. Esta pluralidad permite comprender mejor la complejidad de las relaciones familiares y diseñar intervenciones más ajustadas a cada contexto.
+El estudio de las familias requiere una visión multidimensional. Las teorías no compiten entre sí, sino que aportan lentes complementarias para comprender la complejidad de las relaciones familiares.
 
 ### 1.1. Familia como interacción
 
-Este enfoque analiza la familia desde las interacciones cotidianas entre sus miembros, los significados compartidos y los roles que se negocian en la vida diaria.
+La familia se analiza desde los significados, roles y normas que se construyen en la vida cotidiana.
 
 #### 1.1.1. Interaccionismo simbólico
 
-- Se centra en símbolos, identidad y construcción de roles.
-- Explica que el comportamiento familiar se interpreta según significados compartidos.
-- Permite analizar expectativas familiares y conflictos de rol.
+- Examina cómo se construyen identidad y roles familiares mediante símbolos y comunicación.
+- Ayuda a interpretar expectativas, acuerdos y conflictos dentro de la convivencia.
 
 #### 1.1.2. Teoría del conflicto
 
-- Considera el conflicto como un elemento normal e inevitable en la interacción social.
-- Distingue factores macrosociales (clase social, género, pobreza) y microsociales (dinámica cotidiana).
-- Aporta herramientas para comprender tensiones familiares y su gestión educativa.
+- Considera el conflicto como fenómeno normal en toda relación social.
+- Permite analizar el peso de factores sociales (clase, género, exclusión, empleo) sobre la dinámica familiar.
 
 #### 1.1.3. Teoría del intercambio
 
-- Interpreta las relaciones familiares en términos de costes, beneficios y reciprocidad.
-- Ayuda a comprender por qué algunas relaciones se mantienen o se debilitan.
-- Introduce nociones útiles en intervención: justicia distributiva, asimetría y endeudamiento relacional.
+- Analiza la permanencia o deterioro de relaciones según reciprocidad, costes y beneficios percibidos.
+- Aporta criterios útiles para comprender desequilibrios y dependencia en vínculos familiares.
 
 ### 1.2. Familia como sistema
 
-Desde esta perspectiva, la familia funciona como un sistema abierto en relación constante con su entorno, con capacidad de adaptación y reorganización.
+La familia se entiende como un sistema abierto: cuando cambia un miembro, cambia el conjunto.
 
 #### 1.2.1. Teoría del desarrollo familiar
 
-- Señala que la familia evoluciona por etapas y tareas evolutivas.
-- Destaca la influencia de la historia familiar y las expectativas de futuro.
-- Subraya la importancia de acompañar transiciones con apoyo educativo y orientación.
+- Explica que cada etapa del ciclo vital exige tareas evolutivas específicas.
+- Subraya la necesidad de adaptación ante transiciones y crisis.
 
 #### 1.2.2. Teoría de sistemas
 
-- Analiza normas, límites, roles y patrones de comunicación.
-- Entiende que un cambio en un miembro afecta al conjunto familiar.
-- Es clave para diseñar intervenciones centradas en relaciones y no solo en individuos.
+- Analiza estructura, límites, reglas y comunicación familiar.
+- Permite diseñar intervenciones centradas en patrones relacionales y no solo en casos individuales.
 
 #### 1.2.3. Modelos ecológicos
 
-- Sitúan a la familia dentro de redes y contextos (escuela, comunidad, políticas públicas).
-- Explican que el bienestar infantil depende de factores interconectados.
-- Refuerzan la necesidad de coordinación entre familia, escuela y servicios socioeducativos.
+El modelo ecológico conecta familia, escuela, comunidad y cultura como sistemas interdependientes.
+
+![Modelo ecológico del desarrollo](assets/internet/bronfenbrenner-ecological-theory.png)
+_Representación del modelo ecológico de Bronfenbrenner. Fuente: Wikimedia Commons._
 
 ### 1.3. Familia como construcción social
 
-Esta mirada interpreta la familia como una realidad social e histórica, configurada por valores culturales, cambios sociales y relaciones de poder.
+La familia también se configura por contextos históricos, normas culturales y relaciones de poder.
 
 #### 1.3.1. Fenomenología y construcción social de la realidad
 
-- Propone comprender cómo las familias construyen sentido en su día a día.
-- Pone el foco en la experiencia subjetiva y en la interpretación de cada situación.
-- Resulta útil para una orientación basada en escucha, diálogo y acompañamiento.
+- Sitúa la experiencia subjetiva y el significado como claves para comprender la vida familiar.
+- Favorece una orientación basada en escucha activa y comprensión contextual.
 
 #### 1.3.2. Pensamiento crítico y enfoque de género
 
-- Analiza desigualdades, estereotipos y distribución de responsabilidades de cuidado.
-- Ayuda a revisar prácticas educativas que pueden reproducir inequidades.
-- Favorece intervenciones más inclusivas y equitativas en escuela y familia.
+- Permite identificar desigualdades y estereotipos que afectan al reparto de cuidados y autoridad.
+- Refuerza prácticas educativas inclusivas y respetuosas con la diversidad.
 
 ## 2. Conceptos de familia desde la diversidad
 
-La familia no es una estructura fija. Cambia en su composición, en sus funciones y en sus relaciones internas según el momento vital y el contexto social.
-
 ### 2.1. Definición de familia y funciones
 
-La familia puede definirse como un sistema de vínculos afectivos, de cuidado y de responsabilidad compartida. Entre sus funciones principales destacan:
+La familia puede definirse como un sistema de vínculos de cuidado, socialización y apoyo mutuo. Entre sus funciones principales destacan:
 
-- Protección y cuidado.
-- Socialización y transmisión de valores.
-- Apoyo emocional y construcción de identidad.
-- Acompañamiento educativo.
+- Protección física y emocional.
+- Socialización en valores y normas.
+- Construcción de identidad y pertenencia.
+- Acompañamiento del desarrollo y del aprendizaje.
 
 ### 2.2. Tipos de familias
 
-En la realidad educativa encontramos diferentes configuraciones: nuclear, extensa, monoparental, reconstituida, homoparental, adoptiva, acogedora, entre otras. El criterio pedagógico no debe ser la forma familiar, sino su capacidad de cuidado, protección y vínculo.
+En la práctica educativa conviven diferentes configuraciones familiares: nucleares, extensas, monoparentales, reconstituidas, homoparentales, adoptivas, acogedoras y otras. El foco pedagógico debe situarse en la calidad del cuidado y en la red de apoyos, no en un modelo único de familia.
 
 ### 2.3. Ciclos vitales familiares
 
-Las familias atraviesan etapas y transiciones que generan cambios y ajustes. En estos procesos pueden aparecer crisis:
+Las familias cambian con el tiempo y atraviesan transiciones que pueden generar tensión. Se reconocen, entre otras, crisis:
 
-- Accidentales (imprevistas).
-- Vitales (ligadas al desarrollo evolutivo).
-- Estructurales (dificultades persistentes en la organización familiar).
-- De cuidado (asociadas a dependencia, enfermedad o sobrecarga).
+- Accidentales.
+- Vitales o evolutivas.
+- Estructurales.
+- De cuidado o dependencia.
 
-Comprender estas crisis permite intervenir de forma preventiva y educativa.
+Comprender estos procesos facilita la prevención y la intervención temprana desde la escuela.
 
 ### 2.4. Subsistemas familiares
 
-Los subsistemas principales son:
+Los principales subsistemas son:
 
-- Conyugal: vínculo entre adultos de la pareja.
-- Parental: relación educativa y de cuidado con hijos e hijas.
-- Fraternal: relación entre hermanos.
+- Conyugal.
+- Parental.
+- Fraternal.
 
-La calidad del funcionamiento familiar depende, en gran medida, de la existencia de **límites claros y flexibles**, que permitan autonomía, pertenencia y cooperación.
-
-![Tabla de subsistemas y límites](assets/pdf_images/tema1-031.png)
-_Tabla extraída del material base sobre límites en subsistemas familiares._
+Un funcionamiento saludable requiere límites claros, firmes y flexibles para favorecer autonomía, cooperación y sentido de pertenencia.
 
 ### 2.5. Parentalidad positiva: estilos educativos y competencias parentales
 
-La parentalidad positiva se orienta al interés superior del menor y combina afecto, guía, reconocimiento y límites adecuados. No equivale a permisividad.
+La parentalidad positiva se orienta al interés superior del menor y combina afecto, reconocimiento, guía y límites.
 
-Principios básicos:
+Principios clave:
 
-- Afecto y vínculo seguro.
-- Entorno estructurado con normas claras.
+- Afecto y seguridad emocional.
+- Entorno estructurado y predecible.
 - Estimulación y apoyo al aprendizaje.
-- Reconocimiento de necesidades y derechos.
-- Capacitación progresiva para la autonomía.
+- Comunicación y reconocimiento.
 - Educación sin violencia.
 
-Las competencias parentales incluyen flexibilidad, comunicación, resolución de problemas y uso de redes de apoyo.
+La evidencia señala que prácticas parentales positivas se asocian con mejores indicadores de desarrollo y menor riesgo de retrasos conductuales y socioemocionales.
+
+![Lectura compartida en familia](assets/internet/family-reading.jpg)
+_Interacción familiar positiva en contexto de lectura compartida. Fuente: Wikimedia Commons._
 
 ### 2.6. Diversidad familiar y escuela
 
-La escuela debe asumir la diversidad familiar como una condición estructural de la comunidad educativa, no como excepción.
+La acción tutorial debe integrar la diversidad familiar en el proyecto educativo del centro.
 
-Claves para la acción tutorial:
+Líneas de actuación recomendadas:
 
-- Evitar juicios y estereotipos sobre modelos familiares.
-- Establecer comunicación respetuosa y bidireccional con todas las familias.
-- Detectar situaciones de riesgo o vulnerabilidad de forma temprana.
-- Coordinar respuestas con orientación y recursos comunitarios.
-- Promover una cultura escolar inclusiva y corresponsable.
+- Comunicación respetuosa y bidireccional con todas las familias.
+- Detección temprana de situaciones de riesgo y vulnerabilidad.
+- Coordinación con orientación y recursos comunitarios.
+- Prevención de estereotipos y sesgos en materiales y prácticas de aula.
+- Formación docente específica en diversidad familiar.
 
-## 3. Síntesis final
+## 3. Esquema del tema
 
-- Las familias son realidades diversas y cambiantes.
-- Ninguna teoría por sí sola explica toda la complejidad familiar.
-- La parentalidad positiva mejora bienestar y desarrollo infantil cuando combina afecto y límites.
-- Los subsistemas y sus límites son clave para comprender la dinámica familiar.
-- La acción tutorial requiere enfoque inclusivo, preventivo y coordinado con la orientación familiar.
+Este esquema organiza visualmente los bloques centrales de la unidad y facilita el estudio progresivo de contenidos.
 
-## Referencias orientativas del tema
+![Esquema del Tema 1](assets/esquema/esquema-tema1.png)
+_Esquema base del Tema 1 (documento proporcionado por la asignatura)._ 
 
-- Barudy, J., y Dantagnan, M. (2009). Parentalidad y resiliencia.
-- Gracia, E., y Musitu, G. (2000). Intervención familiar y modelos teóricos.
-- Minuchin, S. (1983). Teoría estructural de la familia.
-- Rodrigo, M. J., et al. (2010; 2015). Parentalidad positiva y competencias parentales.
-- Watzlawick, P., et al. (2002). Comunicación y sistemas familiares.
+## 4. Aportes complementarios de fuentes en internet
+
+Para ampliar el tema, se incorporan marcos y recursos de referencia internacional:
+
+- Consejo de Europa: definición institucional de parentalidad positiva y apoyo al ejercicio parental.
+- CDC (Estados Unidos): guías prácticas de parentalidad positiva por etapas de desarrollo.
+- UNICEF Parenting: orientaciones para acompañamiento familiar, vínculo y bienestar infantil.
+- OMS y marco de cuidados de crianza: enfoque integral para desarrollo en primera infancia.
+
+Estos recursos refuerzan la idea de que la intervención con familias debe ser preventiva, contextualizada y basada en evidencia.
+
+## 5. Síntesis final
+
+- Las familias son realidades diversas, dinámicas y culturalmente situadas.
+- Las perspectivas teóricas permiten analizar interacciones, estructura y contexto social.
+- La parentalidad positiva combina afecto, límites y acompañamiento educativo.
+- La escuela tiene un papel clave en la inclusión de la diversidad familiar.
+- La coordinación entre familia, tutoría, orientación y comunidad mejora el desarrollo infantil.
+
+## Bibliografía básica
+
+- Álvarez-González, B., Fernández Suárez, A. P. y González-Benito, A. (2023). *Las familias: una construcción desde la diversidad* (Capítulo 1, pp. 3-50). Editorial Sanz y Torres.
+
+## Bibliografía recomendada
+
+- Álvarez González, B. (2003). *Orientación Familiar. Intervención con familias en el ámbito de la diversidad*. Sanz y Torres.
+- Aroca, C. y Cánovas, P. (2012). Los estilos educativos parentales desde los modelos interactivo y de construcción conjunta: Revisiones de las investigaciones. *Teoría de la Educación*, 24(2), 149-176.
+- Barudy, J. y Dantagnan, M. (2009). *Los buenos tratos a la infancia. Parentalidad, apego y resiliencia*. Gedisa.
+- Bertalanffy Von, L. (1976). *Teoría General de los Sistemas*. Editorial Fondo de Cultura Económica.
+- Bronfenbrenner, U. (1987). *La ecología del desarrollo humano*. Paidós.
+- Cprek, S. E., Williams, C. M., Asaolu, I., Alexander, L. A. y Vanderpool, R. C. (2015). Three positive parenting practices and their correlation with risk of childhood developmental, social, or behavioral delays: An analysis of the National Survey of Children’s Health. *Maternal and Child Health Journal*, 19(11), 2403-2411. https://doi.org/10.1007/s10995-015-1759-1
+- Crisol, E. y Romero, M. A. (2018). *Intervención psicoeducativa en educación infantil*. Síntesis.
+- Gómez, E. y Muñoz, M. M. (2014). *e2p Escala de Parentalidad Positiva*. Fundación Ideas para la Infancia.
+- Gómez Rostoll, E., y Belda Torrijos, M. (2021). Los cuentos como recurso para trabajar la diversidad familiar en Educación Infantil. *Educación y Futuro Digital*, 22, 85-104.
+- Gracia, E. y Musitu, G. (2000). *Psicología social de la familia*. Paidós.
+- Hernández, R. M. (2017). Impacto de las TIC en la educación: Retos y Perspectivas. *Propósitos y Representaciones*, 5(1), 325-347. http://dx.doi.org/10.20511/pyr2017.v5n1.149
+- Martínez, M. C., Álvarez, B. y Fernández, A. P. (2015). *Orientación Familiar. Contextos, evaluación e intervención*. Sanz y Torres.
+- Rodrigo, M. J., Máiquez, M. L., Martín, J. C., Byrne, S. y Rodríguez, B. (2015). *Manual práctico de parentalidad positiva*. Síntesis.
+- Santana, E. V. (2015). La familia del Siglo XXI. Fuente inagotable para la educación de personas. *Revista Digital A&H*, 1, 90-100.
+- Simaes, A. Ch. y Mancini, N. (2021). Parentalidad Positiva y Competencias Parentales en cuidadores primarios de niños y niñas de 0 a 3 años. *Psicología del Desarrollo*, 2, 37-48.
+- Suárez, P. A. y Vélez, M. (2018). El papel de la familia en el desarrollo social del niño: una mirada desde la afectividad, la comunicación familiar y estilos de educación parental. *Psicoespacios*, 12(20), 173-198.
+- Terradellas, M. R. (2020). Aprendizaje basado en retos y procesos co-creativos. Una oportunidad para abordar la diversidad familiar y los estereotipos de género en la formación inicial de maestros de Educación Infantil. *Ciencia, Técnica y Mainstreaming Social*, 4, 49-59.
+- Torío, S., Peña, J. V., García, O. y Inda, M. (2019). Evolución de la Parentalidad Positiva: Estudio longitudinal de los efectos de la aplicación de un programa de educación parental. *Revista Electrónica Interuniversitaria de Formación del Profesorado*, 22(3), 109-126.
+- Urdiales, I., Caurcel, M. J. y Crisol, E. (2021). La diversidad familiar desde la perspectiva de los futuros docentes de Educación Infantil: necesidades docentes. *Revista Complutense de Educación*, 32(3), 349-359.
+- Valarezo, Ch. M., Celi, S. Z., Rodríguez, D. B., y Sánchez, V. C. (2020). Caracterización general y evolución de la personalidad en la primera infancia. *Horizontes. Revista de Investigación en Ciencias de la Educación*, 4(16), 469-486.
+- Vargas, I. (2013). *Familia y Ciclo Vital Familiar*. OMS.
+- Vargas-Rubilar, J. y Arán-Filippetti, V. (2014). Importancia de la Parentalidad para el Desarrollo Cognitivo Infantil: una revisión teórica. *Revista Latinoamericana de Ciencias Sociales, Niñez y Juventud*, 12(1), 171-186.
+- Yamaoka, Y. y Bard, D. E. (2019). Positive parenting matters in the face of early adversity. *American Journal of Preventive Medicine*, 56(4), 530-539.
+
+## Fuentes en internet consultadas
+
+- Consejo de Europa. Recomendación Rec(2006)19 sobre políticas de apoyo al ejercicio positivo de la parentalidad: https://www.coe.int/en/web/children/parenting-support
+- CDC. Positive Parenting Tips: https://www.cdc.gov/parenting/
+- UNICEF Parenting: https://www.unicef.org/parenting
+- OMS. Nurturing Care Framework (primera infancia): https://nurturing-care.org/
+- DOI (artículo sobre prácticas parentales y desarrollo infantil): https://doi.org/10.1007/s10995-015-1759-1
 
 **Fecha de actualización:** 23/02/2026
