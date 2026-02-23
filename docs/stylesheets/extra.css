@@ -26,6 +26,15 @@
   font-size: 1.25rem;
 }
 
+/* Homogeneizar tamaño visual de los diagramas/tablas insertados en las unidades */
+.md-typeset img[alt^="Diagrama"] {
+  display: block;
+  width: 100%;
+  max-width: 1100px;
+  height: auto;
+  margin: 0.4rem auto 0.6rem auto;
+}
+
 /* Ajuste de ancho de contenido para mejorar legibilidad en pantallas grandes */
 @media screen and (min-width: 76.25em) {
   .md-grid {
