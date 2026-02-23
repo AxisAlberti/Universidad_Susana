@@ -75,8 +75,8 @@ La intervención en orientación familiar integra perspectivas cognitivo-conduct
 - Intervención contextualizada: adaptar estrategias a realidad sociocultural y educativa.
 - Colaboración: trabajo coordinado entre familias, profesorado y orientación.
 
-![Relación parental y acompañamiento](assets/internet/parent-child.jpg)
-_Apoyo y vínculo en la relación educativa familiar. Fuente: Wikimedia Commons._
+![Encuentro entre familias y profesorado](assets/internet/parents-teachers-meeting-2.jpg)
+_Reunión de familias y profesorado en contexto escolar. Fuente: Wikimedia Commons._
 
 ### 1.4. Orientación familiar en el ámbito escolar
 
@@ -126,23 +126,45 @@ Las tendencias actuales apuntan a modelos mixtos, intervención proactiva y trab
 ![Lectura compartida y aprendizaje familiar](assets/internet/family-reading-hour.jpg)
 _Contexto de acompañamiento educativo en familia. Fuente: Wikimedia Commons._
 
-## 3. Tablas clave extraídas del tema
+## 3. Diagramas y esquemas del tema
 
-### 3.1. Tabla 2.1. Definiciones de Orientación Familiar
+Las siguientes imágenes corresponden a los diagramas y recursos visuales del tema 2 y se incorporan como apoyo directo al estudio.
 
-![](assets/pdf_tables/tabla-2-1.png)
+![Diagrama 1 del tema 2](assets/imagenes/diagrama-u02-01.png)
+_Diagrama 1 del tema 2._
 
-### 3.2. Tabla 2.2. Diferencias entre orientación familiar, mediación y terapia
+![Diagrama 2 del tema 2](assets/imagenes/diagrama-u02-02.png)
+_Diagrama 2 del tema 2._
 
-![](assets/pdf_tables/tabla-2-2.png)
+![Diagrama 3 del tema 2](assets/imagenes/diagrama-u02-03.png)
+_Diagrama 3 del tema 2._
 
-### 3.3. Tabla 2.3. Ejemplos de programas de orientación familiar
+![Diagrama 4 del tema 2](assets/imagenes/diagrama-u02-04.png)
+_Diagrama 4 del tema 2._
 
-![](assets/pdf_tables/tabla-2-3.png)
+![Diagrama 5 del tema 2](assets/imagenes/diagrama-u02-05.png)
+_Diagrama 5 del tema 2._
 
-### 3.4. Tabla 2.4. Dimensiones y polos del modelo educativo constructivista
+![Diagrama 6 del tema 2](assets/imagenes/diagrama-u02-06.png)
+_Diagrama 6 del tema 2._
 
-![](assets/pdf_tables/tabla-2-4.png)
+![Diagrama 7 del tema 2](assets/imagenes/diagrama-u02-07.png)
+_Diagrama 7 del tema 2._
+
+![Diagrama 8 del tema 2](assets/imagenes/diagrama-u02-08.png)
+_Diagrama 8 del tema 2._
+
+![Diagrama 9 del tema 2](assets/imagenes/diagrama-u02-09.png)
+_Diagrama 9 del tema 2._
+
+![Diagrama 10 del tema 2](assets/imagenes/diagrama-u02-10.png)
+_Diagrama 10 del tema 2._
+
+![Diagrama 11 del tema 2](assets/imagenes/diagrama-u02-11.png)
+_Diagrama 11 del tema 2._
+
+![Diagrama 12 del tema 2](assets/imagenes/diagrama-u02-12.png)
+_Diagrama 12 del tema 2._
 
 ## 4. Aportes complementarios de fuentes en internet
 
@@ -159,7 +181,7 @@ Estos recursos consolidan la idea de una orientación familiar basada en evidenc
 - La orientación familiar es una disciplina científica y aplicada con función preventiva, educativa y de apoyo al desarrollo.
 - Los modelos de intervención ofrecen marcos complementarios y su combinación mejora la eficacia en contextos reales.
 - El ámbito escolar exige coordinación estable entre tutoría, orientación y familias.
-- Las tablas del tema permiten comparar enfoques y tomar decisiones fundamentadas.
+- Los diagramas y esquemas del tema permiten comparar enfoques y tomar decisiones fundamentadas.
 - Las tendencias actuales priorizan intervención proactiva, trabajo colaborativo y uso pedagógico de tecnologías.
 
 ## Referencias básicas del tema
@@ -177,7 +199,7 @@ Estos recursos consolidan la idea de una orientación familiar basada en evidenc
 - Campus FAD. En familia: educar para la vida: https://www.campusfad.org/programa/en-familia-educar-para-la-vida/
 - Wikimedia Commons (imágenes de apoyo):
   - https://commons.wikimedia.org/wiki/File:Parent_teacher_meeting_at_the_Baozhong_Junior_High_School_20120411.jpg
-  - https://commons.wikimedia.org/wiki/File:Parent_and_Child_-_geograph.org.uk_-_1806962.jpg
+  - https://commons.wikimedia.org/wiki/File:Parents_Teachers_Meeting_in_Jabarrah_High_School,_purulia,_west_bengal.jpg
   - https://commons.wikimedia.org/wiki/File:Family_Reading_Hour.jpg
 
 **Fecha de actualización:** 23/02/2026
