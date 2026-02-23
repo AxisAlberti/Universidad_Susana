@@ -45,34 +45,26 @@
   margin: 0.4rem auto 0.6rem auto;
 }
 
-/* Ajuste de ancho de contenido para mejorar legibilidad en pantallas grandes */
-@media screen and (min-width: 76.25em) {
-  .md-grid {
-    max-width: 88rem;
-  }
-
-  .md-content {
-    max-width: 70rem;
-  }
-
-  .md-typeset {
-    max-width: 68rem;
-  }
+/* Usar todo el ancho disponible de pantalla */
+.md-grid {
+  max-width: 100% !important;
 }
 
-/* En pantallas muy grandes, ampliar un poco más sin perder confort de lectura */
-@media screen and (min-width: 120em) {
-  .md-grid {
-    max-width: 96rem;
-  }
+.md-main__inner {
+  max-width: 100%;
+}
 
-  .md-content {
-    max-width: 76rem;
-  }
+.md-content {
+  max-width: 100%;
+}
 
-  .md-typeset {
-    max-width: 72rem;
-  }
+.md-content__inner {
+  max-width: 100%;
+  margin: 0 1rem;
+}
+
+.md-typeset {
+  max-width: 100%;
 }
 
 /* Mantener márgenes razonables en móvil */
@@ -87,6 +79,6 @@
   }
 
   .md-content__inner {
-    margin: 0 0.6rem;
+    margin: 0 0.5rem;
   }
 }
