@@ -221,6 +221,16 @@ Aplicado a los modelos estudiados en esta unidad:
 - Los diagramas y esquemas del tema permiten comparar enfoques y tomar decisiones fundamentadas.
 - Las tendencias actuales priorizan intervención proactiva, trabajo colaborativo y uso pedagógico de tecnologías.
 
+## 5. Anexos de la unidad
+
+### 5.1. Construir lo cotidiano: un programa de educación parental (2013)
+
+- [Abrir anexo 1 (PDF)](../anexos/Construir-lo-cotidiano-programa-educacion-parental-2013.pdf)
+
+### 5.2. Programa-guía para el desarrollo de competencias emocionales, educativas y parentales (2009)
+
+- [Abrir anexo 2 (PDF)](../anexos/Programa-guia-competencias-emocionales-educativas-parentales-2009.pdf)
+
 ## Referencias básicas del tema
 
 - Álvarez González, B. (2003). *Orientación Familiar. Intervención familiar en el ámbito de la diversidad*. Sanz y Torres.
