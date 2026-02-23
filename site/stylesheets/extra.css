@@ -1,11 +1,11 @@
 /* Aumentar ligeramente el tamaño de letra global para mejorar legibilidad */
 :root {
-  font-size: 112%;
+  font-size: 128%;
 }
 
 .md-typeset {
-  font-size: 1rem;
-  line-height: 1.72;
+  font-size: 1.1rem !important;
+  line-height: 1.76 !important;
 }
 
 /* Unificar tamaño de texto en todos los apuntes al mismo cuerpo base */
@@ -14,25 +14,36 @@
 .md-typeset table:not([class]),
 .md-typeset table:not([class]) th,
 .md-typeset table:not([class]) td {
-  font-size: inherit !important;
+  font-size: 1.1rem !important;
 }
 
 .md-nav,
 .md-tabs__link,
 .md-search__input {
-  font-size: 1rem;
+  font-size: 1.08rem !important;
+}
+
+.md-nav__link,
+.md-nav__title,
+.md-sidebar .md-nav__title,
+.md-sidebar .md-nav__link,
+.md-sidebar--secondary .md-nav__link,
+.md-tabs__link,
+.md-header__topic,
+.md-search__input {
+  font-size: 1.08rem !important;
 }
 
 .md-typeset h1 {
-  font-size: 2.1rem;
+  font-size: 2.35rem !important;
 }
 
 .md-typeset h2 {
-  font-size: 1.75rem;
+  font-size: 1.95rem !important;
 }
 
 .md-typeset h3 {
-  font-size: 1.4rem;
+  font-size: 1.55rem !important;
 }
 
 .md-typeset table:not([class]) th,
@@ -43,8 +54,8 @@
 /* Objetivos de aprendizaje al mismo tamaño exacto que el texto base */
 .md-typeset :is(h2, h3)[id^="objetivos-de-aprendizaje"] + ul,
 .md-typeset :is(h2, h3)[id^="objetivos-de-aprendizaje"] + ol {
-  font-size: 1rem !important;
-  line-height: 1.72 !important;
+  font-size: 1.1rem !important;
+  line-height: 1.76 !important;
 }
 
 /* Vocabulario clave al mismo tamaño exacto que el texto base */
@@ -52,8 +63,8 @@
 .md-typeset :is(h2, h3)[id^="vocabulario-clave"] + .md-typeset__table table,
 .md-typeset :is(h2, h3)[id^="vocabulario-clave"] + .md-typeset__table table th,
 .md-typeset :is(h2, h3)[id^="vocabulario-clave"] + .md-typeset__table table td {
-  font-size: 1rem !important;
-  line-height: 1.72 !important;
+  font-size: 1.1rem !important;
+  line-height: 1.76 !important;
 }
 
 /* Tabla 2.2 sin huecos entre partes */
@@ -109,12 +120,12 @@
 /* Mantener márgenes razonables en móvil */
 @media screen and (max-width: 44.9375em) {
   :root {
-    font-size: 106%;
+    font-size: 120%;
   }
 
   .md-typeset {
-    font-size: 0.98rem;
-    line-height: 1.7;
+    font-size: 1.02rem !important;
+    line-height: 1.72 !important;
   }
 
   .md-content__inner {
