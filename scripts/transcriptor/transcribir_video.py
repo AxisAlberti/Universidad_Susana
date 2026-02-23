@@ -1148,24 +1148,48 @@ def transcribir_video(config: TranscriptionConfig, progress: ProgressTracker) ->
     with suppress_external_output():
         model = whisper.load_model(config.model)
     progress.update(55, stage="Transcripcion", detail="Procesando audio del video")
-    original_tqdm_fn = whisper_transcribe_module.tqdm.tqdm
-    whisper_transcribe_module.tqdm.tqdm = (
-        lambda iterable=None, *args, **kwargs: _RealtimeTqdm(
-            iterable=iterable,
-            total=kwargs.get("total"),
-            progress=progress,
+
+    def _transcribe_primary() -> dict[str, Any]:
+        original_tqdm_fn = whisper_transcribe_module.tqdm.tqdm
+        whisper_transcribe_module.tqdm.tqdm = (
+            lambda iterable=None, *args, **kwargs: _RealtimeTqdm(
+                iterable=iterable,
+                total=kwargs.get("total"),
+                progress=progress,
+            )
         )
-    )
+        try:
+            # Sin suppress para permitir progreso en tiempo real.
+            return model.transcribe(
+                str(config.video_path),
+                language=config.language,
+                task="transcribe",
+                verbose=False,
+            )
+        finally:
+            whisper_transcribe_module.tqdm.tqdm = original_tqdm_fn
+
+    def _transcribe_fallback() -> dict[str, Any]:
+        # Metodo alternativo robusto: transcripcion estandar sin parche de tqdm.
+        with suppress_external_output():
+            return model.transcribe(
+                str(config.video_path),
+                language=config.language,
+                task="transcribe",
+                verbose=False,
+            )
+
     try:
-        # No se envuelve en suppress_external_output para permitir progreso real del callback.
-        result = model.transcribe(
-            str(config.video_path),
-            language=config.language,
-            task="transcribe",
-            verbose=False,
+        result = _transcribe_primary()
+    except Exception as exc:  # noqa: BLE001
+        progress.update(
+            58,
+            stage="Transcripcion",
+            detail="Fallo metodo principal; activando metodo alternativo",
         )
-    finally:
-        whisper_transcribe_module.tqdm.tqdm = original_tqdm_fn
+        LOGGER.warning("Fallo en metodo principal de transcripcion: %s", exc)
+        result = _transcribe_fallback()
+
     progress.update(80, stage="Postproceso", detail="Generando salidas")
     output_paths = build_output_paths(config)
     total_outputs = len(output_paths) + (1 if config.analyze and config.analysis_output is not None else 0) + (1 if config.generate_notes and config.notes_output is not None else 0)
