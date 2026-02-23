@@ -22,6 +22,7 @@ tags:
 La orientación familiar es un ámbito esencial de la orientación educativa, porque permite intervenir de forma planificada ante necesidades de desarrollo, prevención y apoyo en las relaciones entre familia, escuela y comunidad. Esta unidad presenta el marco conceptual y los principales modelos de intervención para fundamentar una práctica profesional rigurosa y contextualizada.
 
 ![Reunión familia-escuela](assets/internet/parent-teacher-meeting.jpg)
+
 _Encuentro entre familias y centro educativo. Fuente: Wikimedia Commons._
 
 ## Objetivos de aprendizaje
@@ -56,6 +57,14 @@ Funciones principales:
 - Facilitar la toma de decisiones y la resolución de problemas.
 - Fortalecer la colaboración entre familia y escuela.
 
+![Diagrama 1 del tema 2](assets/imagenes/diagrama-u02-01.png)
+
+**Figura 1.** Definiciones y marco conceptual de la orientación familiar.
+
+![Diagrama 2 del tema 2](assets/imagenes/diagrama-u02-02.png)
+
+**Figura 2.** Síntesis comparada de aportaciones teóricas sobre orientación familiar.
+
 ### 1.2. Niveles de intervención
 
 El tema distingue tres niveles complementarios:
@@ -66,6 +75,10 @@ El tema distingue tres niveles complementarios:
 
 Cada nivel exige objetivos, técnicas y profesionales específicos, pero todos comparten la finalidad de mejorar bienestar, convivencia y desarrollo.
 
+![Diagrama 3 del tema 2](assets/imagenes/diagrama-u02-03.png)
+
+**Figura 3.** Niveles de intervención en orientación familiar.
+
 ### 1.3. Perspectivas y principios
 
 La intervención en orientación familiar integra perspectivas cognitivo-conductuales, sociales y sistémicas. Sobre esa base, se sostienen principios clave:
@@ -75,7 +88,12 @@ La intervención en orientación familiar integra perspectivas cognitivo-conduct
 - Intervención contextualizada: adaptar estrategias a realidad sociocultural y educativa.
 - Colaboración: trabajo coordinado entre familias, profesorado y orientación.
 
+![Diagrama 4 del tema 2](assets/imagenes/diagrama-u02-04.png)
+
+**Figura 4.** Perspectivas y principios de la intervención orientadora.
+
 ![Encuentro entre familias y profesorado](assets/internet/parents-teachers-meeting-2.jpg)
+
 _Reunión de familias y profesorado en contexto escolar. Fuente: Wikimedia Commons._
 
 ### 1.4. Orientación familiar en el ámbito escolar
@@ -89,15 +107,31 @@ Claves de implementación:
 - Coordinar respuestas en situaciones de riesgo socioeducativo.
 - Promover participación familiar desde una lógica de corresponsabilidad.
 
+![Diagrama 5 del tema 2](assets/imagenes/diagrama-u02-05.png)
+
+**Figura 5.** Evolución y ámbitos de la orientación familiar en la escuela.
+
+![Diagrama 6 del tema 2](assets/imagenes/diagrama-u02-06.png)
+
+**Figura 6.** Organización de la intervención familiar en centros educativos.
+
 ## 2. Modelos de intervención en orientación familiar
 
 ### 2.1. Modelo de Counseling
 
 Se centra en la relación de ayuda y en el acompañamiento individualizado para clarificar problemas, explorar alternativas y favorecer decisiones ajustadas. Es especialmente útil cuando la familia necesita apoyo focalizado.
 
+![Diagrama 7 del tema 2](assets/imagenes/diagrama-u02-07.png)
+
+**Figura 7.** Fases básicas del modelo de Counseling.
+
 ### 2.2. Modelo de Consulta
 
 El orientador asesora a otros agentes educativos (tutores, equipos directivos, profesorado, familias) para mejorar la intervención indirecta con alumnado y entorno familiar. Es un modelo clave en centros educativos por su potencial multiplicador.
+
+![Diagrama 8 del tema 2](assets/imagenes/diagrama-u02-08.png)
+
+**Figura 8.** Esquema funcional del modelo de Consulta.
 
 ### 2.3. Modelo de Servicios
 
@@ -107,76 +141,75 @@ Organiza la intervención desde servicios especializados con funciones definidas
 
 Estructura la intervención en fases: análisis de necesidades, formulación de objetivos, diseño, ejecución y evaluación. Permite continuidad, seguimiento y medición de impacto.
 
+![Diagrama 9 del tema 2](assets/imagenes/diagrama-u02-09.png)
+
+**Figura 9.** Secuencia de diseño y evaluación del modelo de Programas.
+
 ### 2.5. Modelo de Servicios actuando por Programas
 
 Combina la especialización de servicios con la lógica planificada de programas. Favorece una intervención más sistémica y sostenible al articular recursos, objetivos y evaluación.
+
+![Diagrama 10 del tema 2](assets/imagenes/diagrama-u02-10.png)
+
+**Figura 10.** Integración entre servicios y programas en orientación familiar.
 
 ### 2.6. Modelo Tecnológico
 
 Integra recursos TIC para información, seguimiento, comunicación y formación familiar. Su eficacia depende del diseño pedagógico, la accesibilidad y el uso ético de los datos.
 
+![Diagrama 11 del tema 2](assets/imagenes/diagrama-u02-11.png)
+
+**Figura 11.** Aplicaciones del modelo tecnológico en orientación familiar.
+
 ### 2.7. Modelo Educativo Constructivista
 
 Prioriza la intervención colaborativa, preventiva y contextualizada. El orientador actúa como profesional experto-colaborador, promoviendo corresponsabilidad entre agentes educativos y construcción compartida de soluciones.
+
+![Diagrama 12 del tema 2](assets/imagenes/diagrama-u02-12.png)
+
+**Figura 12.** Dimensiones del modelo educativo constructivista.
 
 ### 2.8. Tendencias actuales
 
 Las tendencias actuales apuntan a modelos mixtos, intervención proactiva y trabajo interprofesional en red. El enfoque preventivo y la coordinación familia-escuela-servicios comunitarios son elementos nucleares.
 
 ![Lectura compartida y aprendizaje familiar](assets/internet/family-reading-hour.jpg)
+
 _Contexto de acompañamiento educativo en familia. Fuente: Wikimedia Commons._
 
-## 3. Diagramas y esquemas del tema
-
-Las siguientes imágenes corresponden a los diagramas y recursos visuales del tema 2 y se incorporan como apoyo directo al estudio.
-
-![Diagrama 1 del tema 2](assets/imagenes/diagrama-u02-01.png)
-_Diagrama 1 del tema 2._
-
-![Diagrama 2 del tema 2](assets/imagenes/diagrama-u02-02.png)
-_Diagrama 2 del tema 2._
-
-![Diagrama 3 del tema 2](assets/imagenes/diagrama-u02-03.png)
-_Diagrama 3 del tema 2._
-
-![Diagrama 4 del tema 2](assets/imagenes/diagrama-u02-04.png)
-_Diagrama 4 del tema 2._
-
-![Diagrama 5 del tema 2](assets/imagenes/diagrama-u02-05.png)
-_Diagrama 5 del tema 2._
-
-![Diagrama 6 del tema 2](assets/imagenes/diagrama-u02-06.png)
-_Diagrama 6 del tema 2._
-
-![Diagrama 7 del tema 2](assets/imagenes/diagrama-u02-07.png)
-_Diagrama 7 del tema 2._
-
-![Diagrama 8 del tema 2](assets/imagenes/diagrama-u02-08.png)
-_Diagrama 8 del tema 2._
-
-![Diagrama 9 del tema 2](assets/imagenes/diagrama-u02-09.png)
-_Diagrama 9 del tema 2._
-
-![Diagrama 10 del tema 2](assets/imagenes/diagrama-u02-10.png)
-_Diagrama 10 del tema 2._
-
-![Diagrama 11 del tema 2](assets/imagenes/diagrama-u02-11.png)
-_Diagrama 11 del tema 2._
-
-![Diagrama 12 del tema 2](assets/imagenes/diagrama-u02-12.png)
-_Diagrama 12 del tema 2._
-
-## 4. Aportes complementarios de fuentes en internet
+## 3. Aportes complementarios de fuentes en internet
 
 Para ampliar el tema y actualizar su aplicabilidad, se incorporan referencias institucionales y académicas sobre parentalidad positiva, apoyo familiar y orientación educativa:
 
 - Consejo de Europa: marco de apoyo al ejercicio positivo de la parentalidad.
 - Campus FAD: recursos de intervención preventiva y formación para familias.
 - Artículos con DOI sobre orientación educativa, intervención familiar y modelos de prevención.
+- UNICEF: marcos globales para sistemas universales de apoyo a la parentalidad.
+- OMS: evidencia sobre cuidado sensible y programas de parentalidad para prevenir violencia y mejorar desarrollo.
+- OECD: relación entre apoyo parental, apoyo docente y estrategias de aprendizaje sostenido.
+- UNESCO: recomendaciones para fortalecer alianzas familia-escuela-comunidad.
 
 Estos recursos consolidan la idea de una orientación familiar basada en evidencia, prevención y corresponsabilidad educativa.
 
-## 5. Síntesis final
+### 3.1. Hallazgos clave para la práctica profesional
+
+La literatura internacional reciente coincide en cuatro ideas que refuerzan la intervención en orientación familiar:
+
+- Universalidad con intensidad graduada: los sistemas más eficaces combinan apoyo universal para todas las familias con medidas focalizadas e intensivas para situaciones de mayor vulnerabilidad.
+- Parentalidad como factor protector: mejorar competencias parentales y reducir el estrés cuidador se asocia con mejores resultados en desarrollo socioemocional y conductual infantil.
+- Coordinación intersectorial: salud, educación, servicios sociales y comunidad deben compartir objetivos, canales de derivación y seguimiento.
+- Alianza familia-escuela sostenida: la interacción habitual entre familias y profesorado mejora motivación, aprendizaje autorregulado y permanencia educativa.
+
+### 3.2. Implicaciones para la Unidad 02
+
+Aplicado a los modelos estudiados en esta unidad:
+
+- El modelo de programas permite estructurar apoyos universales con evaluación de impacto.
+- El modelo de consulta facilita coordinación real entre orientadores, tutoría y equipos docentes.
+- El modelo tecnológico puede ampliar cobertura y seguimiento, siempre con criterios de accesibilidad y ética.
+- El enfoque constructivista aporta un marco colaborativo para co-construir soluciones con las familias, en lugar de intervenir de forma unilateral.
+
+## 4. Síntesis final
 
 - La orientación familiar es una disciplina científica y aplicada con función preventiva, educativa y de apoyo al desarrollo.
 - Los modelos de intervención ofrecen marcos complementarios y su combinación mejora la eficacia en contextos reales.
@@ -191,12 +224,23 @@ Estos recursos consolidan la idea de una orientación familiar basada en evidenc
 - Vélaz de Medrano, C. (1998). *Orientación e intervención psicopedagógica: concepto, modelos, programas y evaluación*. Aljibe.
 - Repetto, E. (2002). *Modelos de orientación e intervención psicopedagógica*. UNED.
 - Bisquerra, R. (2006). Orientación psicopedagógica y educación emocional. *Estudios sobre Educación*, 11, 9-25.
+- OECD (2024). *PISA 2022 Results (Volume V): Learning strategies, and parental and teacher support*.
+- UNICEF (2025). *Global Parenting Support Framework*.
+- UNICEF (2025). *Seeds of Success: Nurturing Young Children through Parenting Support*.
+- WHO (Parenting for Lifelong Health / Nurturing Care). Marcos de apoyo a parentalidad y desarrollo infantil temprano.
 
 ## Fuentes en internet consultadas
 
 - Consejo de Europa. Apoyo al ejercicio positivo de la parentalidad: https://www.coe.int/en/web/children/parenting-support
 - Campus FAD. Recursos para familias: https://www.campusfad.org/descargas/familias/
 - Campus FAD. En familia: educar para la vida: https://www.campusfad.org/programa/en-familia-educar-para-la-vida/
+- UNICEF. Global Parenting Support Framework: https://www.unicef.org/documents/global-parenting-support-framework
+- UNICEF. Seeds of Success (2025): https://www.unicef.org/reports/seeds-success-nurturing-young-children-through-parenting-support
+- UNICEF. Support for parenting: https://www.unicef.org/support-parenting
+- WHO. Parenting for Lifelong Health: https://www.who.int/teams/social-determinants-of-health/parenting-for-lifelong-health/young-children
+- WHO. Nurturing care for early childhood development: https://www.who.int/teams/maternal-newborn-child-adolescent-health-and-ageing/child-health/nurturing-care
+- OECD. PISA 2022 Results (Volume V): https://www.oecd.org/en/publications/pisa-2022-results-volume-v_c2e44201-en/full-report/component-13.html
+- UNESCO SDG4. Family-school-community partnerships: https://www.unesco.org/sdg4education2030/en/knowledge-hub/building-partnerships-where-families-schools-and-communities-stand-together-sierra-leone
 - Wikimedia Commons (imágenes de apoyo):
   - https://commons.wikimedia.org/wiki/File:Parent_teacher_meeting_at_the_Baozhong_Junior_High_School_20120411.jpg
   - https://commons.wikimedia.org/wiki/File:Parents_Teachers_Meeting_in_Jabarrah_High_School,_purulia,_west_bengal.jpg
