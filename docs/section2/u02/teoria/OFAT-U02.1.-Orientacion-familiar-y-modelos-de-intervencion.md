@@ -50,6 +50,14 @@ _Encuentro entre familias y centro educativo. Fuente: Wikimedia Commons._
 
 La orientación familiar puede definirse como una disciplina científica y profesional orientada a facilitar el desarrollo positivo de las personas vinculadas por relaciones familiares, a lo largo del ciclo vital y en distintos contextos de convivencia.
 
+![Diagrama 1 del tema 2](assets/imagenes/diagrama-u02-01.png)
+
+**Tabla 2.1 (parte 1).** Definiciones de orientación familiar.
+
+![Diagrama 2 del tema 2](assets/imagenes/diagrama-u02-02.png)
+
+**Tabla 2.1 (parte 2).** Definiciones de orientación familiar.
+
 Funciones principales:
 
 - Optimizar el desarrollo personal y familiar.
@@ -57,13 +65,29 @@ Funciones principales:
 - Facilitar la toma de decisiones y la resolución de problemas.
 - Fortalecer la colaboración entre familia y escuela.
 
-![Diagrama 1 del tema 2](assets/imagenes/diagrama-u02-01.png)
+![Diagrama 7 del tema 2](assets/imagenes/diagrama-u02-07.png)
 
-**Figura 1.** Definiciones y marco conceptual de la orientación familiar.
+**Figura 2.1.** Funciones relevantes de la orientación familiar.
 
-![Diagrama 2 del tema 2](assets/imagenes/diagrama-u02-02.png)
+#### 1.1.1. Diferencias entre orientación familiar, mediación y terapia
 
-**Figura 2.** Síntesis comparada de aportaciones teóricas sobre orientación familiar.
+Para evitar confusiones en la práctica profesional, es importante diferenciar estos tres marcos de intervención.
+
+![Diagrama 3 del tema 2](assets/imagenes/diagrama-u02-03.png)
+
+**Tabla 2.2 (parte 1).** Diferencias entre orientación familiar, mediación y terapia.
+
+![Diagrama 4 del tema 2](assets/imagenes/diagrama-u02-04.png)
+
+**Tabla 2.2 (parte 2).** Diferencias entre orientación familiar, mediación y terapia.
+
+![Diagrama 5 del tema 2](assets/imagenes/diagrama-u02-05.png)
+
+**Tabla 2.2 (parte 3).** Diferencias entre orientación familiar, mediación y terapia.
+
+![Diagrama 6 del tema 2](assets/imagenes/diagrama-u02-06.png)
+
+**Tabla 2.2 (parte 4).** Diferencias entre orientación familiar, mediación y terapia.
 
 ### 1.2. Niveles de intervención
 
@@ -75,10 +99,6 @@ El tema distingue tres niveles complementarios:
 
 Cada nivel exige objetivos, técnicas y profesionales específicos, pero todos comparten la finalidad de mejorar bienestar, convivencia y desarrollo.
 
-![Diagrama 3 del tema 2](assets/imagenes/diagrama-u02-03.png)
-
-**Figura 3.** Niveles de intervención en orientación familiar.
-
 ### 1.3. Perspectivas y principios
 
 La intervención en orientación familiar integra perspectivas cognitivo-conductuales, sociales y sistémicas. Sobre esa base, se sostienen principios clave:
@@ -87,10 +107,6 @@ La intervención en orientación familiar integra perspectivas cognitivo-conduct
 - Desarrollo: potenciar recursos y fortalezas familiares.
 - Intervención contextualizada: adaptar estrategias a realidad sociocultural y educativa.
 - Colaboración: trabajo coordinado entre familias, profesorado y orientación.
-
-![Diagrama 4 del tema 2](assets/imagenes/diagrama-u02-04.png)
-
-**Figura 4.** Perspectivas y principios de la intervención orientadora.
 
 ![Encuentro entre familias y profesorado](assets/internet/parents-teachers-meeting-2.jpg)
 
@@ -107,13 +123,9 @@ Claves de implementación:
 - Coordinar respuestas en situaciones de riesgo socioeducativo.
 - Promover participación familiar desde una lógica de corresponsabilidad.
 
-![Diagrama 5 del tema 2](assets/imagenes/diagrama-u02-05.png)
+![Diagrama 9 del tema 2](assets/imagenes/diagrama-u02-09.png)
 
-**Figura 5.** Evolución y ámbitos de la orientación familiar en la escuela.
-
-![Diagrama 6 del tema 2](assets/imagenes/diagrama-u02-06.png)
-
-**Figura 6.** Organización de la intervención familiar en centros educativos.
+**Figura 2.3.** Mapa global del sistema de intervención orientadora.
 
 ## 2. Modelos de intervención en orientación familiar
 
@@ -121,9 +133,9 @@ Claves de implementación:
 
 Se centra en la relación de ayuda y en el acompañamiento individualizado para clarificar problemas, explorar alternativas y favorecer decisiones ajustadas. Es especialmente útil cuando la familia necesita apoyo focalizado.
 
-![Diagrama 7 del tema 2](assets/imagenes/diagrama-u02-07.png)
+![Diagrama 10 del tema 2](assets/imagenes/diagrama-u02-10.png)
 
-**Figura 7.** Fases básicas del modelo de Counseling.
+**Figura 2.4.** Relación básica entre consultor, consultante y persona orientada en el modelo de Counseling.
 
 ### 2.2. Modelo de Consulta
 
@@ -131,7 +143,7 @@ El orientador asesora a otros agentes educativos (tutores, equipos directivos, p
 
 ![Diagrama 8 del tema 2](assets/imagenes/diagrama-u02-08.png)
 
-**Figura 8.** Esquema funcional del modelo de Consulta.
+**Figura 2.5.** Sistema directo e indirecto de intervención en el modelo de Consulta.
 
 ### 2.3. Modelo de Servicios
 
@@ -141,33 +153,25 @@ Organiza la intervención desde servicios especializados con funciones definidas
 
 Estructura la intervención en fases: análisis de necesidades, formulación de objetivos, diseño, ejecución y evaluación. Permite continuidad, seguimiento y medición de impacto.
 
-![Diagrama 9 del tema 2](assets/imagenes/diagrama-u02-09.png)
+![Diagrama 12 del tema 2](assets/imagenes/diagrama-u02-12.png)
 
-**Figura 9.** Secuencia de diseño y evaluación del modelo de Programas.
+**Tabla 2.3.** Ejemplo de evaluación inicial, de proceso y final en programas de orientación familiar.
 
 ### 2.5. Modelo de Servicios actuando por Programas
 
 Combina la especialización de servicios con la lógica planificada de programas. Favorece una intervención más sistémica y sostenible al articular recursos, objetivos y evaluación.
 
-![Diagrama 10 del tema 2](assets/imagenes/diagrama-u02-10.png)
-
-**Figura 10.** Integración entre servicios y programas en orientación familiar.
-
 ### 2.6. Modelo Tecnológico
 
 Integra recursos TIC para información, seguimiento, comunicación y formación familiar. Su eficacia depende del diseño pedagógico, la accesibilidad y el uso ético de los datos.
-
-![Diagrama 11 del tema 2](assets/imagenes/diagrama-u02-11.png)
-
-**Figura 11.** Aplicaciones del modelo tecnológico en orientación familiar.
 
 ### 2.7. Modelo Educativo Constructivista
 
 Prioriza la intervención colaborativa, preventiva y contextualizada. El orientador actúa como profesional experto-colaborador, promoviendo corresponsabilidad entre agentes educativos y construcción compartida de soluciones.
 
-![Diagrama 12 del tema 2](assets/imagenes/diagrama-u02-12.png)
+![Diagrama 11 del tema 2](assets/imagenes/diagrama-u02-11.png)
 
-**Figura 12.** Dimensiones del modelo educativo constructivista.
+**Tabla 2.4.** Dimensiones y polos del modelo educativo constructivista.
 
 ### 2.8. Tendencias actuales
 
