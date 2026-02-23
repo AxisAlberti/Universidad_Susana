@@ -203,6 +203,10 @@ Estos recursos refuerzan la idea de que la intervención con familias debe ser p
 
 - [Abrir anexo 2 (PDF)](../anexos/Parentalidad-positiva-ganar-salud-y-bienestar-0-3-guia-talleres.pdf)
 
+### 6.3. Parentalidad positiva: cómo trabajar los estilos educativos en la familia
+
+- [Abrir anexo 3 (MD)](../anexos/Parentalidad-positiva-como-trabajar-los-estilos-educativos-en-la-familia.md)
+
 ## Bibliografía básica
 
 - Álvarez-González, B., Fernández Suárez, A. P. y González-Benito, A. (2023). *Las familias: una construcción desde la diversidad* (Capítulo 1, pp. 3-50). Editorial Sanz y Torres.

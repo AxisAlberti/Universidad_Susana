@@ -1,0 +1,41 @@
+# Transcripcion de video
+
+## Metadatos
+- **Titulo:** video
+- **Archivo:** `video.mp4`
+- **Modelo:** `Whisper base`
+- **Idioma:** `es`
+- **Generado:** `2026-02-23 10:35:43`
+
+## Texto transcrito
+
+¡Hoppe! ¡Ay! ¡Papa no puede atarme los cordones!
+No es tan difícil. Sí que lo es. Nos algo estarás haciendo mal.
+¡No es tan difícil! ¡No es tan difícil! ¡No es tan difícil!
+¡No es tan difícil! ¡No es tan difícil! ¡No es tan difícil!
+¡No es tan difícil! Nos algo estarás haciendo mal. ¡No se atarme los están mal hechos!
+Ya eres bastante mayor para saber atarte a los cordones ¿no crees? No lo sé. Dime cómo se hace y no te lo vuelvo a preguntar.
+Estoy mi ocupado para tu enterías. Preguntar a tu madre. Pues no me pongo en la parte.
+¿Cómo quedas? ¿Tú sabrás? En el estilo negligente, padres y madres actúan mostrando un bajo grado de afecto y de comunicación.
+Ejercen una baja imposición o control y delegan su responsabilidad parental. Como resultado, hijos y hijas pueden buscar el apoyo en otras personas, presentar carencias en habilidades sociales básicas o presentar cierta ansiedad e inseguridad personal. Es que no sabes atarte las zapatillas.
+Será que tenemos explicado pocas veces Daniel. Sí que sé, pero es que estos no se pueden cojar bien. Son cortos.
+¿Qué tonterías dices? Son los de siempre. Deja de hacer el ton tío a unos ya.
+Si lo quieres que me enfade. Ya sabes lo que pasa cuando no haces caso. Si lo estoy intentando de verdad, pero son cortos.
+Yo a tu edad sabía vestirme solo perfectamente. Pero sí sí, papá, pero no puedo cogerlos bien. Daniel, como te lo sate yo vas a tener problemas.
+Y si me ayudamos más. No has entendido absolutamente nada. Quiero que lo hagas tu solito.
+Ya tienes edad de sobra para ello. Que no puedo dar de verdad, yo quiero. Bastaya de quejarte de hacer el tonto.
+Tenemos explicado cientos de veces. ¿Y no eres tan tonto verdad? Vamos.
+En el estilo autoritario, padres y madres actúan con un bajo grado de afecto y de comunicación. Ejercen un alto control o imposición con normas y consecuencias muy claras. Como resultado, hijos y hijas cumple en las normas sin entender su sentido.
+También pueden presentar una baja autoestima, agresividad, su misión o rebeldía. Y pueden mostrarse conformistas, poco creativos, con poco autonomía y requerir mucho control externo. Puedes o te ayudo.
+Bueno, puedo. Seguro. Que sí, que sí.
+Anda, déjame. ¿Qué andes muy pequeño para esto? No, que yo puedo de verdad.
+No ves que no. Déjame la reglamos a seguida. ¿Es que fácil?
+Sí, bueno. Ven, vamos. En el estilo sobre protector, padres y madres actúan con un alto grado de afecto y comunicación.
+Ejercen un bajo control o imposición sin permitir ensayar conductas de forma autónoma. Como resultado, hijos y hijas pueden presentar inmadurez o inseguridad, mostrándose dependientes y poco persistentes. ¿Qué pasa, Dani?
+¿Necesitas ayuda? No sé qué pasa el otro día lo hice solo. Sí, a TV.
+Venga, intenta la otra vez. Ayuda, mi. Bueno.
+Pero yo te atro el derecho y luego después tú te atas al izquierdo, ¿eh? Vale. Fíjate bien, ¿eh?
+Bien, ahora tú el otro. Muy bien. Mira, papá, me lo he estado bien, ves.
+Ya lo veo campeón. Muy bien. Venga, choca.
+Vamos. En el estilo democrático, padres y madres actúan con un alto grado de afecto y de comunicación. Ejercen una alta imposición estableciendo normas y objetivos claros.
+Como resultado, hijos y hijas suelen presentar un autoestima sana y desarrollada. Iniciativa para realizar nuevas tareas y un gran sentido de la responsabilidad.

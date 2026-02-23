@@ -18,6 +18,10 @@ Esta unidad introduce el estudio de **las familias desde la diversidad**, con ba
 
 - [Abrir anexo 2 (PDF)](anexos/Parentalidad-positiva-ganar-salud-y-bienestar-0-3-guia-talleres.pdf)
 
+### Anexo 3. Parentalidad positiva: cómo trabajar los estilos educativos en la familia
+
+- [Abrir anexo 3 (MD)](anexos/Parentalidad-positiva-como-trabajar-los-estilos-educativos-en-la-familia.md)
+
 ## Slides
 
 - [Presentación](../slides/no-disponible.md)
