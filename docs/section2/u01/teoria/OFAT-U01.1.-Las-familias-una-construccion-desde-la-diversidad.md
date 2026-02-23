@@ -193,6 +193,16 @@ Estos recursos refuerzan la idea de que la intervención con familias debe ser p
 - La escuela tiene un papel clave en la inclusión de la diversidad familiar.
 - La coordinación entre familia, tutoría, orientación y comunidad mejora el desarrollo infantil.
 
+## 6. Anexos de la unidad
+
+### 6.1. Guía para promover una parentalidad positiva
+
+- [Abrir anexo 1 (PDF)](../anexos/Guia-para-promover-una-parentalidad-positiva.pdf)
+
+### 6.2. Parentalidad positiva: ganar salud y bienestar de 0-3 años
+
+- [Abrir anexo 2 (PDF)](../anexos/Parentalidad-positiva-ganar-salud-y-bienestar-0-3-guia-talleres.pdf)
+
 ## Bibliografía básica
 
 - Álvarez-González, B., Fernández Suárez, A. P. y González-Benito, A. (2023). *Las familias: una construcción desde la diversidad* (Capítulo 1, pp. 3-50). Editorial Sanz y Torres.

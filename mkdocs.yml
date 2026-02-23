@@ -27,6 +27,8 @@ nav:
     - Unidad 01:
       - section2/u01/index.md
       - "OFAT U01.1 Las familias: una construcción desde la diversidad": section2/u01/teoria/OFAT-U01.1.-Las-familias-una-construccion-desde-la-diversidad.md
+      - "Anexo 1 - Guía para promover una parentalidad positiva (PDF)": section2/u01/anexos/Guia-para-promover-una-parentalidad-positiva.pdf
+      - "Anexo 2 - Parentalidad positiva 0-3 años (PDF)": section2/u01/anexos/Parentalidad-positiva-ganar-salud-y-bienestar-0-3-guia-talleres.pdf
       - Presentación: section2/slides/no-disponible.md
   - Blog: blog.md
   - Tags: tags.md
