@@ -12,6 +12,7 @@ Este repositorio contiene material educativo para módulos de formación profesi
 - Al finalizar cada generación de cuestiones, se validará el fichero con las reglas incluidas en este AGENTS.md.
 - En cuestiones tipo test y de desarrollo, no se incluirán preguntas que obliguen a memorizar datos numéricos concretos (por ejemplo, nº de núcleos, tasas, latencias u otros valores específicos de dispositivos o conceptos).
 - En preguntas tipo test y de desarrollo, los enunciados deben empezar por ¿ y terminar en ? y respetar tildes y ortografía correcta.
+- Es obligatorio seguir las reglas ortográficas del español en todos los textos generados y evitar faltas de ortografía.
 - Cuando el contenido de origen proceda de una transcripción, los apuntes generados no deben mencionar ni hacer referencia a que provienen de una transcripción; deben redactarse y presentarse como un texto académico/universitario autónomo.
 - En todas las imágenes de los ficheros `.md`, el pie de imagen debe situarse justo debajo de la imagen, nunca en la misma línea ni pegado sin separación visual. Formato obligatorio: línea de imagen, una línea en blanco y, a continuación, el pie de imagen.
 
@@ -332,6 +333,7 @@ scripts/update_categories.py
 ### 7.3 Obligatorio cuestiones (GIFT)
 
 - Siempre has de generar minimo 30 cuestiones.
+- En la generación de cuestiones es obligatorio cumplir las reglas ortográficas del español y no cometer faltas de ortografía.
 
 - Evita enunciados del tipo ¿Qué describe mejor... y ¿Qué decisión es adecuada...
 
