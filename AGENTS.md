@@ -321,6 +321,9 @@ Ejemplo recomendado:
 $CATEGORY: CURSO/Test/UD01_Fundamentos_didacticos_y_DUA/Basico
 ```
 
+- Aunque se generen varias versiones de un mismo cuestionario, la cabecera `$CATEGORY` debe mantenerse sin sufijos de versión.
+- No se permite añadir referencias a versión en la categoría ni en los identificadores de pregunta (por ejemplo: `V2`, `_V2`, `version2`).
+
 Para actualizar automáticamente el fichero de categorías tras añadir o renombrar unidades/anexos:
 
 ```bash
