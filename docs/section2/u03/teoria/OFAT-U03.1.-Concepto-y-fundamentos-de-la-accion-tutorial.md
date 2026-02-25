@@ -21,9 +21,9 @@ tags:
 
 La acción tutorial constituye una dimensión esencial de la función docente. No se limita a un espacio horario concreto, sino que articula el acompañamiento personal, académico y social del alumnado durante todo el proceso educativo. En esta unidad se estudian sus fundamentos históricos, su consolidación normativa, sus objetivos y la planificación del Plan de Acción Tutorial (PAT) desde un enfoque colaborativo.
 
-![Esquema de contenidos del tema 3](assets/imagenes/media_003_figura.png)
+![Precursores pedagógicos de la función tutorial](assets/imagenes/media_003_figura.png)
 
-**Figura 3.1.** Esquema general de contenidos sobre concepto y fundamentos de la acción tutorial.
+**Figura 3.1.** Referentes pedagógicos vinculados al origen de la tutoría en la escuela.
 
 ## Objetivos de aprendizaje
 
@@ -62,7 +62,7 @@ La formalización de la figura del tutor o tutora en España supuso un cambio es
 
 La normativa educativa consolidó esta figura en relación con funciones de seguimiento individual, coordinación de evaluación, comunicación con familias y mediación pedagógica entre etapas y agentes.
 
-![Síntesis normativa de la tutoría](assets/imagenes/media_006_tabla.png)
+![Síntesis normativa de la tutoría](assets/imagenes/media_007_tabla.png)
 
 **Tabla 3.1.** Hitos normativos sobre tutoría y orientación educativa en el sistema español.
 
@@ -72,7 +72,7 @@ El marco actual asume que toda acción educativa incluye una dimensión tutorial
 
 Además, la orientación se entiende como derecho educativo. Por ello, la tutoría debe desarrollarse con criterios de equidad, inclusión, continuidad y coordinación institucional.
 
-![Comparativa de funciones tutoriales por etapas](assets/imagenes/media_007_tabla.png)
+![Comparativa de funciones tutoriales por etapas](assets/imagenes/media_006_tabla.png)
 
 **Tabla 3.2.** Semejanzas y diferencias de las funciones tutoriales según etapa educativa.
 
@@ -87,17 +87,9 @@ Las funciones tutoriales se estructuran en torno a cuatro ejes:
 
 La designación del tutor o tutora requiere criterios pedagógicos, estabilidad razonable y disponibilidad real para el trabajo de coordinación.
 
-![Funciones del tutor o tutora](assets/imagenes/media_008_figura.png)
-
-**Figura 3.3.** Funciones nucleares del profesorado tutor en el centro educativo.
-
 ### 1.5. Consolidación de la función tutorial como factor de calidad educativa
 
 La calidad educativa mejora cuando la tutoría se integra en la cultura de centro y no solo en actuaciones puntuales. Un sistema tutorial sólido reduce discontinuidades, favorece la detección temprana de necesidades y fortalece el vínculo entre aprendizaje y bienestar.
-
-![Tutoría como factor de calidad](assets/imagenes/media_009_figura.png)
-
-**Figura 3.4.** Relación entre calidad educativa, seguimiento tutorial y mejora del aprendizaje.
 
 ## 2. Delimitación, principios y características de la acción tutorial
 
@@ -118,9 +110,17 @@ Características operativas:
 - Flexibilidad para adaptarse a contextos y necesidades.
 - Trabajo en red con agentes internos y externos.
 
-![Principios y características de la acción tutorial](assets/imagenes/media_010_tabla.png)
+![Definición operativa de la acción tutorial](assets/imagenes/media_014_tabla.png)
 
-**Tabla 3.3.** Principios de la acción tutorial y su traducción práctica en el centro.
+**Tabla 3.3.** Delimitación conceptual de la acción tutorial y sus rasgos básicos.
+
+![Principios de la acción tutorial](assets/imagenes/media_016_figura.png)
+
+**Figura 3.3.** Principios que orientan la intervención tutorial en los centros.
+
+![Características de la acción tutorial](assets/imagenes/media_017_figura.png)
+
+**Figura 3.4.** Características metodológicas de la acción tutorial.
 
 ## 3. Objetivos de la tutoría y su desarrollo mediante la función tutorial
 
@@ -130,25 +130,23 @@ La tutoría permite ajustar metas, apoyos y ritmos de aprendizaje. Esto incluye 
 
 La personalización no consiste en individualizar de forma aislada, sino en construir itinerarios educativos realistas, con seguimiento y evaluación de resultados.
 
-![Personalización del aprendizaje desde la tutoría](assets/imagenes/media_011_figura.png)
+![Niveles de intervención tutorial](assets/imagenes/media_022_figura.png)
 
-**Figura 3.5.** Ejemplo de relación entre diagnóstico tutorial, ajuste metodológico y progreso del alumnado.
+**Figura 3.5.** Niveles de intervención tutorial y articulación de apoyos.
 
 ### 3.2. Fomentar la educación integral del alumnado
 
 La educación integral implica trabajar competencias académicas, socioemocionales, convivenciales y vocacionales. La tutoría conecta estos ámbitos con actividades planificadas, entrevistas, dinámicas grupales y coordinación con familias.
 
-![Educación integral y desarrollo del alumnado](assets/imagenes/media_012_figura.png)
-
-**Figura 3.6.** Dimensiones del desarrollo integral que orientan la intervención tutorial.
 
 ### 3.3. Contribuir a la coordinación e interacción adecuada de la comunidad educativa
 
 La tutoría es un nodo de coordinación. Su eficacia depende de la coherencia entre profesorado, orientación, equipos directivos y familias. Sin esta coordinación, la intervención pierde continuidad y calidad.
 
-![Coordinación de la comunidad educativa](assets/imagenes/media_014_tabla.png)
+![Coordinación y niveles de intervención con la comunidad educativa](assets/imagenes/media_021_figura.png)
 
-**Tabla 3.4.** Agentes, responsabilidades y canales de coordinación en la acción tutorial.
+**Figura 3.6.** Coordinación de agentes y niveles de intervención en tutoría.
+
 
 ## 4. Perfil y competencias del tutor o tutora
 
@@ -164,9 +162,9 @@ Competencias clave:
 
 Estas competencias deben desarrollarse mediante formación continua, reflexión sobre la práctica y trabajo colaborativo entre profesionales.
 
-![Perfil profesional del tutor o tutora](assets/imagenes/media_016_figura.png)
+![Perfil profesional del tutor o tutora](assets/imagenes/media_027_tabla.png)
 
-**Figura 3.7.** Competencias profesionales asociadas al desempeño tutorial.
+**Tabla 3.5.** Competencias profesionales asociadas al desempeño tutorial.
 
 ## 5. Planificación de la acción tutorial
 
@@ -182,9 +180,9 @@ El PAT es el instrumento organizador de la tutoría en cada centro. Debe concret
 
 Un PAT eficaz es contextualizado, viable y alineado con el proyecto educativo del centro.
 
-![Estructura del Plan de Acción Tutorial](assets/imagenes/media_020_tabla.png)
+![Líneas generales de diseño del Plan de Acción Tutorial](assets/imagenes/media_029_tabla.png)
 
-**Tabla 3.5.** Componentes básicos para el diseño del Plan de Acción Tutorial.
+**Tabla 3.6.** Componentes y niveles de diseño del Plan de Acción Tutorial.
 
 ### 5.2. Fases de diseño, desarrollo y evaluación desde una perspectiva colaborativa
 
@@ -199,9 +197,11 @@ La planificación tutorial se organiza en un ciclo de mejora:
 
 El enfoque colaborativo convierte la tutoría en una responsabilidad institucional y no individual.
 
-![Ciclo colaborativo de mejora del PAT](assets/imagenes/media_023_tabla.png)
 
-**Tabla 3.6.** Fases del PAT con enfoque colaborativo de diseño, implementación y evaluación.
+![Evaluación del Plan de Acción Tutorial (instrumento I)](assets/imagenes/media_032_tabla.png)
+
+**Tabla 3.7.** Lista de verificación para evaluar el diseño y el desarrollo del PAT.
+
 
 ## 6. Aportes complementarios de fuentes de internet
 
