@@ -23,15 +23,11 @@ La organización de los espacios del aula en Educación Infantil es una decisió
 
 ![Portadilla del tema sobre organización de espacios](assets/imagenes/media_003_figura.jpeg)
 
-**Figura 4.0.** Presentación del tema y enfoque general sobre la organización de los espacios del aula.
-
-![Variables de la dinámica del aula](assets/imagenes/media_004_figura.png)
-
-**Figura 4.1.** Variables que intervienen en la dinámica del aula y en la organización educativa del espacio.
+**Figura 4.1.** Presentación del tema y enfoque general sobre la organización de los espacios del aula.
 
 ![Síntesis visual de variables en la dinámica del aula](assets/imagenes/media_005_figura.jpeg)
 
-**Figura 4.1.b.** Relación entre contexto, organización espacial e interacción educativa.
+**Figura 4.2.** Relación entre contexto, organización espacial e interacción educativa.
 
 ## Objetivos de aprendizaje
 
@@ -56,17 +52,9 @@ La organización de los espacios del aula en Educación Infantil es una decisió
 
 Organizar el aula no es solo distribuir mobiliario. Significa construir un entorno educativo intencional donde el alumnado aprende a través de la acción, la interacción y la exploración.
 
-![Interacción y espacio como escenario de aprendizaje](assets/imagenes/media_005_figura.jpeg)
-
-**Figura 4.2.a.** El espacio como medio para el aprendizaje y la interacción significativa.
-
-![Interacción educativa en el espacio del aula](assets/imagenes/media_003_figura.jpeg)
-
-**Figura 4.2.b.** Configuración del espacio y su influencia en las conductas de aprendizaje.
-
 ![Ambientes de aprendizaje](assets/imagenes/media_006_figura.png)
 
-**Figura 4.2.** Representación del ambiente de aprendizaje como estructura que integra múltiples dimensiones.
+**Figura 4.3.** Representación del ambiente de aprendizaje como estructura que integra múltiples dimensiones.
 
 ![Ambiente de aprendizaje (esquema complementario)](assets/imagenes/media_007_figura.jpeg)
 
@@ -82,7 +70,7 @@ Los ambientes de aprendizaje se sostienen en tres planos que se retroalimentan:
 
 ![Estructura de los ambientes de aprendizaje](assets/imagenes/media_008_figura.png)
 
-**Figura 4.3.** Componentes del ambiente de aprendizaje y su relación con la práctica de aula.
+**Figura 4.4.** Componentes del ambiente de aprendizaje y su relación con la práctica de aula.
 
 ![Estructura, delimitación y dinamicidad del aula](assets/imagenes/media_009_figura.jpeg)
 
@@ -108,7 +96,7 @@ En el primer ciclo el diseño espacial se orienta al bienestar y a las necesidad
 
 ![Ejemplos de espacios en el primer ciclo](assets/imagenes/media_010_figura.png)
 
-**Figura 4.4.** Zonas características para el primer ciclo de Educación Infantil.
+**Figura 4.5.** Zonas características para el primer ciclo de Educación Infantil.
 
 ![Espacios de asamblea y juego en primer ciclo](assets/imagenes/media_011_figura.jpeg)
 
@@ -124,23 +112,15 @@ En el segundo ciclo aumenta la diversidad de propuestas y el peso de la autonom�
 
 ![Aula y espacios en segundo ciclo](assets/imagenes/media_019_figura.png)
 
-**Figura 4.5.** Ejemplos de organización espacial orientada al segundo ciclo.
+**Figura 4.6.** Ejemplos de organización espacial orientada al segundo ciclo.
 
 ![Espacios de encuentro y juego en segundo ciclo](assets/imagenes/media_014_figura.jpeg)
 
 **Figura 4.5.b.** Propuesta de zonas para encuentro, acción y vuelta a la calma en 3-6.
 
-![Espacios de aula en segundo ciclo (recurso complementario)](assets/imagenes/media_014_figura.jpeg)
-
-**Figura 4.5.c.** Distribución complementaria de espacios en aulas de segundo ciclo.
-
 ![Organización de zonas funcionales en segundo ciclo](assets/imagenes/media_016_figura.jpeg)
 
 **Figura 4.5.d.** Ejemplo de configuración de zonas por finalidades de aprendizaje.
-
-![Configuración espacial flexible para 3-6](assets/imagenes/media_016_figura.jpeg)
-
-**Figura 4.5.e.** Variabilidad del espacio según propuesta metodológica y necesidades del grupo.
 
 ## 3. Espacios pedagógicos diferenciados: rincones y talleres
 
@@ -152,23 +132,15 @@ Los rincones y talleres permiten adaptar el espacio a distintas finalidades did�
 
 ![Rincones y talleres en la organización del aula](assets/imagenes/media_023_figura.jpeg)
 
-**Figura 4.6.** Relación entre tipos de espacios pedagógicos y formas de interacción.
-
-![Modalidades de taller en Educación Infantil](assets/imagenes/media_023_figura.jpeg)
-
-**Figura 4.7.** Taller clásico, parcial e integral como formatos de organización didáctica.
+**Figura 4.7.** Relación entre tipos de espacios pedagógicos y formas de interacción.
 
 ![Rincones por ciclos de Educación Infantil](assets/imagenes/media_018_figura.jpeg)
 
 **Figura 4.8.** Referente visual para seleccionar rincones según etapa educativa.
 
-![Rincones y usos pedagógicos (ampliación)](assets/imagenes/media_018_figura.jpeg)
-
-**Figura 4.9.** Recurso complementario para ajustar rincones a objetivos curriculares.
-
 ![Modelo complementario de organización por espacios](assets/imagenes/media_020_figura.jpeg)
 
-**Figura 4.10.** Ejemplo ampliado de agrupación de espacios y actividades en el aula.
+**Figura 4.9.** Ejemplo ampliado de agrupación de espacios y actividades en el aula.
 
 ### 3.1. Criterios para su implementación
 
@@ -192,15 +164,11 @@ No existe una única configuración válida. El tipo de aula, su tamaño, la dot
 
 ![Tipos de aulas y organización del espacio](assets/imagenes/media_029_figura.png)
 
-**Figura 4.11.** Ejemplos de tipologías de aula y su potencial didáctico.
-
-![Tipologías de aula en Educación Infantil](assets/imagenes/media_029_figura.png)
-
-**Figura 4.12.** Alternativas de distribución en aulas y patios para contextos de Infantil.
+**Figura 4.10.** Ejemplos de tipologías de aula y su potencial didáctico.
 
 ![Tipologías de aula (vista complementaria)](assets/imagenes/media_030_figura.jpeg)
 
-**Figura 4.13.** Visualización adicional de diferentes configuraciones físicas de aula.
+**Figura 4.11.** Visualización adicional de diferentes configuraciones físicas de aula.
 
 ## 5. Planificación práctica de espacios
 
@@ -208,11 +176,7 @@ La planificación del espacio debe concretarse en un diseño operativo que permi
 
 ![Espacios y acción educativa intencional](assets/imagenes/media_027_figura.jpeg)
 
-**Figura 4.14.** Relación entre diseño espacial, acción docente y calidad de la intervención educativa.
-
-![Perfil y competencias para la gestión de espacios](assets/imagenes/media_027_figura.jpeg)
-
-**Figura 4.15.** Competencias profesionales necesarias para organizar y dinamizar espacios educativos.
+**Figura 4.12.** Relación entre diseño espacial, acción docente y calidad de la intervención educativa.
 
 ![Guía práctica de planificación espacial I](assets/imagenes/media_032_tabla.png)
 
@@ -220,7 +184,7 @@ La planificación del espacio debe concretarse en un diseño operativo que permi
 
 ![Planificación de espacios (recurso de apoyo)](assets/imagenes/media_031_figura.png)
 
-**Figura 4.16.** Recurso visual complementario para diseñar secuencias de uso de espacios.
+**Figura 4.13.** Recurso visual complementario para diseñar secuencias de uso de espacios.
 
 ![Guía práctica de planificación espacial II](assets/imagenes/media_034_tabla.png)
 
@@ -228,7 +192,7 @@ La planificación del espacio debe concretarse en un diseño operativo que permi
 
 ![Planificación aplicada y evidencias de uso](assets/imagenes/media_033_figura.jpeg)
 
-**Figura 4.17.** Evidencias visuales para valorar la puesta en práctica de la planificación de espacios.
+**Figura 4.14.** Evidencias visuales para valorar la puesta en práctica de la planificación de espacios.
 
 ## 6. Aportes complementarios de fuentes en internet
 
