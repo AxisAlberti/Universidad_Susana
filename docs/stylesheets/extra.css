@@ -102,6 +102,20 @@
   text-align: center;
 }
 
+/* Forzar centrado real para Markdown: <p><img/></p> + <p><strong>Figura...</strong></p> */
+.md-typeset p > img {
+  display: block !important;
+  margin: 0.2rem auto !important;
+}
+
+.md-typeset p:has(> img) {
+  text-align: center !important;
+}
+
+.md-typeset p:has(> img) + p {
+  text-align: center !important;
+}
+
 /* Usar todo el ancho disponible de pantalla */
 .md-grid {
   max-width: none !important;
