@@ -179,6 +179,20 @@ El análisis de fuentes oficiales y literatura aplicada permite sostener tres co
 - La evidencia comparada en educación infantil subraya que la calidad de las interacciones mejora cuando el entorno está bien diseñado y facilita participación activa.
 - Los marcos internacionales de calidad e inclusión señalan que accesibilidad, bienestar y pertenencia son condiciones estructurales del aprendizaje.
 
+### 6.1. Rectificación normativa incorporada (fe de erratas cap. 4)
+
+De acuerdo con la fe de erratas del capítulo 4, en el marco del **Real Decreto 95/2022** (artículo 8), las áreas de Educación Infantil son:
+
+- Crecimiento en Armonía.
+- Descubrimiento y Exploración del Entorno.
+- Comunicación y Representación de la Realidad.
+
+Además, la formulación correcta sobre autonomía en la infancia no debe limitarse a la preparación para etapas posteriores. La redacción ajustada es:
+
+> A estas edades, se debe promover la autonomía de la infancia al igual que en el resto de las etapas educativas.
+
+Esta rectificación es relevante para la organización de espacios porque desplaza el foco desde una visión transicional (\"preparar para después\") hacia una visión de desarrollo pleno en la etapa presente, coherente con el enfoque de derechos y con la calidad educativa en Infantil.
+
 ## 7. Conclusiones universitarias
 
 - El espacio es una variable curricular crítica en Educación Infantil.
