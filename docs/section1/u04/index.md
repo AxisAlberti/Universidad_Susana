@@ -8,6 +8,10 @@ Esta unidad desarrolla la **organización de los espacios del aula** en Educaci�
 
 - [Organización de los espacios del aula](teoria/ORG-U04.1.-Organizacion-de-los-espacios-del-aula.md)
 
+## Anexos
+
+- [Anexo 1. Uso de `el`, `un`, `este`, `ese` y `aquel` ante `a` tónica](anexos/uso-de-el-un-este-ese-aquel-ante-a-tonica.md)
+
 ## Slides
 
 - [Presentación](../slides/no-disponible.md)
