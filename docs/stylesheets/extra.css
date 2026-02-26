@@ -89,6 +89,19 @@
   margin: 0.1rem auto 0.15rem auto;
 }
 
+/* Centrar todas las imágenes de los apuntes */
+.md-typeset img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Centrar pies de imagen */
+.md-typeset figure > figcaption,
+.md-typeset img + p {
+  text-align: center;
+}
+
 /* Usar todo el ancho disponible de pantalla */
 .md-grid {
   max-width: none !important;
