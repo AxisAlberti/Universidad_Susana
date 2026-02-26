@@ -47,17 +47,13 @@ La calidad del ambiente de aprendizaje depende de la integración de tres planos
 - Plano didáctico: intencionalidad, secuencia de actividades, gradiente de autonomía y evaluación formativa.
 - Plano relacional: clima emocional, cooperación, pertenencia, escucha y participación.
 
-![Ambiente de aprendizaje](assets/imagenes/media_006_figura.png)
-
-**Figura 4.2.** El ambiente de aprendizaje como sistema integrado.
-
 ![Ambiente de aprendizaje (esquema complementario)](assets/imagenes/media_007_figura.jpeg)
 
-**Figura 4.3.** Lectura complementaria de la relación entre componentes del entorno educativo.
+**Figura 4.2.** Lectura complementaria de la relación entre componentes del entorno educativo.
 
 ![Estructura, delimitación y dinamicidad](assets/imagenes/media_009_figura.jpeg)
 
-**Figura 4.4.** Ejes técnicos para analizar la configuración del aula.
+**Figura 4.3.** Ejes técnicos para analizar la configuración del aula.
 
 ## 2. Organización de espacios por ciclo educativo
 
@@ -74,11 +70,11 @@ Criterios operativos:
 
 ![Espacios de asamblea y juego en primer ciclo](assets/imagenes/media_011_figura.jpeg)
 
-**Figura 4.5.** Ejemplo de organización espacial para interacción, asamblea y juego en 0-3.
+**Figura 4.4.** Ejemplo de organización espacial para interacción, asamblea y juego en 0-3.
 
 ![Exploración y construcción en primer ciclo](assets/imagenes/media_012_figura.jpeg)
 
-**Figura 4.6.** Zonas de exploración y construcción para el desarrollo temprano.
+**Figura 4.5.** Zonas de exploración y construcción para el desarrollo temprano.
 
 ### 2.2. Segundo ciclo (3-6): diferenciación funcional y autonomía progresiva
 
@@ -93,15 +89,15 @@ Criterios operativos:
 
 ![Espacios de encuentro y juego en segundo ciclo](assets/imagenes/media_014_figura.jpeg)
 
-**Figura 4.7.** Propuesta de distribución para encuentro, acción y regulación en 3-6.
+**Figura 4.6.** Propuesta de distribución para encuentro, acción y regulación en 3-6.
 
 ![Configuración funcional del espacio en segundo ciclo](assets/imagenes/media_016_figura.jpeg)
 
-**Figura 4.8.** Organización de zonas según finalidades de aprendizaje.
+**Figura 4.7.** Organización de zonas según finalidades de aprendizaje.
 
 ![Modelo ampliado de espacios por funciones](assets/imagenes/media_020_figura.jpeg)
 
-**Figura 4.9.** Relación entre zonas de aula y objetivos didácticos.
+**Figura 4.8.** Relación entre zonas de aula y objetivos didácticos.
 
 ## 3. Rincones y talleres: decisiones didácticas avanzadas
 
@@ -112,7 +108,7 @@ Rincones y talleres son estrategias complementarias, no equivalentes. El uso de 
 
 ![Modalidades de taller](assets/imagenes/media_023_figura.jpeg)
 
-**Figura 4.10.** Taller clásico, parcial e integral: implicaciones organizativas y metodológicas.
+**Figura 4.9.** Taller clásico, parcial e integral: implicaciones organizativas y metodológicas.
 
 ### 3.1. Criterios de calidad para rincones y talleres
 
@@ -169,11 +165,11 @@ El ciclo profesional recomendado es: diagnosticar, diseñar, implementar, observ
 
 ![Apoyo visual para planificación aplicada](assets/imagenes/media_031_figura.png)
 
-**Figura 4.11.** Recurso visual para secuenciar decisiones de organización espacial.
+**Figura 4.10.** Recurso visual para secuenciar decisiones de organización espacial.
 
 ![Evidencias de implementación en práctica](assets/imagenes/media_033_figura.jpeg)
 
-**Figura 4.12.** Referencia para documentar y contrastar decisiones de aula.
+**Figura 4.11.** Referencia para documentar y contrastar decisiones de aula.
 
 ## 6. Integración de fuentes externas y marco normativo
 
