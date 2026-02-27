@@ -2,7 +2,7 @@
 """Extractor profesional de PDF: figuras y tablas como imágenes.
 
 Uso:
-    python3 pdf_extractor_unificado.py "archivo.pdf"
+    python3 pdf_extractor_unificado.py [archivo.pdf]
 
 Salida:
     <directorio_pdf>/<nombre_pdf>_extraido/
@@ -60,7 +60,9 @@ TABLE_CAPTION_RE = re.compile(
     re.IGNORECASE,
 )
 STRICT_FIGURE_PROFILE = True
-OCR_CACHE: Dict[str, Tuple[int, float]] = {}
+DEFAULT_MAX_TEXT_RATIO = 0.18
+OCR_CACHE: Dict[Tuple[str, str], Tuple[int, float]] = {}
+OCR_LINE_CACHE: Dict[Tuple[str, str], Optional[Tuple[float, int, int]]] = {}
 
 
 @dataclass
@@ -70,6 +72,7 @@ class ExtractionRecord:
     path: str
     method: str
     bbox: Tuple[float, float, float, float]
+    text_ratio: Optional[float] = None
 
 
 @dataclass
@@ -131,8 +134,42 @@ def setup_logger() -> logging.Logger:
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Extracción automática de figuras y tablas como imagen")
-    parser.add_argument("pdf", help="Ruta del PDF")
+    parser.add_argument(
+        "pdf",
+        nargs="?",
+        default=None,
+        help="Ruta del PDF (opcional). Si se omite, se usa el PDF más reciente del directorio actual.",
+    )
+    parser.add_argument(
+        "--strict-content-only",
+        dest="strict_content_only",
+        action="store_true",
+        default=True,
+        help="Descarta recortes mixtos (diagrama + texto corrido) cuando no se puedan aislar limpiamente.",
+    )
+    parser.add_argument(
+        "--allow-mixed-content",
+        dest="strict_content_only",
+        action="store_false",
+        help="Permite recortes mixtos para maximizar cobertura.",
+    )
+    parser.add_argument(
+        "--max-text-ratio",
+        type=float,
+        default=DEFAULT_MAX_TEXT_RATIO,
+        help="Máximo ratio de área OCR textual permitido en figuras antes de considerar contenido mixto.",
+    )
     return parser.parse_args()
+
+
+def choose_default_pdf(base_dir: Path, logger: logging.Logger) -> Optional[Path]:
+    """Devuelve el PDF más reciente del directorio indicado."""
+    pdfs = [p for p in base_dir.glob("*.pdf") if p.is_file()]
+    if not pdfs:
+        return None
+    picked = max(pdfs, key=lambda p: p.stat().st_mtime)
+    logger.info("PDF seleccionado automáticamente: %s", picked)
+    return picked
 
 
 def ensure_dir(path: Path) -> None:
@@ -219,7 +256,7 @@ def overlap_ratio(box: Box, others: Sequence[Box]) -> float:
 
 
 def ocr_metrics(image_bytes: bytes, lang: str = "spa") -> Tuple[int, float]:
-    key = img_hash(image_bytes)
+    key = (img_hash(image_bytes), lang)
     if key in OCR_CACHE:
         return OCR_CACHE[key]
 
@@ -240,6 +277,104 @@ def ocr_metrics(image_bytes: bytes, lang: str = "spa") -> Tuple[int, float]:
         return result
     except Exception:
         return 0, 0.0
+
+
+def ocr_engine_available() -> bool:
+    try:
+        import pytesseract
+    except Exception:
+        return False
+    try:
+        pytesseract.get_tesseract_version()
+        return True
+    except Exception:
+        return False
+
+
+def ocr_running_text_stats(image_bytes: bytes, lang: str = "spa") -> Optional[Tuple[float, int, int]]:
+    """Devuelve (text_area_ratio, long_lines, lower_long_lines) para detectar párrafo corrido."""
+    key = (img_hash(image_bytes), lang)
+    if key in OCR_LINE_CACHE:
+        return OCR_LINE_CACHE[key]
+
+    try:
+        import pytesseract
+        from pytesseract import Output
+    except Exception:
+        OCR_LINE_CACHE[key] = None
+        return None
+
+    try:
+        img = Image.open(io.BytesIO(image_bytes)).convert("RGB")
+        w, h = img.size
+        if w <= 0 or h <= 0:
+            OCR_LINE_CACHE[key] = None
+            return None
+
+        data = pytesseract.image_to_data(img, lang=lang, output_type=Output.DICT, config="--psm 6")
+        n = len(data.get("text", []))
+        lines: Dict[Tuple[int, int, int], Dict[str, float]] = {}
+        text_area = 0.0
+
+        for i in range(n):
+            txt = (data["text"][i] or "").strip()
+            if not txt or not any(ch.isalpha() for ch in txt):
+                continue
+            left = max(0, int(data["left"][i]))
+            top = max(0, int(data["top"][i]))
+            rw = max(0, int(data["width"][i]))
+            rh = max(0, int(data["height"][i]))
+            if rw <= 0 or rh <= 0:
+                continue
+            text_area += float(rw * rh)
+            k = (int(data["block_num"][i]), int(data["par_num"][i]), int(data["line_num"][i]))
+            if k not in lines:
+                lines[k] = {"x0": left, "y0": top, "x1": left + rw, "y1": top + rh, "words": 1.0}
+            else:
+                ln = lines[k]
+                ln["x0"] = min(ln["x0"], left)
+                ln["y0"] = min(ln["y0"], top)
+                ln["x1"] = max(ln["x1"], left + rw)
+                ln["y1"] = max(ln["y1"], top + rh)
+                ln["words"] += 1.0
+
+        long_lines = 0
+        lower_long_lines = 0
+        for ln in lines.values():
+            line_w = max(1.0, ln["x1"] - ln["x0"])
+            line_mid_y = (ln["y0"] + ln["y1"]) / 2.0
+            width_ratio = line_w / float(w)
+            # Línea larga tipo párrafo: muchas palabras y bastante ancho.
+            if ln["words"] >= 8.0 and width_ratio >= 0.42:
+                long_lines += 1
+                if line_mid_y >= h * 0.35:
+                    lower_long_lines += 1
+
+        stats = (min(1.0, text_area / float(w * h)), long_lines, lower_long_lines)
+        OCR_LINE_CACHE[key] = stats
+        return stats
+    except Exception:
+        OCR_LINE_CACHE[key] = None
+        return None
+
+
+def detect_mixed_running_text(
+    image_bytes: bytes,
+    lang: str = "spa",
+    max_text_ratio: float = DEFAULT_MAX_TEXT_RATIO,
+) -> Tuple[bool, Optional[float], List[str]]:
+    stats = ocr_running_text_stats(image_bytes, lang=lang)
+    if stats is None:
+        return False, None, []
+    text_ratio, long_lines, lower_long_lines = stats
+    reasons: List[str] = []
+    if text_ratio > max_text_ratio:
+        reasons.append("running_text_ratio")
+    if lower_long_lines >= 2 or long_lines >= 3:
+        reasons.append("long_text_lines")
+    elif lower_long_lines >= 1 and text_ratio > (max_text_ratio * 0.75):
+        reasons.append("long_text_lines")
+    return bool(reasons), text_ratio, reasons
 
 
 def image_looks_tabular(image_bytes: bytes) -> bool:
@@ -319,6 +454,117 @@ def figure_visual_score(image_bytes: bytes) -> float:
         return 0.0
     edges = cv2.Canny(gray, 80, 160)
     return float((edges > 0).mean())
+
+
+def isolate_visual_core(image_bytes: bytes) -> Tuple[bytes, Optional[Tuple[int, int, int, int]], Optional[Tuple[int, int]]]:
+    """Recorta al núcleo visual (diagrama/gráfico) evitando bloques grandes de párrafo."""
+    try:
+        import cv2
+        import numpy as np
+    except Exception:
+        return image_bytes, None, None
+
+    arr = np.frombuffer(image_bytes, dtype=np.uint8)
+    gray = cv2.imdecode(arr, cv2.IMREAD_GRAYSCALE)
+    if gray is None:
+        return image_bytes, None, None
+
+    h, w = gray.shape[:2]
+    if h < 30 or w < 30:
+        return image_bytes, None, None
+
+    edges = cv2.Canny(gray, 70, 170)
+    kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (5, 5))
+    merged = cv2.dilate(edges, kernel, iterations=1)
+    cnts, _ = cv2.findContours(merged, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+
+    min_area = max(250.0, float(w * h) * 0.0012)
+    boxes: List[Tuple[int, int, int, int]] = []
+    for c in cnts:
+        x, y, rw, rh = cv2.boundingRect(c)
+        area = float(rw * rh)
+        if area < min_area:
+            continue
+        # Filtra líneas finas típicas de texto corrido.
+        if rh < int(h * 0.03) and rw > int(w * 0.45):
+            continue
+        if rw < int(w * 0.08) and rh < int(h * 0.08):
+            continue
+        boxes.append((x, y, x + rw, y + rh))
+
+    if not boxes:
+        return image_bytes, None, None
+
+    x0 = min(b[0] for b in boxes)
+    y0 = min(b[1] for b in boxes)
+    x1 = max(b[2] for b in boxes)
+    y1 = max(b[3] for b in boxes)
+
+    # Margen pequeño de seguridad.
+    pad_x = max(4, int(w * 0.01))
+    pad_y = max(4, int(h * 0.01))
+    x0 = max(0, x0 - pad_x)
+    y0 = max(0, y0 - pad_y)
+    x1 = min(w, x1 + pad_x)
+    y1 = min(h, y1 + pad_y)
+    if x1 - x0 < 20 or y1 - y0 < 20:
+        return image_bytes, None, None
+
+    kept_ratio = float((x1 - x0) * (y1 - y0)) / float(w * h)
+    if kept_ratio >= 0.97:
+        return image_bytes, None, None
+    if kept_ratio <= 0.10:
+        return image_bytes, None, None
+
+    crop = gray[y0:y1, x0:x1]
+    ok, encoded = cv2.imencode(".png", crop)
+    if not ok:
+        return image_bytes, None, None
+    return encoded.tobytes(), (x0, y0, x1, y1), (w, h)
+
+
+def map_inner_crop_to_box(
+    outer_box: Box,
+    crop_box_px: Tuple[int, int, int, int],
+    source_size_px: Tuple[int, int],
+) -> Box:
+    sw, sh = source_size_px
+    if sw <= 0 or sh <= 0:
+        return outer_box
+    x0, y0, x1, y1 = crop_box_px
+    sx = outer_box.width / float(sw)
+    sy = outer_box.height / float(sh)
+    return Box(
+        outer_box.x0 + x0 * sx,
+        outer_box.y0 + y0 * sy,
+        outer_box.x0 + x1 * sx,
+        outer_box.y0 + y1 * sy,
+    )
+
+
+def apply_content_only_filter(
+    image_bytes: bytes,
+    clip_box: Optional[Box],
+    lang: str,
+    strict_content_only: bool,
+    max_text_ratio: float,
+) -> Tuple[Optional[bytes], Optional[Box], Optional[float], List[str]]:
+    mixed, text_ratio, reasons = detect_mixed_running_text(image_bytes, lang=lang, max_text_ratio=max_text_ratio)
+    if not strict_content_only or not mixed:
+        return image_bytes, clip_box, text_ratio, []
+
+    isolated, crop_box_px, src_size = isolate_visual_core(image_bytes)
+    if crop_box_px is None or src_size is None:
+        return None, clip_box, text_ratio, ["failed_visual_isolation", *reasons]
+
+    new_box = clip_box
+    if clip_box is not None:
+        new_box = map_inner_crop_to_box(clip_box, crop_box_px, src_size)
+
+    mixed2, text_ratio2, reasons2 = detect_mixed_running_text(isolated, lang=lang, max_text_ratio=max_text_ratio)
+    if mixed2:
+        return None, new_box, text_ratio2, ["failed_visual_isolation", *reasons2]
+    return isolated, new_box, text_ratio2, []
 
 
 def trim_bottom_dense_text(image_bytes: bytes, lang: str = "spa") -> Tuple[bytes, float]:
@@ -566,16 +812,24 @@ def dense_text_cut_y(page: fitz.Page, start_y: float) -> Optional[float]:
     return None
 
 
+def add_discard_reasons(counter: Dict[str, int], reasons: Sequence[str]) -> None:
+    for r in set(reasons):
+        counter[r] = counter.get(r, 0) + 1
+
+
 def extract_figures(
     pdf_path: Path,
     out_dir: Path,
     logger: logging.Logger,
     table_regions: Dict[int, List[Box]],
     lang: str = "spa",
+    strict_content_only: bool = True,
+    max_text_ratio: float = DEFAULT_MAX_TEXT_RATIO,
 ) -> Tuple[int, List[ExtractionRecord]]:
     ensure_dir(out_dir)
     records: List[ExtractionRecord] = []
     seen_hashes: set[str] = set()
+    discard_stats: Dict[str, int] = {}
 
     with fitz.open(pdf_path) as doc:
         for pidx, page in enumerate(doc, start=1):
@@ -611,8 +865,8 @@ def extract_figures(
                 if STRICT_FIGURE_PROFILE and not fig_caps and not likely_figure_content(data):
                     continue
 
+                b = img_rects[0] if img_rects else rect_to_box(page.rect)
                 if img_rects:
-                    b = img_rects[0]
                     for rr in img_rects[1:]:
                         b = b.union(rr)
                     page_area = page.rect.width * page.rect.height
@@ -625,6 +879,21 @@ def extract_figures(
                     if STRICT_FIGURE_PROFILE and b.area >= page_area * 0.65 and not fig_caps:
                         continue
 
+                filtered, filtered_box, text_ratio, discard_reasons = apply_content_only_filter(
+                    data,
+                    clip_box=b,
+                    lang=lang,
+                    strict_content_only=strict_content_only,
+                    max_text_ratio=max_text_ratio,
+                )
+                if filtered is None:
+                    add_discard_reasons(discard_stats, discard_reasons)
+                    continue
+                if filtered_box is not None and filtered_box != b:
+                    ext = "png"
+                    b = filtered_box
+                data = filtered
+
                 h = img_hash(data)
                 if h in seen_hashes:
                     continue
@@ -632,8 +901,7 @@ def extract_figures(
                 out = out_dir / f"figure_page_{pidx:03d}_img_{iidx:02d}.{ext}"
                 save_bytes(out, data)
                 seen_hashes.add(h)
-                bbox = img_rects[0] if img_rects else rect_to_box(page.rect)
-                records.append(ExtractionRecord("figure", pidx, str(out), "embedded", (bbox.x0, bbox.y0, bbox.x1, bbox.y1)))
+                records.append(ExtractionRecord("figure", pidx, str(out), "embedded", (b.x0, b.y0, b.x1, b.y1), text_ratio=text_ratio))
                 saved_page += 1
 
             # 2) Figuras guiadas por caption (incluye vectoriales sin imagen embebida).
@@ -656,7 +924,7 @@ def extract_figures(
                 if down_end - down_start > 40:
                     down_candidates.append(Box(page.rect.x0 + 18, down_start, page.rect.x1 - 18, down_end))
 
-                best: Tuple[float, Box, bytes] | None = None
+                best: Tuple[float, Box, bytes, Optional[float]] | None = None
                 for bucket in (down_candidates, up_candidates):
                     for clip in bucket:
                         if overlap_ratio(clip, page_tables) >= 0.25:
@@ -671,6 +939,19 @@ def extract_figures(
                         if keep_ratio < 1.0:
                             new_h = clip.height * keep_ratio
                             clip = Box(clip.x0, clip.y0, clip.x1, clip.y0 + new_h)
+                        filtered, filtered_clip, text_ratio, discard_reasons = apply_content_only_filter(
+                            data,
+                            clip_box=clip,
+                            lang=lang,
+                            strict_content_only=strict_content_only,
+                            max_text_ratio=max_text_ratio,
+                        )
+                        if filtered is None:
+                            add_discard_reasons(discard_stats, discard_reasons)
+                            continue
+                        data = filtered
+                        if filtered_clip is not None:
+                            clip = filtered_clip
                         words, avg = ocr_metrics(data, lang=lang)
                         if words >= 220 and avg >= 8.0:
                             continue
@@ -680,7 +961,7 @@ def extract_figures(
                         # Leve preferencia por recortes más compactos.
                         score = score - (clip.area / (page.rect.width * page.rect.height)) * 0.03
                         if best is None or score > best[0]:
-                            best = (score, clip, data)
+                            best = (score, clip, data, text_ratio)
                     # Si encontramos candidato abajo, no exploramos arriba.
                     if best is not None and bucket is down_candidates:
                         break
@@ -688,7 +969,7 @@ def extract_figures(
                 if best is None:
                     continue
 
-                _, clip, data = best
+                _, clip, data, text_ratio = best
                 h = img_hash(data)
                 if h in seen_hashes:
                     continue
@@ -696,7 +977,7 @@ def extract_figures(
                 out = out_dir / f"figure_page_{pidx:03d}_cap_{cidx:02d}.png"
                 save_bytes(out, data)
                 seen_hashes.add(h)
-                records.append(ExtractionRecord("figure", pidx, str(out), "caption-guided", (clip.x0, clip.y0, clip.x1, clip.y1)))
+                records.append(ExtractionRecord("figure", pidx, str(out), "caption-guided", (clip.x0, clip.y0, clip.x1, clip.y1), text_ratio=text_ratio))
                 saved_page += 1
 
             # 3) Fallback vectorial si no salió nada en la página.
@@ -727,6 +1008,19 @@ def extract_figures(
                         continue
                     if STRICT_FIGURE_PROFILE and not fig_caps and not likely_figure_content(data):
                         continue
+                    filtered, filtered_clip, text_ratio, discard_reasons = apply_content_only_filter(
+                        data,
+                        clip_box=clip,
+                        lang=lang,
+                        strict_content_only=strict_content_only,
+                        max_text_ratio=max_text_ratio,
+                    )
+                    if filtered is None:
+                        add_discard_reasons(discard_stats, discard_reasons)
+                        continue
+                    data = filtered
+                    if filtered_clip is not None:
+                        clip = filtered_clip
 
                     h = img_hash(data)
                     if h in seen_hashes:
@@ -735,8 +1029,11 @@ def extract_figures(
                     out = out_dir / f"figure_page_{pidx:03d}_draw_{didx:02d}.png"
                     save_bytes(out, data)
                     seen_hashes.add(h)
-                    records.append(ExtractionRecord("figure", pidx, str(out), "vector-fallback", (clip.x0, clip.y0, clip.x1, clip.y1)))
+                    records.append(ExtractionRecord("figure", pidx, str(out), "vector-fallback", (clip.x0, clip.y0, clip.x1, clip.y1), text_ratio=text_ratio))
 
+    if strict_content_only and discard_stats:
+        details = ", ".join(f"{k}={v}" for k, v in sorted(discard_stats.items()))
+        logger.info("Descartes por contenido mixto: %s", details)
     logger.info("Figuras extraidas: %d", len(records))
     return len(records), records
 
@@ -892,8 +1189,20 @@ def main() -> int:
     warnings.filterwarnings("ignore")
     logger = setup_logger()
     args = parse_args()
+    if args.max_text_ratio <= 0.0 or args.max_text_ratio >= 1.0:
+        logger.error("Parametro invalido --max-text-ratio=%s (debe estar entre 0 y 1).", args.max_text_ratio)
+        return 1
+    if args.strict_content_only and not ocr_engine_available():
+        logger.warning("OCR no disponible: 'strict-content-only' no podra detectar texto corrido con fiabilidad.")
+    if args.pdf:
+        pdf_path = Path(args.pdf).expanduser().resolve()
+    else:
+        auto_pdf = choose_default_pdf(Path.cwd(), logger)
+        if auto_pdf is None:
+            logger.error("No se encontró ningún PDF en el directorio actual: %s", Path.cwd())
+            return 1
+        pdf_path = auto_pdf.resolve()
 
-    pdf_path = Path(args.pdf).expanduser().resolve()
     if not pdf_path.exists() or not pdf_path.is_file():
         logger.error("No se encuentra el PDF: %s", pdf_path)
         return 1
@@ -907,12 +1216,27 @@ def main() -> int:
     try:
         clear_previous_media(media_dir)
         table_regions = detect_table_regions(pdf_path, logger)
-        fig_count, fig_records = extract_figures(pdf_path, media_dir, logger, table_regions=table_regions, lang="spa")
+        fig_count, fig_records = extract_figures(
+            pdf_path,
+            media_dir,
+            logger,
+            table_regions=table_regions,
+            lang="spa",
+            strict_content_only=args.strict_content_only,
+            max_text_ratio=float(args.max_text_ratio),
+        )
         tab_count, tab_records = extract_tables_as_images(pdf_path, media_dir, logger, table_regions=table_regions)
         all_records = filter_redundant_figures([*fig_records, *tab_records])
         ordered_records = renumber_media_files(all_records, media_dir)
         write_manifest(manifest_path, ordered_records, pdf_path)
-        logger.info("Resumen -> figuras: %d | tablas(img): %d | salida: %s", fig_count, tab_count, out_dir)
+        logger.info(
+            "Resumen -> figuras: %d | tablas(img): %d | strict_content_only: %s | max_text_ratio: %.3f | salida: %s",
+            fig_count,
+            tab_count,
+            "on" if args.strict_content_only else "off",
+            args.max_text_ratio,
+            out_dir,
+        )
         return 0
     except Exception as exc:
         logger.exception("Error durante el procesamiento: %s", exc)
