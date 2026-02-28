@@ -24,10 +24,6 @@ La comunicación en Educación Infantil no es un complemento de la enseñanza: e
 
 Este tema toma como base el contenido completo del capítulo 6 del material de referencia y lo amplía con enfoque universitario: marco conceptual, implicaciones pedagógicas, estrategias técnicas transferibles al aula y fundamentación normativa e institucional actual.
 
-![Portada del tema 6 del material base](assets/imagenes/tema6_portada.png)
-
-_Figura 6.1. Tema base: “La comunicación en el día a día” (material de referencia del módulo)._
-
 ## Objetivos de aprendizaje
 
 - Comprender la comunicación como eje estructural de la organización y gestión del aula en Infantil.
@@ -180,7 +176,7 @@ La investigación clásica sobre expectativas docentes mostró que la percepció
 
 ![Variables en el análisis del Efecto Pigmalión](assets/imagenes/tema6_pigmalion_variables.png)
 
-_Figura 6.2. Esquema de variables previas, procesuales y posteriores en el análisis del Efecto Pigmalión (material de referencia)._
+_Figura 6.1. Esquema de variables previas, procesuales y posteriores en el análisis del Efecto Pigmalión (material de referencia)._
 
 Para evitar sesgos de expectativa:
 
@@ -247,7 +243,7 @@ La asamblea es un dispositivo estructural de comunicación grupal: organiza part
 
 ![Disposiciones de asamblea en el aula](assets/imagenes/tema6_asamblea_disposiciones.jpeg)
 
-_Figura 6.3. Configuraciones espaciales de asamblea (circular, semicircular y lineal) para distintos objetivos de interacción._
+_Figura 6.2. Configuraciones espaciales de asamblea (circular, semicircular y lineal) para distintos objetivos de interacción._
 
 ### 6.3. Técnicas metodológicas: centros de interés
 
@@ -263,7 +259,7 @@ Ejemplo de aplicación:
 
 ![Ejemplo de descomposición de un centro de interés](assets/imagenes/tema6_centro_interes_vaca.jpeg)
 
-_Figura 6.4. Ejemplo de análisis de subtópicos para desarrollar un centro de interés de forma globalizada._
+_Figura 6.3. Ejemplo de análisis de subtópicos para desarrollar un centro de interés de forma globalizada._
 
 ### 6.4. Técnicas organizativas: proyectos
 
