@@ -272,10 +272,37 @@ Este enfoque permite intervenir sobre causas y no solo sobre síntomas.
 - La convivencia se enseña mediante hábitos, lenguaje, organización y coherencia institucional.
 - La prevención de violencia exige protocolos claros, lectura contextual y continuidad de seguimiento.
 
+### 12.1. Ampliación con fuentes UNED y pedagogía especializada
+
+Para una revisión más rigurosa del clima de convivencia, es recomendable incorporar bibliografía de pedagogía y orientación educativa en español, priorizando recursos universitarios de la UNED y repositorios especializados.
+
+Esta ampliación permite sostener mejor tres decisiones docentes:
+
+- cómo prevenir conflictos antes de que escalen;
+- cómo ajustar intervención según tipo de conflicto y etapa evolutiva;
+- cómo evaluar mejora de convivencia con evidencias y no solo con percepciones.
+
+| Línea de profundización | Fuente recomendada | Aplicación al aula de Infantil |
+|---|---|---|
+| Convivencia y orientación | REOP (UNED) | Diseñar protocolos de mediación y seguimiento |
+| Investigación pedagógica | Educación XX1 (UNED) | Argumentar prácticas preventivas con evidencia |
+| Innovación educativa | REdIneD e INTEF | Seleccionar programas y materiales para convivencia positiva |
+| Especialización Infantil | AMEI-WAECE y literatura de pedagogía infantil | Ajustar lenguaje, normas y rutinas al desarrollo 0-6 |
+
 ## 13. Referencias y enlaces
 
 - UNESCO - School violence and bullying (marco global): https://www.unesco.org/en/school-violence-and-bullying
 - OECD - TALIS (teaching and learning international survey): https://www.oecd.org/education/talis/
+- UNED - Grado en Educación Infantil: https://www.uned.es/universidad/inicio/estudios/grados/grado-en-educacion-infantil.html
+- UNED - Facultad de Educación: https://www.uned.es/universidad/facultades/educacion.html
+- UNED - REOP (revista): https://revistas.uned.es/index.php/reop
+- UNED - Educación XX1 (revista): https://revistas.uned.es/index.php/educacionXX1
+- INTEF - recursos para convivencia y bienestar escolar: https://intef.es/
+- INTEF - DUA TIC: https://intef.es/tecnologia-educativa/dua/
+- REdIneD - documentación educativa en español: https://redined.educacion.gob.es/xmlui/
+- Dialnet - literatura científica de pedagogía: https://dialnet.unirioja.es/
+- Revista Iberoamericana de Educación (OEI): https://rieoei.org/
+- AMEI-WAECE - recursos especializados en Educación Infantil: https://www.waece.org/
 - Education Endowment Foundation - Improving Behaviour in Schools: https://educationendowmentfoundation.org.uk/education-evidence/guidance-reports/behaviour
 - CASEL - Fundamentals of SEL: https://casel.org/fundamentals-of-sel/
 - PBIS - Positive Behavioral Interventions and Supports: https://www.pbis.org/
@@ -294,4 +321,4 @@ Este enfoque permite intervenir sobre causas y no solo sobre síntomas.
 - Imagen Sala de mediación educativa Ágora (Wikimedia Commons): https://commons.wikimedia.org/wiki/File:Sala_de_mediaci%C3%B3n_educativa_%C3%81gora.JPG
 - Infografía SANA CONVIVENCIA (Wikimedia Commons): https://commons.wikimedia.org/wiki/File:SANA_CONVIVENCIA.png
 
-**Fecha de actualización:** 16/02/2026
+**Fecha de actualización:** 28/02/2026

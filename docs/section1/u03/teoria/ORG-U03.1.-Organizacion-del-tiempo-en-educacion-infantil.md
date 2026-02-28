@@ -322,8 +322,20 @@ Para ampliar el estudio universitario del tema desde la UNED:
 
 - UNED - Grado en Educación Infantil (asignaturas y guías): https://www.uned.es/universidad/inicio/estudios/grados/grado-en-educacion-infantil.html
 - UNED - Facultad de Educación (recursos y coordinación académica): https://www.uned.es/universidad/facultades/educacion.html
-- Biblioteca UNED - Búsqueda bibliográfica en Educación Infantil: https://www2.uned.es/biblioteca/
 - Canal UNED - Recursos audiovisuales de educación y didáctica: https://canal.uned.es/
+- UNED - Educación XX1 (revista): https://revistas.uned.es/index.php/educacionXX1
+- UNED - REOP (revista): https://revistas.uned.es/index.php/reop
+
+### 13.1. Fuentes de pedagogía y especialización en Educación Infantil
+
+Para reforzar la toma de decisiones sobre organización temporal, conviene triangular documentación universitaria con fuentes pedagógicas especializadas en español:
+
+- REdIneD para localizar experiencias y estudios aplicados.
+- INTEF para recursos didácticos y secuencias de aula transferibles.
+- Revistas de pedagogía y orientación para fundamentar criterios de bienestar, ritmo y participación.
+- Portales especializados en Infantil para traducir marcos teóricos a propuestas concretas de aula.
+
+Esta combinación mejora la coherencia entre teoría, normativa y práctica docente.
 
 ## 14. Resumen final (ideas clave)
 
@@ -341,6 +353,10 @@ Para ampliar el estudio universitario del tema desde la UNED:
 - BOE - Real Decreto 95/2022 (Educación Infantil): https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-1654
 - UNESCO (es) - Atención y educación de la primera infancia: https://www.unesco.org/es/early-childhood-education
 - OCDE - Starting Strong (Educación y cuidado en primera infancia): https://www.oecd.org/education/school/startingstrong.htm
+- REdIneD - base de literatura y recursos educativos: https://redined.educacion.gob.es/xmlui/
+- Dialnet - publicaciones de pedagogía en español: https://dialnet.unirioja.es/
+- Revista Iberoamericana de Educación (OEI): https://rieoei.org/
+- AMEI-WAECE - recursos especializados de Educación Infantil: https://www.waece.org/
 - INTEF - Infografía “Gestión del tiempo y planificación”: https://descargas.intef.es/recursos_educativos/RED_ES/03_Eso/4/S_4_030_2025_0677/infografa.html
 - INTEF - Recurso Infantil sobre organización temporal: https://descargas.intef.es/recursos_educativos/RED_ES/01_Infantil/3/I_3_003_2025_0052/index.html
 - Imagen Aula escolar (Wikimedia Commons): https://commons.wikimedia.org/wiki/File:Aula_escolar.jpg
@@ -354,4 +370,4 @@ Para ampliar el estudio universitario del tema desde la UNED:
   - `assets/internet/I_3_003_2025_0052_IL_01929.png`
   - `assets/internet/I_3_003_2025_0052_IL_01932.png`
 
-**Fecha de actualización:** 16/02/2026
+**Fecha de actualización:** 28/02/2026

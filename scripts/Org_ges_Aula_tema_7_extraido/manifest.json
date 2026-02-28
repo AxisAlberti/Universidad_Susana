@@ -1,0 +1,44 @@
+{
+  "source_pdf": "/Users/josemanuelgonzalez/Repositorios/Universidad_Susana/scripts/Org_ges_Aula_tema_7.pdf",
+  "items": [
+    {
+      "kind": "table",
+      "page": 1,
+      "path": "/Users/josemanuelgonzalez/Repositorios/Universidad_Susana/scripts/Org_ges_Aula_tema_7_extraido/media/media_001_tabla.png",
+      "method": "region",
+      "bbox": [
+        65.97286533768892,
+        76.4891996043878,
+        529.3027083927798,
+        489.4367031360182
+      ],
+      "text_ratio": null
+    },
+    {
+      "kind": "figure",
+      "page": 14,
+      "path": "/Users/josemanuelgonzalez/Repositorios/Universidad_Susana/scripts/Org_ges_Aula_tema_7_extraido/media/media_002_figura.jpeg",
+      "method": "embedded",
+      "bbox": [
+        195.6884765625,
+        592.99609375,
+        399.5870361328125,
+        749.6790161132812
+      ],
+      "text_ratio": 0.12725766429522267
+    },
+    {
+      "kind": "table",
+      "page": 19,
+      "path": "/Users/josemanuelgonzalez/Repositorios/Universidad_Susana/scripts/Org_ges_Aula_tema_7_extraido/media/media_003_tabla.png",
+      "method": "merged-pages",
+      "bbox": [
+        65.97286533768892,
+        126.01055908203125,
+        529.3027083927798,
+        654.5390625
+      ],
+      "text_ratio": null
+    }
+  ]
+}

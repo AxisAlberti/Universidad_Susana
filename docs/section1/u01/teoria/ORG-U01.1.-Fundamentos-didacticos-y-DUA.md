@@ -293,6 +293,22 @@ Caso: grupo de Infantil con alta heterogeneidad lingüística, ritmos dispares y
 - Permitir que un mismo contenido se exprese con dibujo, oralidad o maqueta.
 - Integrar minirrevisiones semanales con evidencias de progreso (portafolio simple).
 
+### 13.1. Profundización con fuentes UNED y pedagogía especializada
+
+Para elevar el nivel universitario del diseño inclusivo, conviene complementar los marcos generales con fuentes académicas del ámbito pedagógico en español. En particular, los recursos de la UNED y de revistas especializadas permiten pasar de la teoría del DUA a decisiones concretas de aula.
+
+Una ruta formativa útil es triangular tres tipos de evidencias:
+
+- Referentes institucionales (normativa y políticas de inclusión).
+- Producción académica de facultades y revistas de educación.
+- Repositorios especializados de innovación y práctica docente en Infantil.
+
+| Tipo de fuente | Ejemplo recomendado | Uso didáctico en la unidad |
+|---|---|---|
+| UNED (docencia e investigación) | Facultad de Educación, Educación XX1, REOP | Fundamentar decisiones de planificación y evaluación inclusiva |
+| Pedagogía especializada | Dialnet, RIE (OEI), literatura científica en español | Contrastar modelos de inclusión, cooperación y co-docencia |
+| Educación Infantil aplicada | INTEF (DUA), REdIneD, AMEI-WAECE | Traducir teoría a actividades, recursos y secuencias de intervención |
+
 ## 14. Resumen (ideas clave)
 
 - La inclusión es un proceso de mejora escolar y un derecho educativo.
@@ -306,6 +322,15 @@ Caso: grupo de Infantil con alta heterogeneidad lingüística, ritmos dispares y
 - UNESCO - The Salamanca Statement and Framework for Action (1994): https://unesdoc.unesco.org/ark:/48223/pf0000098427
 - Naciones Unidas - Objetivo de Desarrollo Sostenible 4: https://sdgs.un.org/goals/goal4
 - CAST - UDL Guidelines 3.0: https://udlguidelines.cast.org/
+- UNED - Grado en Educación Infantil: https://www.uned.es/universidad/inicio/estudios/grados/grado-en-educacion-infantil.html
+- UNED - Facultad de Educación: https://www.uned.es/universidad/facultades/educacion.html
+- UNED - Educación XX1 (revista): https://revistas.uned.es/index.php/educacionXX1
+- UNED - REOP (revista): https://revistas.uned.es/index.php/reop
+- INTEF - DUA TIC: https://intef.es/tecnologia-educativa/dua/
+- REdIneD - recursos y literatura educativa: https://redined.educacion.gob.es/xmlui/
+- Dialnet - base de literatura pedagógica: https://dialnet.unirioja.es/
+- Revista Iberoamericana de Educación (OEI): https://rieoei.org/
+- AMEI-WAECE - recursos especializados en Educación Infantil: https://www.waece.org/
 - BOE - Ley Orgánica 3/2020 (LOMLOE): https://www.boe.es/buscar/act.php?id=BOE-A-2006-7899
 - BOE - Real Decreto 95/2022 (ordenación y enseñanzas mínimas de Educación Infantil): https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-1654
 - Booth, T. y Ainscow, M. - Index for Inclusion: https://www.eenet.org.uk/resources/docs/Index%20Spanish%20South.pdf
@@ -319,4 +344,4 @@ Caso: grupo de Infantil con alta heterogeneidad lingüística, ritmos dispares y
 - Imagen aula (Wikimedia Commons): https://commons.wikimedia.org/wiki/File:Wikimedia_in_Education_illustration_classroom.svg
 - Material visual del tema base (PDF en español): `temas/Orga_ges_aula/Org_ges_Aula_tema_1.pdf`
 
-**Fecha de actualización:** 16/02/2026
+**Fecha de actualización:** 28/02/2026

@@ -283,6 +283,22 @@ _Figura 5.5. Recursos prácticos sobre rutinas y selección de cuentos presentes
 - En 0-3 prima la dosificación, el vínculo y la exploración sensorial acompañada; en 3-6 crece la autonomía, la corresponsabilidad y la complejidad metodológica.
 - El uso de recursos digitales debe subordinarse al bienestar infantil, la mediación adulta y la finalidad educativa explícita.
 
+## 12. Profundización con fuentes UNED, pedagogía y Educación Infantil
+
+Para mejorar la planificación de recursos didácticos de forma sostenida, se recomienda una revisión documental periódica con tres capas:
+
+- **Capa universitaria (UNED):** actualizar fundamentos teóricos y metodológicos.
+- **Capa pedagógica especializada:** revisar evidencia sobre materiales, innovación e inclusión.
+- **Capa de práctica en Infantil:** seleccionar propuestas y repertorios transferibles al aula 0-6.
+
+Este enfoque evita dos riesgos frecuentes: organizar materiales desde la intuición sin evidencia, o aplicar marcos teóricos sin traducción operativa a la realidad del aula.
+
+| Capa de revisión | Fuentes prioritarias | Pregunta profesional que ayuda a responder |
+|---|---|---|
+| UNED | Grado en Educación Infantil, Facultad de Educación, Educación XX1, REOP | ¿Con qué fundamento pedagógico justifico esta decisión organizativa? |
+| Pedagogía especializada | Dialnet, RIE (OEI), REdIneD | ¿Qué evidencia comparada existe sobre uso de materiales y aprendizaje? |
+| Especialización Infantil | INTEF y AMEI-WAECE | ¿Cómo traduzco esa evidencia en rutinas y recursos concretos de aula? |
+
 ## Referencias bibliográficas de base
 
 - Cabero, J. (1989, 2001). Tecnología educativa y medios en la enseñanza.
@@ -296,9 +312,17 @@ _Figura 5.5. Recursos prácticos sobre rutinas y selección de cuentos presentes
 
 ## Fuentes en internet consultadas y de ampliación
 
+- UNED - Grado en Educación Infantil: https://www.uned.es/universidad/inicio/estudios/grados/grado-en-educacion-infantil.html
+- UNED - Facultad de Educación: https://www.uned.es/universidad/facultades/educacion.html
+- UNED - Educación XX1 (revista): https://revistas.uned.es/index.php/educacionXX1
+- UNED - REOP (revista): https://revistas.uned.es/index.php/reop
 - BOE. Real Decreto 95/2022 (ordenación y enseñanzas mínimas de Educación Infantil): https://www.boe.es/buscar/act.php?id=BOE-A-2022-1654
 - BOE. Ley Orgánica 3/2020 (LOMLOE): https://www.boe.es/eli/es/lo/2020/12/29/3
-- INTEF. DUA TIC: https://intef.es/experiencias_edu/dua-tic/
+- INTEF. DUA TIC: https://intef.es/tecnologia-educativa/dua/
+- REdIneD - recursos educativos en español: https://redined.educacion.gob.es/xmlui/
+- Dialnet - documentación de pedagogía: https://dialnet.unirioja.es/
+- Revista Iberoamericana de Educación (OEI): https://rieoei.org/
+- AMEI-WAECE - recursos especializados en Educación Infantil: https://www.waece.org/
 - UNESCO. Educación y atención de la primera infancia: https://www.unesco.org/es/early-childhood-education
 - OMS. Recomendaciones de actividad física, sedentarismo y sueño en primera infancia (nota divulgativa): https://www.who.int/es/news/item/24-04-2019-to-grow-up-healthy-children-need-to-sit-less-and-play-more
 - AEP (EnFamilia). Recomendaciones sobre pantallas en infancia y adolescencia: https://enfamilia.aeped.es/noticias/nuevas-recomendaciones-sobre-pantallas-en-infancia-adolescencia

@@ -424,6 +424,10 @@ Estas reglas se aplican a los nuevos apuntes y a revisiones de temas ya creados:
 - Integrar esos diagramas en los apuntes con explicación pedagógica breve y relación directa con el apartado tratado.
 - Si se incluye algún diagrama o imagen explicativa, debe estar en **español**. Si está en otro idioma, no se debe incluir.
 - A partir de ahora, las búsquedas de fuentes, imágenes y diagramas deben realizarse **en español** de forma prioritaria.
+- A partir de ahora, para la búsqueda de **textos, definiciones y conceptos** se priorizarán:
+  - páginas oficiales de la **UNED**,
+  - páginas de **pedagogía**,
+  - y páginas **especializadas en Educación Infantil**.
 
 - Para evitar problemas de renderizado de imágenes:
   - priorizar sintaxis Markdown directa `![texto](ruta)`,
@@ -444,6 +448,8 @@ Estas reglas se aplican a los nuevos apuntes y a revisiones de temas ya creados:
 **Fecha de actualización:** 14/02/2026
 
 **Fecha de actualización:** 14/02/2026
+
+**Fecha de actualización:** 28/02/2026
 
 **Fecha de actualización:** 16/02/2026
 

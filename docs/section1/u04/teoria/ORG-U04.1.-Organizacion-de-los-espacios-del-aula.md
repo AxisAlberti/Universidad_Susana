@@ -201,6 +201,22 @@ Esta rectificación es relevante para la organización de espacios porque despla
 - La inclusión exige diseño universal desde la planificación inicial.
 - La profesionalidad docente se expresa en la capacidad de justificar, evaluar y mejorar decisiones espaciales con evidencia.
 
+## 8. Ampliación con fuentes UNED y pedagogía especializada
+
+Para revisar y mejorar decisiones sobre organización espacial conviene trabajar con una matriz de fuentes que combine:
+
+- documentación universitaria (UNED),
+- investigación pedagógica en español,
+- y recursos especializados de Educación Infantil.
+
+Esta combinación facilita pasar del diseño general del aula a decisiones precisas sobre accesibilidad, circulación, interacción y evaluación del uso real de los espacios.
+
+| Tipo de fuente prioritaria | Ejemplo | Utilidad para la organización del espacio |
+|---|---|---|
+| UNED | Grado en Educación Infantil, Facultad de Educación, revistas UNED | Fundamentación teórica y metodológica de decisiones espaciales |
+| Pedagogía especializada | Dialnet, RIE (OEI), REdIneD | Evidencias comparadas sobre ambientes de aprendizaje |
+| Educación Infantil aplicada | INTEF y AMEI-WAECE | Ejemplos transferibles de rincones, talleres y diseño inclusivo |
+
 ## Referencias básicas del tema
 
 - Iglesias Forneiro, M. L. (2008). Observación y evaluación del ambiente de aprendizaje en Educación Infantil.
@@ -210,10 +226,19 @@ Esta rectificación es relevante para la organización de espacios porque despla
 
 ## Fuentes en internet consultadas
 
+- UNED - Grado en Educación Infantil: https://www.uned.es/universidad/inicio/estudios/grados/grado-en-educacion-infantil.html
+- UNED - Facultad de Educación: https://www.uned.es/universidad/facultades/educacion.html
+- UNED - Educación XX1 (revista): https://revistas.uned.es/index.php/educacionXX1
+- UNED - REOP (revista): https://revistas.uned.es/index.php/reop
 - BOE. Real Decreto 95/2022, de 1 de febrero, por el que se establece la ordenación y las enseñanzas mínimas de la Educación Infantil: https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-1654
 - BOE. Ley Orgánica 3/2020 (LOMLOE): https://www.boe.es/eli/es/lo/2020/12/29/3
+- INTEF - Tecnología educativa y DUA: https://intef.es/tecnologia-educativa/dua/
+- REdIneD - recursos educativos en español: https://redined.educacion.gob.es/xmlui/
+- Dialnet - documentación de pedagogía: https://dialnet.unirioja.es/
+- Revista Iberoamericana de Educación (OEI): https://rieoei.org/
+- AMEI-WAECE - recursos especializados de Educación Infantil: https://www.waece.org/
 - OECD. *Starting Strong VI: Supporting Meaningful Interactions in Early Childhood Education and Care*: https://www.oecd.org/education/school/starting-strong-vi-f47a06ae-en.htm
-- UNESCO. Quality learning: https://www.unesco.org/en/quality-learning
-- UNICEF. Child-Friendly Schools: https://www.unicef.org/education/schools
+- UNESCO - Educación y atención de la primera infancia: https://www.unesco.org/es/early-childhood-education
+- UNICEF - Educación: https://www.unicef.org/es/educacion
 
-**Fecha de actualización:** 26/02/2026
+**Fecha de actualización:** 28/02/2026
