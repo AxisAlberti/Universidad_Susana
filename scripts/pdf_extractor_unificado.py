@@ -407,7 +407,8 @@ def image_looks_tabular(image_bytes: bytes) -> bool:
 
     hc = long_count(h_lines, int(w * 0.45))
     vc = long_count(v_lines, int(h * 0.18))
-    return hc >= 2 and vc >= 2
+    line_ink_ratio = float((h_lines > 0).mean()) + float((v_lines > 0).mean())
+    return hc >= 2 and vc >= 2 and line_ink_ratio >= 0.018
 
 
 def looks_like_running_text(image_bytes: bytes, lang: str = "spa") -> bool:
@@ -438,6 +439,199 @@ def likely_figure_content(image_bytes: bytes) -> bool:
     # Ligeramente más estricto cuando el perfil estricto está activo.
     min_edges = 0.010 if STRICT_FIGURE_PROFILE else 0.007
     return edge_ratio >= min_edges
+
+
+def looks_like_dense_text_block(image_bytes: bytes) -> bool:
+    """Heurística CV para detectar recortes dominados por texto corrido sin OCR."""
+    try:
+        import cv2
+        import numpy as np
+    except Exception:
+        return False
+
+    arr = np.frombuffer(image_bytes, dtype=np.uint8)
+    gray = cv2.imdecode(arr, cv2.IMREAD_GRAYSCALE)
+    if gray is None:
+        return False
+    h, w = gray.shape[:2]
+    if h < 40 or w < 40:
+        return False
+
+    try:
+        bw = cv2.adaptiveThreshold(gray, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY_INV, 25, 15)
+        ink_ratio = float((bw > 0).mean())
+        row_density = (bw > 0).mean(axis=1)
+        dense_rows_ratio = float((row_density > 0.10).mean())
+        n, _, stats, _ = cv2.connectedComponentsWithStats(bw, connectivity=8)
+    except Exception:
+        return False
+
+    total = 0
+    glyph = 0
+    structural = 0
+    min_area = 8
+    for i in range(1, n):
+        x, y, rw, rh, area = [int(v) for v in stats[i]]
+        if area < min_area:
+            continue
+        total += 1
+        if 3 <= rw <= 45 and 5 <= rh <= 35 and area <= 350:
+            glyph += 1
+        if rw > int(w * 0.22) or rh > int(h * 0.08) or area > int(w * h * 0.002):
+            structural += 1
+
+    if total < 60:
+        return False
+    glyph_ratio = glyph / float(max(1, total))
+    # Texto denso típico: mucho "grano" de glifos y muy poca estructura gráfica.
+    return ink_ratio >= 0.08 and dense_rows_ratio >= 0.24 and glyph_ratio >= 0.84 and structural <= 1
+
+
+def has_large_graphic_blocks(image_bytes: bytes) -> bool:
+    """Detecta estructuras gráficas grandes (cajas/diagramas) en una imagen escaneada."""
+    try:
+        import cv2
+        import numpy as np
+    except Exception:
+        return False
+
+    arr = np.frombuffer(image_bytes, dtype=np.uint8)
+    gray = cv2.imdecode(arr, cv2.IMREAD_GRAYSCALE)
+    if gray is None:
+        return False
+    h, w = gray.shape[:2]
+    if h < 80 or w < 80:
+        return False
+
+    try:
+        bw = cv2.adaptiveThreshold(gray, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY_INV, 25, 15)
+        n, _, stats, _ = cv2.connectedComponentsWithStats(bw, connectivity=8)
+    except Exception:
+        return False
+
+    large = 0
+    min_area = max(50, int(w * h * 0.00025))
+    for i in range(1, n):
+        x, y, rw, rh, area = [int(v) for v in stats[i]]
+        if area < min_area:
+            continue
+        # Bloques gráficos no típicos de glifos de texto.
+        if rw >= int(w * 0.12) and rh >= int(h * 0.02):
+            large += 1
+            if large >= 2:
+                return True
+    return False
+
+
+def isolate_top_diagram_block(image_bytes: bytes) -> Tuple[bytes, Optional[Tuple[int, int, int, int]], Optional[Tuple[int, int]]]:
+    """Recorta diagramas en banda superior (p. ej., paneles conectados) en escaneos de página."""
+    try:
+        import cv2
+        import numpy as np
+    except Exception:
+        return image_bytes, None, None
+
+    arr = np.frombuffer(image_bytes, dtype=np.uint8)
+    gray = cv2.imdecode(arr, cv2.IMREAD_GRAYSCALE)
+    if gray is None:
+        return image_bytes, None, None
+
+    h, w = gray.shape[:2]
+    if h < 120 or w < 120:
+        return image_bytes, None, None
+
+    try:
+        bw = cv2.adaptiveThreshold(gray, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY_INV, 25, 15)
+        closed = cv2.morphologyEx(
+            bw,
+            cv2.MORPH_CLOSE,
+            cv2.getStructuringElement(cv2.MORPH_RECT, (3, 3)),
+            iterations=1,
+        )
+        cnts, _ = cv2.findContours(closed, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+    except Exception:
+        return image_bytes, None, None
+
+    img_area = float(w * h)
+    candidates: List[Tuple[int, int, int, int, float]] = []
+    for c in cnts:
+        peri = cv2.arcLength(c, True)
+        if peri <= 0:
+            continue
+        approx = cv2.approxPolyDP(c, 0.03 * peri, True)
+        if len(approx) < 4 or len(approx) > 8:
+            continue
+        x, y, rw, rh = cv2.boundingRect(c)
+        area = float(rw * rh)
+        area_ratio = area / img_area
+        if area_ratio < 0.010 or area_ratio > 0.28:
+            continue
+        ar = rw / float(max(1, rh))
+        if ar < 0.55 or ar > 4.2:
+            continue
+        if y > int(h * 0.78):
+            continue
+        candidates.append((x, y, x + rw, y + rh, area))
+
+    if len(candidates) < 2:
+        return image_bytes, None, None
+
+    # Elimina cajas casi totalmente contenidas en otras mayores.
+    candidates = sorted(candidates, key=lambda b: b[4], reverse=True)
+    filtered: List[Tuple[int, int, int, int, float]] = []
+    for b in candidates:
+        x0, y0, x1, y1, area = b
+        inside = False
+        for k in filtered:
+            kx0, ky0, kx1, ky1, karea = k
+            inter = max(0, min(x1, kx1) - max(x0, kx0)) * max(0, min(y1, ky1) - max(y0, ky0))
+            if area > 0 and (inter / area) >= 0.92 and karea >= area * 1.15:
+                inside = True
+                break
+        if not inside:
+            filtered.append(b)
+
+    if len(filtered) < 2:
+        return image_bytes, None, None
+
+    # Busca una banda horizontal de paneles principales.
+    top = sorted(filtered, key=lambda b: b[4], reverse=True)[:8]
+    centers = np.array([(b[1] + b[3]) / 2.0 for b in top], dtype=np.float32)
+    median_y = float(np.median(centers))
+    band = [b for b in filtered if abs(((b[1] + b[3]) / 2.0) - median_y) <= h * 0.14]
+    if len(band) < 2:
+        return image_bytes, None, None
+
+    x0 = min(b[0] for b in band)
+    y0 = min(b[1] for b in band)
+    x1 = max(b[2] for b in band)
+    y1 = max(b[3] for b in band)
+    width_ratio = (x1 - x0) / float(w)
+    height_ratio = (y1 - y0) / float(h)
+    if width_ratio < 0.45 or height_ratio > 0.42:
+        return image_bytes, None, None
+
+    pad_x = max(8, int(w * 0.025))
+    pad_y = max(8, int(h * 0.02))
+    x0 = max(0, x0 - pad_x)
+    y0 = max(0, y0 - pad_y)
+    x1 = min(w, x1 + pad_x)
+    y1 = min(h, y1 + pad_y)
+    if x1 - x0 < 20 or y1 - y0 < 20:
+        return image_bytes, None, None
+
+    crop_bw = bw[y0:y1, x0:x1]
+    if crop_bw.size > 0:
+        row_density = (crop_bw > 0).mean(axis=1)
+        dense_rows = float((row_density > 0.14).mean())
+        if dense_rows > 0.55:
+            return image_bytes, None, None
+
+    crop = gray[y0:y1, x0:x1]
+    ok, encoded = cv2.imencode(".png", crop)
+    if not ok:
+        return image_bytes, None, None
+    return encoded.tobytes(), (x0, y0, x1, y1), (w, h)
 
 
 def figure_visual_score(image_bytes: bytes) -> float:
@@ -591,24 +785,45 @@ def trim_bottom_dense_text(image_bytes: bytes, lang: str = "spa") -> Tuple[bytes
             key = (int(data["block_num"][i]), int(data["par_num"][i]), int(data["line_num"][i]))
             lines.setdefault(key, []).append(i)
 
-        cut_y = None
+        long_lines: List[Tuple[int, int]] = []
         for key in sorted(lines.keys(), key=lambda k: min(int(data["top"][i]) for i in lines[k])):
             idxs = lines[key]
             words = [(data["text"][i] or "").strip() for i in idxs]
             words = [wrd for wrd in words if any(ch.isalpha() for ch in wrd)]
             y0 = min(int(data["top"][i]) for i in idxs)
+            y1 = max(int(data["top"][i]) + int(data["height"][i]) for i in idxs)
             x0 = min(int(data["left"][i]) for i in idxs)
             x1 = max(int(data["left"][i]) + int(data["width"][i]) for i in idxs)
             line_w = x1 - x0
-            if y0 <= int(h * 0.45):
+            # Solo evaluamos líneas en la mitad inferior para evitar cortar leyendas de eje.
+            if y0 <= int(h * 0.55):
                 continue
-            if len(words) >= 8 and line_w >= int(w * 0.45):
-                cut_y = max(10, y0 - 8)
-                break
+            if len(words) >= 8 and line_w >= int(w * 0.50):
+                long_lines.append((y0, y1))
 
-        if cut_y is None or cut_y >= h - 8:
+        # Recortamos solo si existe un bloque de texto corrido (>=2 líneas cercanas).
+        if len(long_lines) < 2:
             return image_bytes, 1.0
-        if cut_y <= int(h * 0.35):
+
+        long_lines.sort(key=lambda t: t[0])
+        clusters: List[Tuple[int, int, int]] = []
+        c_start, c_end = long_lines[0]
+        c_count = 1
+        max_gap = max(10, int(h * 0.06))
+        for y0, y1 in long_lines[1:]:
+            if y0 - c_end <= max_gap:
+                c_end = max(c_end, y1)
+                c_count += 1
+            else:
+                clusters.append((c_start, c_end, c_count))
+                c_start, c_end, c_count = y0, y1, 1
+        clusters.append((c_start, c_end, c_count))
+        clusters = [c for c in clusters if c[2] >= 2]
+        if not clusters:
+            return image_bytes, 1.0
+
+        cut_y = max(10, clusters[0][0] - 8)
+        if cut_y <= int(h * 0.55) or cut_y >= h - 8:
             return image_bytes, 1.0
 
         crop = img.crop((0, 0, w, cut_y))
@@ -617,6 +832,62 @@ def trim_bottom_dense_text(image_bytes: bytes, lang: str = "spa") -> Tuple[bytes
         return buff.getvalue(), float(cut_y) / float(h)
     except Exception:
         return image_bytes, 1.0
+
+
+def trim_top_non_visual_preface(image_bytes: bytes) -> Tuple[bytes, Optional[Tuple[int, int, int, int]], Optional[Tuple[int, int]]]:
+    """Recorta cabecera textual en imágenes escaneadas grandes.
+
+    Devuelve (bytes_recortados, crop_box_px, size_origen_px).
+    """
+    try:
+        import cv2
+        import numpy as np
+    except Exception:
+        return image_bytes, None, None
+
+    arr = np.frombuffer(image_bytes, dtype=np.uint8)
+    gray = cv2.imdecode(arr, cv2.IMREAD_GRAYSCALE)
+    if gray is None:
+        return image_bytes, None, None
+
+    h, w = gray.shape[:2]
+    if h < 120 or w < 120:
+        return image_bytes, None, None
+
+    try:
+        bw = cv2.adaptiveThreshold(gray, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY_INV, 25, 15)
+        n, _, stats, _ = cv2.connectedComponentsWithStats(bw, connectivity=8)
+    except Exception:
+        return image_bytes, None, None
+
+    min_area = max(120, int(w * h * 0.0006))
+    structure_top: Optional[int] = None
+    for i in range(1, n):
+        x, y, rw, rh, area = [int(v) for v in stats[i]]
+        if area < min_area:
+            continue
+        # Componentes estructurales (cajas, líneas, nodos) frente a glifos sueltos.
+        is_structural = rw > int(w * 0.22) or rh > int(h * 0.07) or area > int(w * h * 0.002)
+        if not is_structural:
+            continue
+        if structure_top is None or y < structure_top:
+            structure_top = y
+
+    if structure_top is None:
+        return image_bytes, None, None
+    # Solo recorta si la estructura empieza claramente por debajo del inicio.
+    if structure_top <= int(h * 0.22):
+        return image_bytes, None, None
+
+    y0 = max(0, structure_top - max(24, int(h * 0.10)))
+    if y0 <= 0 or y0 >= int(h * 0.45):
+        return image_bytes, None, None
+
+    crop = gray[y0:h, 0:w]
+    ok, encoded = cv2.imencode(".png", crop)
+    if not ok:
+        return image_bytes, None, None
+    return encoded.tobytes(), (0, y0, w, h), (w, h)
 
 
 def extract_caption_boxes(
@@ -844,32 +1115,84 @@ def extract_figures(
             )
             fig_caps = merge_boxes([*fig_caps_native, *fig_caps_ocr], x_tol=6, y_tol=4)
             saved_page = 0
+            page_area = page.rect.width * page.rect.height
+
+            image_entries: List[Tuple[int, List[Box], Box]] = []
+            for img in page.get_images(full=True):
+                xref = int(img[0])
+                rects = [rect_to_box(r) for r in page.get_image_rects(xref)]
+                if rects:
+                    ub = rects[0]
+                    for rr in rects[1:]:
+                        ub = ub.union(rr)
+                else:
+                    ub = rect_to_box(page.rect)
+                image_entries.append((xref, rects, ub))
 
             # 1) Imágenes embebidas.
-            for iidx, img in enumerate(page.get_images(full=True), start=1):
-                xref = img[0]
-                img_rects = [rect_to_box(r) for r in page.get_image_rects(xref)]
-                if img_rects and max(overlap_ratio(r, page_tables) for r in img_rects) >= 0.20:
+            for iidx, (xref, img_rects, b) in enumerate(image_entries, start=1):
+                # Descarta overlays pequeños contenidos casi totalmente en otra imagen grande.
+                is_nested_overlay = False
+                has_nested_children = False
+                for oxref, _, ob in image_entries:
+                    if oxref == xref:
+                        continue
+                    if b.area <= 0:
+                        continue
+                    inter = b.intersection_area(ob)
+                    if ob.area >= b.area * 3.0 and (inter / b.area) >= 0.95:
+                        is_nested_overlay = True
+                        break
+                    if b.area >= ob.area * 3.0 and ob.area > 0 and (inter / ob.area) >= 0.95:
+                        has_nested_children = True
+                if is_nested_overlay:
                     continue
 
-                base = doc.extract_image(xref)
-                data = base.get("image")
-                ext = base.get("ext", "png")
+                if page_tables:
+                    table_overlap = (
+                        max(overlap_ratio(r, page_tables) for r in img_rects)
+                        if img_rects
+                        else overlap_ratio(b, page_tables)
+                    )
+                    overlap_limit = 0.20
+                    # En imágenes de página casi completa bajamos umbral:
+                    # evita clasificar como figura páginas de tabla + texto.
+                    if b.area >= page_area * 0.58:
+                        overlap_limit = 0.12
+                    if table_overlap >= overlap_limit:
+                        continue
+
+                ext = "png"
+                data: Optional[bytes] = None
+                # Renderiza desde la página solo si la imagen contiene overlays hijos.
+                # Evita perder fragmentos al extraer bytes "crudos" de la imagen base.
+                if img_rects and has_nested_children:
+                    pix = page.get_pixmap(matrix=fitz.Matrix(2, 2), clip=b.to_rect(), alpha=False)
+                    data = pix.tobytes("png")
+                else:
+                    base = doc.extract_image(xref)
+                    data = base.get("image")
+                    ext = base.get("ext", "png")
                 if not data:
                     continue
 
+                if not fig_caps and img_rects and b.area >= page_area * 0.58:
+                    # Intenta aislar diagramas en cabecera y evita guardar página completa.
+                    cropped, crop_box_px, src_size = isolate_top_diagram_block(data)
+                    if crop_box_px is not None and src_size is not None:
+                        data = cropped
+                        b = map_inner_crop_to_box(b, crop_box_px, src_size)
+
                 if image_looks_tabular(data):
+                    continue
+                if not fig_caps and looks_like_dense_text_block(data):
                     continue
                 if looks_like_running_text(data, lang=lang) and not fig_caps:
                     continue
                 if STRICT_FIGURE_PROFILE and not fig_caps and not likely_figure_content(data):
                     continue
 
-                b = img_rects[0] if img_rects else rect_to_box(page.rect)
                 if img_rects:
-                    for rr in img_rects[1:]:
-                        b = b.union(rr)
-                    page_area = page.rect.width * page.rect.height
                     # En PDFs escaneados, evita guardar la página completa como figura
                     # cuando ya hay captions de figura detectados.
                     if fig_caps and b.area >= page_area * 0.75:
@@ -877,7 +1200,16 @@ def extract_figures(
                     if b.area >= page_area * 0.80 and looks_like_running_text(data, lang=lang):
                         continue
                     if STRICT_FIGURE_PROFILE and b.area >= page_area * 0.65 and not fig_caps:
-                        continue
+                        # En páginas escaneadas grandes sin caption, exigimos señal visual
+                        # de diagrama para evitar extraer texto corrido completo.
+                        if not has_large_graphic_blocks(data):
+                            continue
+                    # Si es una imagen escaneada grande sin caption detectable, limpia cabecera textual.
+                    if not fig_caps and has_nested_children and b.area >= page_area * 0.45:
+                        trimmed, crop_box_px, src_size = trim_top_non_visual_preface(data)
+                        if crop_box_px is not None and src_size is not None:
+                            data = trimmed
+                            b = map_inner_crop_to_box(b, crop_box_px, src_size)
 
                 filtered, filtered_box, text_ratio, discard_reasons = apply_content_only_filter(
                     data,
@@ -934,6 +1266,8 @@ def extract_figures(
                         pix = page.get_pixmap(matrix=fitz.Matrix(2, 2), clip=clip.to_rect(), alpha=False)
                         data = pix.tobytes("png")
                         if image_looks_tabular(data):
+                            continue
+                        if not fig_caps and looks_like_dense_text_block(data):
                             continue
                         data, keep_ratio = trim_bottom_dense_text(data, lang=lang)
                         if keep_ratio < 1.0:
@@ -1050,6 +1384,106 @@ def group_consecutive(values: Sequence[int]) -> List[List[int]]:
     return groups
 
 
+def union_table_box(page: fitz.Page, rects: List[Box]) -> Box:
+    if rects:
+        box = rects[0]
+        for rr in rects[1:]:
+            box = box.union(rr)
+    else:
+        box = rect_to_box(page.rect)
+    return box.expand(6, 6, page.rect)
+
+
+def page_has_table_caption(page: fitz.Page, lang: str = "spa") -> bool:
+    native = extract_caption_boxes(page, TABLE_CAPTION_TERMS, TABLE_CAPTION_RE, require_start=True)
+    if native:
+        return True
+    ocr_caps = extract_caption_boxes_ocr(
+        page,
+        TABLE_CAPTION_TERMS,
+        TABLE_CAPTION_RE,
+        lang=lang,
+        require_start=True,
+    )
+    return bool(ocr_caps)
+
+
+def should_merge_table_pages(
+    prev_page: fitz.Page,
+    prev_box: Box,
+    next_page: fitz.Page,
+    next_box: Box,
+    next_has_caption: bool,
+) -> bool:
+    # Si la siguiente página tiene caption propio de tabla, iniciamos tabla nueva.
+    if next_has_caption:
+        return False
+
+    prev_bottom_gap = prev_page.rect.y1 - prev_box.y1
+    next_top_gap = next_box.y0 - next_page.rect.y0
+    prev_h = max(1.0, prev_page.rect.height)
+    next_h = max(1.0, next_page.rect.height)
+
+    # Continuidad vertical típica: la anterior cae al pie y la siguiente arranca arriba.
+    if prev_bottom_gap > prev_h * 0.18:
+        return False
+    if next_top_gap > next_h * 0.20:
+        return False
+
+    prev_wr = prev_box.width / max(1.0, prev_page.rect.width)
+    next_wr = next_box.width / max(1.0, next_page.rect.width)
+    if abs(prev_wr - next_wr) > 0.15:
+        return False
+
+    overlap_x = max(0.0, min(prev_box.x1, next_box.x1) - max(prev_box.x0, next_box.x0))
+    min_w = max(1.0, min(prev_box.width, next_box.width))
+    if (overlap_x / min_w) < 0.65:
+        return False
+
+    return True
+
+
+def build_table_merge_groups(
+    doc: fitz.Document,
+    table_regions: Dict[int, List[Box]],
+    lang: str = "spa",
+) -> Tuple[List[List[int]], Dict[int, Box]]:
+    pages = sorted(table_regions.keys())
+    if not pages:
+        return [], {}
+
+    page_boxes: Dict[int, Box] = {}
+    has_caption: Dict[int, bool] = {}
+    for p in pages:
+        page = doc[p - 1]
+        page_boxes[p] = union_table_box(page, table_regions.get(p, []))
+        has_caption[p] = page_has_table_caption(page, lang=lang)
+
+    groups: List[List[int]] = []
+    idx = 0
+    while idx < len(pages):
+        group = [pages[idx]]
+        j = idx
+        while j + 1 < len(pages) and pages[j + 1] == pages[j] + 1:
+            prev_p = pages[j]
+            next_p = pages[j + 1]
+            if should_merge_table_pages(
+                doc[prev_p - 1],
+                page_boxes[prev_p],
+                doc[next_p - 1],
+                page_boxes[next_p],
+                has_caption[next_p],
+            ):
+                group.append(next_p)
+                j += 1
+            else:
+                break
+        groups.append(group)
+        idx = j + 1
+
+    return groups, page_boxes
+
+
 def extract_tables_as_images(
     pdf_path: Path,
     out_dir: Path,
@@ -1060,22 +1494,15 @@ def extract_tables_as_images(
     records: List[ExtractionRecord] = []
 
     with fitz.open(pdf_path) as doc:
-        pages = sorted(table_regions.keys())
-        groups = group_consecutive(pages)
+        groups, page_boxes = build_table_merge_groups(doc, table_regions, lang="spa")
+        logger.info("Grupos de tablas a exportar: %s", groups)
         for group in groups:
             if len(group) > 1:
                 parts: List[Image.Image] = []
                 union_box: Optional[Box] = None
                 for p in group:
                     page = doc[p - 1]
-                    rects = table_regions.get(p, [])
-                    if rects:
-                        box = rects[0]
-                        for rr in rects[1:]:
-                            box = box.union(rr)
-                    else:
-                        box = rect_to_box(page.rect)
-                    box = box.expand(6, 6, page.rect)
+                    box = page_boxes.get(p, union_table_box(page, table_regions.get(p, [])))
                     union_box = box if union_box is None else union_box.union(box)
                     pix = page.get_pixmap(matrix=fitz.Matrix(2, 2), clip=box.to_rect(), alpha=False)
                     parts.append(Image.open(io.BytesIO(pix.tobytes("png"))).convert("RGB"))
@@ -1095,14 +1522,7 @@ def extract_tables_as_images(
             else:
                 p = group[0]
                 page = doc[p - 1]
-                rects = table_regions.get(p, [])
-                if rects:
-                    box = rects[0]
-                    for rr in rects[1:]:
-                        box = box.union(rr)
-                else:
-                    box = rect_to_box(page.rect)
-                box = box.expand(6, 6, page.rect)
+                box = page_boxes.get(p, union_table_box(page, table_regions.get(p, [])))
                 pix = page.get_pixmap(matrix=fitz.Matrix(2, 2), clip=box.to_rect(), alpha=False)
                 out = out_dir / f"table_page_{p:03d}.png"
                 save_bytes(out, pix.tobytes("png"))

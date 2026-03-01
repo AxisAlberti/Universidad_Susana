@@ -4,7 +4,7 @@ description: Fundamentos teóricos y aplicados para comprender la diversidad fam
 summary: Perspectivas teóricas, tipos de familia, ciclo vital, subsistemas, parentalidad positiva y claves de intervención escuela-familia.
 authors:
     - Eduardo Fdez
-date: 2026-02-23
+date: 2026-03-01
 icon: "material/file-document-outline"
 permalink: /orientacion-familiar-accion-tutorial/u01/1.1
 categories:
@@ -24,6 +24,10 @@ Esta unidad estudia la familia como una realidad plural, histórica y cambiante.
 ![Diversidad familiar y acogida](assets/internet/diversidad-familiar-adopcion.jpg)
 
 _Imagen de referencia sobre diversidad familiar y acogida. Fuente: Wikimedia Commons._
+
+![Portada del tema 1: las familias y la diversidad](assets/imagenes/media_001_tabla.png)
+
+**Figura 1.1.** Portada del tema y foco conceptual de la unidad.
 
 ## Objetivos de aprendizaje
 
@@ -51,6 +55,10 @@ Este esquema organiza visualmente los bloques centrales de la unidad y facilita 
 ![Esquema del Tema 1](assets/esquema/esquema-tema1.png)
 
 _Esquema base del Tema 1 (documento proporcionado por la asignatura)._ 
+
+![Esquema de contenidos del tema 1 (versión del material base)](assets/imagenes/media_002_figura.png)
+
+**Figura 1.2.** Secuencia completa de apartados y subapartados del tema.
 
 ## 2. Perspectivas teóricas sobre familias
 
@@ -97,6 +105,14 @@ El modelo ecológico conecta familia, escuela, comunidad y cultura como sistemas
 
 _Modelo ecológico de Bronfenbrenner en español (Teoría ecológica). Fuente: Wikimedia Commons._
 
+![Modelo ecológico adaptado de Bronfenbrenner (representación 1)](assets/imagenes/media_003_figura.png)
+
+**Figura 1.3.** Niveles ecológicos y temporalidad del desarrollo familiar.
+
+![Modelo ecológico adaptado de Bronfenbrenner (representación 2)](assets/imagenes/media_004_figura.png)
+
+**Figura 1.4.** Microsistema, mesosistema, exosistema y cronosistema en interacción.
+
 ### 2.3. Familia como construcción social
 
 La familia también se configura por contextos históricos, normas culturales y relaciones de poder.
@@ -124,9 +140,17 @@ Entre sus funciones principales destacan:
 - Construcción de identidad y pertenencia.
 - Acompañamiento del desarrollo y del aprendizaje.
 
+![Niveles de necesidades y apoyos en el desarrollo familiar](assets/imagenes/media_013_tabla.png)
+
+**Tabla 1.1.** Niveles personal, diádico, relacional y comunitario de la intervención educativa con familias.
+
 ### 3.2. Tipos de familias
 
 En la práctica educativa conviven diferentes configuraciones familiares: nucleares, extensas, monoparentales, reconstituidas, homoparentales, adoptivas, acogedoras y otras. El foco pedagógico debe situarse en la calidad del cuidado y en la red de apoyos, no en un modelo único de familia.
+
+![Tipologías familiares según límites y grado de cohesión](assets/imagenes/media_012_tabla.png)
+
+**Tabla 1.2.** Diferencias entre familias aglutinadas, funcionales y desligadas.
 
 ### 3.3. Ciclos vitales familiares
 
@@ -139,6 +163,26 @@ Las familias cambian con el tiempo y atraviesan transiciones que pueden generar 
 
 Comprender estos procesos facilita la prevención y la intervención temprana desde la escuela.
 
+![Ciclo vital familiar: formación de la pareja y tareas iniciales](assets/imagenes/media_007_tabla.png)
+
+**Tabla 1.3.** Inicio del ciclo vital familiar: construcción del sistema conyugal y transición al rol de pareja.
+
+![Ciclo vital familiar: crianza inicial y etapa preescolar](assets/imagenes/media_008_tabla.png)
+
+**Tabla 1.4.** Tareas evolutivas de la familia con hijos e hijas pequeños.
+
+![Ciclo vital familiar: etapa escolar y adolescencia](assets/imagenes/media_009_tabla.png)
+
+**Tabla 1.5.** Ajustes familiares ante escolarización, crecimiento y crisis evolutivas.
+
+![Ciclo vital familiar: salida de hijos e hijas y edad media](assets/imagenes/media_010_tabla.png)
+
+**Tabla 1.6.** Reorganización de roles en la etapa de plataforma de lanzamiento y madurez familiar.
+
+![Ciclo vital familiar: envejecimiento, viudez y pérdidas](assets/imagenes/media_011_tabla.png)
+
+**Tabla 1.7.** Tareas y estresores normativos en la familia anciana.
+
 ### 3.4. Subsistemas familiares
 
 Los principales subsistemas son:
@@ -148,6 +192,10 @@ Los principales subsistemas son:
 - Subsistema fraternal: se construye entre hermanos y hermanas como primer espacio de aprendizaje entre iguales. Favorece competencias sociales como negociación, cooperación, manejo de conflictos y empatía.
 
 Un funcionamiento saludable requiere límites claros, firmes y flexibles para favorecer autonomía, cooperación y sentido de pertenencia.
+
+![Matriz de cohesión y adaptabilidad familiar](assets/imagenes/media_006_tabla.png)
+
+**Figura 1.5.** Tipologías de funcionamiento familiar según estructura y flexibilidad de límites.
 
 ### 3.5. Parentalidad positiva: estilos educativos y competencias parentales
 
@@ -166,6 +214,14 @@ La evidencia señala que prácticas parentales positivas se asocian con mejores 
 ![Lectura compartida en familia](assets/internet/family-reading.jpg)
 
 _Interacción familiar positiva en contexto de lectura compartida. Fuente: Wikimedia Commons._
+
+![Estilos educativos parentales y consecuencias en hijos e hijas (I)](assets/imagenes/media_014_tabla.png)
+
+**Tabla 1.8.** Impacto del estilo autoritario en el desarrollo socioemocional y académico.
+
+![Estilos educativos parentales y consecuencias en hijos e hijas (II)](assets/imagenes/media_015_tabla.png)
+
+**Tabla 1.9.** Comparativa entre estilos indulgente, democrático y negligente.
 
 ### 3.6. Diversidad familiar y escuela
 
@@ -251,4 +307,4 @@ Estos recursos refuerzan la idea de que la intervención con familias debe ser p
 - OMS. Nurturing Care Framework (primera infancia): https://nurturing-care.org/
 - DOI (artículo sobre prácticas parentales y desarrollo infantil): https://doi.org/10.1007/s10995-015-1759-1
 
-**Fecha de actualización:** 23/02/2026
+**Fecha de actualización:** 01/03/2026
