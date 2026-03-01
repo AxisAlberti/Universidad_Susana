@@ -1,0 +1,135 @@
+{
+  "source_pdf": "/Users/josemanuelgonzalez/Repositorios/Universidad_Susana/scripts/Orientacion familiar y accion tutorial tema 5.pdf",
+  "items": [
+    {
+      "kind": "table",
+      "page": 1,
+      "path": "/Users/josemanuelgonzalez/Repositorios/Universidad_Susana/scripts/Orientacion familiar y accion tutorial tema 5_extraido/media/media_001_tabla.png",
+      "method": "region",
+      "bbox": [
+        30.0,
+        35.5,
+        568.5,
+        292.0
+      ],
+      "text_ratio": null
+    },
+    {
+      "kind": "table",
+      "page": 3,
+      "path": "/Users/josemanuelgonzalez/Repositorios/Universidad_Susana/scripts/Orientacion familiar y accion tutorial tema 5_extraido/media/media_002_tabla.png",
+      "method": "region",
+      "bbox": [
+        65.0,
+        187.5,
+        531.0,
+        751.5
+      ],
+      "text_ratio": null
+    },
+    {
+      "kind": "table",
+      "page": 5,
+      "path": "/Users/josemanuelgonzalez/Repositorios/Universidad_Susana/scripts/Orientacion familiar y accion tutorial tema 5_extraido/media/media_003_tabla.png",
+      "method": "region",
+      "bbox": [
+        385.0,
+        62.5,
+        572.0,
+        395.5
+      ],
+      "text_ratio": null
+    },
+    {
+      "kind": "table",
+      "page": 7,
+      "path": "/Users/josemanuelgonzalez/Repositorios/Universidad_Susana/scripts/Orientacion familiar y accion tutorial tema 5_extraido/media/media_004_tabla.png",
+      "method": "region",
+      "bbox": [
+        66.5,
+        109.0,
+        531.0,
+        414.5
+      ],
+      "text_ratio": null
+    },
+    {
+      "kind": "table",
+      "page": 8,
+      "path": "/Users/josemanuelgonzalez/Repositorios/Universidad_Susana/scripts/Orientacion familiar y accion tutorial tema 5_extraido/media/media_005_tabla.png",
+      "method": "merged-pages",
+      "bbox": [
+        66.0,
+        79.5,
+        531.0,
+        761.5
+      ],
+      "text_ratio": null
+    },
+    {
+      "kind": "table",
+      "page": 10,
+      "path": "/Users/josemanuelgonzalez/Repositorios/Universidad_Susana/scripts/Orientacion familiar y accion tutorial tema 5_extraido/media/media_006_tabla.png",
+      "method": "merged-pages",
+      "bbox": [
+        66.5,
+        79.5,
+        531.0,
+        694.5
+      ],
+      "text_ratio": null
+    },
+    {
+      "kind": "table",
+      "page": 13,
+      "path": "/Users/josemanuelgonzalez/Repositorios/Universidad_Susana/scripts/Orientacion familiar y accion tutorial tema 5_extraido/media/media_007_tabla.png",
+      "method": "region",
+      "bbox": [
+        67.5,
+        179.0,
+        531.0,
+        341.0
+      ],
+      "text_ratio": null
+    },
+    {
+      "kind": "figure",
+      "page": 17,
+      "path": "/Users/josemanuelgonzalez/Repositorios/Universidad_Susana/scripts/Orientacion familiar y accion tutorial tema 5_extraido/media/media_008_figura.png",
+      "method": "caption-guided",
+      "bbox": [
+        18.0,
+        20.0,
+        578.0,
+        77.0
+      ],
+      "text_ratio": 0.074984335839599
+    },
+    {
+      "kind": "figure",
+      "page": 19,
+      "path": "/Users/josemanuelgonzalez/Repositorios/Universidad_Susana/scripts/Orientacion familiar y accion tutorial tema 5_extraido/media/media_009_figura.png",
+      "method": "caption-guided",
+      "bbox": [
+        18.0,
+        279.5,
+        578.0,
+        652.4000000000001
+      ],
+      "text_ratio": 0.03225416507085408
+    },
+    {
+      "kind": "table",
+      "page": 22,
+      "path": "/Users/josemanuelgonzalez/Repositorios/Universidad_Susana/scripts/Orientacion familiar y accion tutorial tema 5_extraido/media/media_010_tabla.png",
+      "method": "region",
+      "bbox": [
+        135.0,
+        356.5,
+        464.0,
+        662.0
+      ],
+      "text_ratio": null
+    }
+  ]
+}
