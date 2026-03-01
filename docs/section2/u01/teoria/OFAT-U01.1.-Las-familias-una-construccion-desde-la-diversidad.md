@@ -25,10 +25,6 @@ Esta unidad estudia la familia como una realidad plural, histórica y cambiante.
 
 _Imagen de referencia sobre diversidad familiar y acogida. Fuente: Wikimedia Commons._
 
-![Portada del tema 1: las familias y la diversidad](assets/imagenes/media_001_tabla.png)
-
-**Figura 1.1.** Portada del tema y foco conceptual de la unidad.
-
 ## Objetivos de aprendizaje
 
 - Conocer las principales perspectivas teóricas para analizar la vida familiar.
@@ -55,10 +51,6 @@ Este esquema organiza visualmente los bloques centrales de la unidad y facilita 
 ![Esquema del Tema 1](assets/esquema/esquema-tema1.png)
 
 _Esquema base del Tema 1 (documento proporcionado por la asignatura)._ 
-
-![Esquema de contenidos del tema 1 (versión del material base)](assets/imagenes/media_002_figura.png)
-
-**Figura 1.2.** Secuencia completa de apartados y subapartados del tema.
 
 ## 2. Perspectivas teóricas sobre familias
 
@@ -107,11 +99,11 @@ _Modelo ecológico de Bronfenbrenner en español (Teoría ecológica). Fuente: W
 
 ![Modelo ecológico adaptado de Bronfenbrenner (representación 1)](assets/imagenes/media_003_figura.png)
 
-**Figura 1.3.** Niveles ecológicos y temporalidad del desarrollo familiar.
+**Figura 1.1.** Niveles ecológicos y temporalidad del desarrollo familiar.
 
 ![Modelo ecológico adaptado de Bronfenbrenner (representación 2)](assets/imagenes/media_004_figura.png)
 
-**Figura 1.4.** Microsistema, mesosistema, exosistema y cronosistema en interacción.
+**Figura 1.2.** Microsistema, mesosistema, exosistema y cronosistema en interacción.
 
 ### 2.3. Familia como construcción social
 
@@ -195,7 +187,7 @@ Un funcionamiento saludable requiere límites claros, firmes y flexibles para fa
 
 ![Matriz de cohesión y adaptabilidad familiar](assets/imagenes/media_006_tabla.png)
 
-**Figura 1.5.** Tipologías de funcionamiento familiar según estructura y flexibilidad de límites.
+**Figura 1.3.** Tipologías de funcionamiento familiar según estructura y flexibilidad de límites.
 
 ### 3.5. Parentalidad positiva: estilos educativos y competencias parentales
 
