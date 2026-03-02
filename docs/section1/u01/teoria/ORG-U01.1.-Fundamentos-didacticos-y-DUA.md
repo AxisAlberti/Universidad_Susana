@@ -112,6 +112,18 @@ _Comparación general de enfoque, principios y cambios clave entre DUA 2.2 y DUA
 
 _Comparativa detallada por principios, pautas y consideraciones entre DUA 2.2 y DUA 3.0._
 
+### 3.0. Diferencias principales entre DUA 2.2 y DUA 3.0
+
+Las diferencias más relevantes, tomando como base la documentación oficial de CAST sobre la actualización 3.0, son:
+
+- **Cambio de foco pedagógico**: DUA 3.0 refuerza explícitamente el abordaje de barreras ligadas a sesgos y a sistemas de exclusión, no solo a la variabilidad individual.
+- **Lenguaje de diseño más activo**: el marco enfatiza "diseñar opciones" para el aprendizaje (implicación, representación y acción/expresión), consolidando una lógica de planificación intencional desde el inicio.
+- **Mayor centralidad de agencia e identidad del aprendiz**: la versión 3.0 amplía el foco hacia autonomía intencional, identidad, pertenencia y participación auténtica.
+- **Reorganización de funciones ejecutivas**: el eje de funciones ejecutivas evoluciona hacia el desarrollo de estrategias y se integra de forma transversal en los tres principios.
+- **Presentación de checkpoints más flexible**: CAST ofrece la guía 3.0 en formatos numerados y no numerados, para facilitar implementación contextual sin perder coherencia del marco.
+
+En la práctica docente, esto se traduce en diseñar experiencias con más atención a inclusión estructural, toma de decisiones del alumnado y estrategias metacognitivas sostenidas.
+
 El modelo se articula en tres principios:
 
 1. **Múltiples formas de implicación** (motivación, interés, autorregulación).
@@ -336,6 +348,9 @@ Una ruta formativa útil es triangular tres tipos de evidencias:
 - UNESCO - The Salamanca Statement and Framework for Action (1994): https://unesdoc.unesco.org/ark:/48223/pf0000098427
 - Naciones Unidas - Objetivo de Desarrollo Sostenible 4: https://sdgs.un.org/goals/goal4
 - CAST - UDL Guidelines 3.0: https://udlguidelines.cast.org/
+- CAST - About the UDL Guidelines (actualización 3.0): https://udlguidelines.cast.org/more/about/
+- CAST - Downloads (formatos numerados/no numerados de la versión 3.0): https://udlguidelines.cast.org/more/downloads/
+- CAST - From barriers to potential: An update on the UDL Guidelines: https://www.cast.org/news/2024/from-barriers-to-potential-update-udl-guidelines
 - UNED - Grado en Educación Infantil: https://www.uned.es/universidad/inicio/estudios/grados/grado-en-educacion-infantil.html
 - UNED - Facultad de Educación: https://www.uned.es/universidad/facultades/educacion.html
 - UNED - Educación XX1 (revista): https://revistas.uned.es/index.php/educacionXX1
