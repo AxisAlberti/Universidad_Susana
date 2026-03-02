@@ -29,6 +29,7 @@ _Contexto real de aula para situar la organización del aprendizaje inclusivo._
 - Explicar la inclusión educativa como derecho, principio ético y criterio de calidad.
 - Relacionar el DUA con la planificación curricular y la evaluación formativa.
 - Analizar barreras de acceso, participación y aprendizaje en contextos reales.
+- Comparar DUA 2.2 y DUA 3.0 para justificar decisiones de diseño inclusivo actuales.
 - Diseñar propuestas de aula con apoyos multinivel, cooperación y co-docencia.
 - Argumentar decisiones didácticas con base normativa y evidencia pedagógica.
 
@@ -102,27 +103,32 @@ El DUA propone diseñar el currículo de forma **flexible y accesible** para tod
 
 ![Pautas DUA 3.0: compromiso, representación y acción y expresión](assets/pautas_dua_3_0/pautas_dua_3_0_principios.png)
 
-_Pautas DUA 3.0 organizadas por compromiso, representación y acción y expresión._
+_Pautas DUA 3.0 con los tres principios (compromiso, representación y acción/expresión) y sus bloques de acceso, apoyo y función ejecutiva._
 
 ![Comparación general entre DUA 2.2 y DUA 3.0](assets/pautas_dua_3_0/comparacion_dua_2_2_vs_3_0_general.png)
 
-_Comparación general de enfoque, principios y cambios clave entre DUA 2.2 y DUA 3.0._
+_Comparación general entre DUA 2.2 y DUA 3.0: enfoque, principios y justificación de los cambios._
 
 ![Tabla detallada de comparación entre versión actual y versión 3.0](assets/pautas_dua_3_0/comparacion_dua_2_2_vs_3_0_detallada.png)
 
-_Comparativa detallada por principios, pautas y consideraciones entre DUA 2.2 y DUA 3.0._
+_Comparación detallada por principios, pautas y consideraciones entre la versión 2.2 y la versión 3.0._
 
 ### 3.0. Diferencias principales entre DUA 2.2 y DUA 3.0
 
-Las diferencias más relevantes, tomando como base la documentación oficial de CAST sobre la actualización 3.0, son:
+A partir de la actualización oficial de CAST (julio de 2024), DUA 3.0 no es solo un cambio de terminología: supone un ajuste conceptual y práctico del marco.
 
-- **Cambio de foco pedagógico**: DUA 3.0 refuerza explícitamente el abordaje de barreras ligadas a sesgos y a sistemas de exclusión, no solo a la variabilidad individual.
-- **Lenguaje de diseño más activo**: el marco enfatiza "diseñar opciones" para el aprendizaje (implicación, representación y acción/expresión), consolidando una lógica de planificación intencional desde el inicio.
-- **Mayor centralidad de agencia e identidad del aprendiz**: la versión 3.0 amplía el foco hacia autonomía intencional, identidad, pertenencia y participación auténtica.
-- **Reorganización de funciones ejecutivas**: el eje de funciones ejecutivas evoluciona hacia el desarrollo de estrategias y se integra de forma transversal en los tres principios.
-- **Presentación de checkpoints más flexible**: CAST ofrece la guía 3.0 en formatos numerados y no numerados, para facilitar implementación contextual sin perder coherencia del marco.
+Las diferencias centrales frente a DUA 2.2 son:
 
-En la práctica docente, esto se traduce en diseñar experiencias con más atención a inclusión estructural, toma de decisiones del alumnado y estrategias metacognitivas sostenidas.
+- **De la variabilidad individual a la variabilidad + identidad**: DUA 3.0 incorpora explícitamente el "quién" aprende (identidades múltiples e interseccionales), además del "por qué", "qué" y "cómo" del aprendizaje.
+- **De barreras técnicas a barreras también sistémicas**: el foco se amplía para identificar sesgos y barreras en niveles individual, institucional y de sistema, no solo en accesibilidad de materiales.
+- **Lenguaje más centrado en agencia del aprendiz**: se pasa de una redacción más docente-céntrica a verbos aplicables también por el alumnado, favoreciendo co-diseño y autonomía.
+- **Más peso de pertenencia e interdependencia**: se refuerzan comunidad, colaboración y aprendizaje colectivo como condiciones de inclusión real.
+- **Nuevas prioridades en las consideraciones**: aparecen con más fuerza juego y alegría, empatía y prácticas restaurativas, diversidad de perspectivas, sesgos en lenguaje/comunicación y cuestionamiento de prácticas excluyentes.
+- **Presentaciones alternativas del organizador 3.0**: CAST publica versión con numeración, sin numeración y sin consideraciones, para distintos usos de implementación y referencia.
+
+En términos didácticos para Infantil, estas diferencias exigen planificar no solo materiales accesibles, sino también relaciones, lenguaje, evaluación y participación con enfoque de pertenencia, identidad y justicia educativa.
+
+Referente de contraste usado en esta unidad: CAST UDL Guidelines 3.0 (About 3.0 Update, FAQ y Downloads oficiales).
 
 El modelo se articula en tres principios:
 
@@ -340,6 +346,7 @@ Una ruta formativa útil es triangular tres tipos de evidencias:
 - La inclusión es un proceso de mejora escolar y un derecho educativo.
 - La calidad educativa se analiza por participación, aprendizaje y pertenencia.
 - El DUA permite anticipar barreras y diseñar apoyos desde el inicio.
+- La transición de DUA 2.2 a DUA 3.0 amplía el foco hacia identidad, agencia y barreras sistémicas.
 - Evaluar de forma inclusiva mejora decisiones pedagógicas y resultados.
 - Organización, cooperación y co-docencia fortalecen una escuela justa.
 
@@ -348,9 +355,9 @@ Una ruta formativa útil es triangular tres tipos de evidencias:
 - UNESCO - The Salamanca Statement and Framework for Action (1994): https://unesdoc.unesco.org/ark:/48223/pf0000098427
 - Naciones Unidas - Objetivo de Desarrollo Sostenible 4: https://sdgs.un.org/goals/goal4
 - CAST - UDL Guidelines 3.0: https://udlguidelines.cast.org/
-- CAST - About the UDL Guidelines (actualización 3.0): https://udlguidelines.cast.org/more/about/
-- CAST - Downloads (formatos numerados/no numerados de la versión 3.0): https://udlguidelines.cast.org/more/downloads/
-- CAST - From barriers to potential: An update on the UDL Guidelines: https://www.cast.org/news/2024/from-barriers-to-potential-update-udl-guidelines
+- CAST - About the Guidelines 3.0 Update: https://udlguidelines.cast.org/more/about-guidelines-3-0/
+- CAST - Frequently Asked Questions (Guidelines 3.0): https://udlguidelines.cast.org/more/frequently-asked-questions/
+- CAST - Downloads (formatos numerados/no numerados de la versión 3.0): https://udlguidelines.cast.org/more/downloads/%23v3-0
 - UNED - Grado en Educación Infantil: https://www.uned.es/universidad/inicio/estudios/grados/grado-en-educacion-infantil.html
 - UNED - Facultad de Educación: https://www.uned.es/universidad/facultades/educacion.html
 - UNED - Educación XX1 (revista): https://revistas.uned.es/index.php/educacionXX1
