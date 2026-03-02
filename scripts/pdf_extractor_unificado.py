@@ -61,6 +61,9 @@ TABLE_CAPTION_RE = re.compile(
 )
 STRICT_FIGURE_PROFILE = True
 DEFAULT_MAX_TEXT_RATIO = 0.18
+TABLE_MIN_WIDTH_RATIO = 0.20
+TABLE_MIN_HEIGHT_RATIO = 0.05
+TABLE_MIN_HEIGHT_RATIO_NO_CAPTION = 0.075
 OCR_CACHE: Dict[Tuple[str, str], Tuple[int, float]] = {}
 OCR_LINE_CACHE: Dict[Tuple[str, str], Optional[Tuple[float, int, int]]] = {}
 
@@ -961,6 +964,31 @@ def extract_caption_boxes_ocr(
     return merge_boxes(out, x_tol=4, y_tol=3)
 
 
+def detect_pymupdf_table_boxes(page: fitz.Page) -> List[Box]:
+    boxes: List[Box] = []
+    try:
+        finder = page.find_tables()
+    except Exception:
+        return []
+
+    tables = getattr(finder, "tables", None) or []
+    for t in tables:
+        bbox = getattr(t, "bbox", None)
+        if not bbox or len(bbox) != 4:
+            continue
+        try:
+            x0, y0, x1, y1 = [float(v) for v in bbox]
+        except Exception:
+            continue
+        b = Box(x0, y0, x1, y1)
+        if b.width < page.rect.width * TABLE_MIN_WIDTH_RATIO:
+            continue
+        if b.height < page.rect.height * TABLE_MIN_HEIGHT_RATIO:
+            continue
+        boxes.append(b)
+    return merge_boxes(boxes, x_tol=8, y_tol=8)
+
+
 def detect_grid_boxes(page: fitz.Page) -> List[Box]:
     try:
         import cv2
@@ -976,10 +1004,18 @@ def detect_grid_boxes(page: fitz.Page) -> List[Box]:
 
     bw = cv2.adaptiveThreshold(~gray, 255, cv2.ADAPTIVE_THRESH_MEAN_C, cv2.THRESH_BINARY, 15, -2)
     h, w = bw.shape
-    h_kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (max(20, w // 20), 1))
-    v_kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (1, max(20, h // 20)))
-    h_lines = cv2.dilate(cv2.erode(bw, h_kernel), h_kernel)
-    v_lines = cv2.dilate(cv2.erode(bw, v_kernel), v_kernel)
+    h_long = cv2.getStructuringElement(cv2.MORPH_RECT, (max(20, w // 20), 1))
+    v_long = cv2.getStructuringElement(cv2.MORPH_RECT, (1, max(20, h // 20)))
+    h_short = cv2.getStructuringElement(cv2.MORPH_RECT, (max(12, w // 35), 1))
+    v_short = cv2.getStructuringElement(cv2.MORPH_RECT, (1, max(12, h // 35)))
+    h_lines = cv2.bitwise_or(
+        cv2.dilate(cv2.erode(bw, h_long), h_long),
+        cv2.dilate(cv2.erode(bw, h_short), h_short),
+    )
+    v_lines = cv2.bitwise_or(
+        cv2.dilate(cv2.erode(bw, v_long), v_long),
+        cv2.dilate(cv2.erode(bw, v_short), v_short),
+    )
     grid = cv2.bitwise_or(h_lines, v_lines)
     cnts, _ = cv2.findContours(grid, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
 
@@ -988,9 +1024,9 @@ def detect_grid_boxes(page: fitz.Page) -> List[Box]:
     boxes: List[Box] = []
     for c in cnts:
         x, y, rw, rh = cv2.boundingRect(c)
-        if rw < int(0.25 * w) or rh < int(0.06 * h):
+        if rw < int(TABLE_MIN_WIDTH_RATIO * w) or rh < int(TABLE_MIN_HEIGHT_RATIO * h):
             continue
-        if rw * rh < int(0.015 * w * h):
+        if rw * rh < int(0.010 * w * h):
             continue
         boxes.append(Box(x * sx, y * sy, (x + rw) * sx, (y + rh) * sy))
     return merge_boxes(boxes, x_tol=10, y_tol=10)
@@ -1035,28 +1071,111 @@ def detect_columnar_boxes(page: fitz.Page) -> List[Box]:
     return [box]
 
 
+def get_table_caption_boxes(page: fitz.Page, lang: str = "spa") -> List[Box]:
+    native = extract_caption_boxes(page, TABLE_CAPTION_TERMS, TABLE_CAPTION_RE, require_start=True)
+    ocr = extract_caption_boxes_ocr(
+        page,
+        TABLE_CAPTION_TERMS,
+        TABLE_CAPTION_RE,
+        lang=lang,
+        require_start=True,
+    )
+    return merge_boxes([*native, *ocr], x_tol=4, y_tol=3)
+
+
+def build_caption_anchor_zones(page: fitz.Page, caps: Sequence[Box]) -> List[Box]:
+    if not caps:
+        return []
+    caps_sorted = sorted(caps, key=lambda c: (c.y0, c.x0))
+    zones: List[Box] = []
+    for idx, cap in enumerate(caps_sorted):
+        next_y = caps_sorted[idx + 1].y0 if idx + 1 < len(caps_sorted) else page.rect.y1 - 6
+        y0 = min(page.rect.y1, max(page.rect.y0, cap.y1 + 2))
+        y1 = min(page.rect.y1, max(y0 + 20, next_y - 4))
+        if y1 - y0 < page.rect.height * 0.04:
+            continue
+        zones.append(Box(page.rect.x0 + 4, y0, page.rect.x1 - 4, y1))
+    return zones
+
+
+def clip_box_png_bytes(page: fitz.Page, box: Box) -> Optional[bytes]:
+    try:
+        pix = page.get_pixmap(matrix=fitz.Matrix(2, 2), clip=box.to_rect(), alpha=False)
+    except Exception:
+        return None
+    data = pix.tobytes("png")
+    return data if data else None
+
+
+def caption_fallback_boxes(page: fitz.Page, zones: Sequence[Box]) -> List[Box]:
+    fallback: List[Box] = []
+    for z in zones:
+        clip = clip_box_png_bytes(page, z)
+        if clip is None:
+            continue
+        if not image_looks_tabular(clip):
+            continue
+
+        words = page.get_text("words", clip=z.to_rect())
+        if words:
+            xs0 = [float(w[0]) for w in words]
+            ys0 = [float(w[1]) for w in words]
+            xs1 = [float(w[2]) for w in words]
+            ys1 = [float(w[3]) for w in words]
+            b = Box(min(xs0), min(ys0), max(xs1), max(ys1)).expand(8, 8, page.rect)
+        else:
+            b = z.expand(4, 4, page.rect)
+        fallback.append(b)
+    return merge_boxes(fallback, x_tol=8, y_tol=8)
+
+
+def is_top_continuation_candidate(page: fitz.Page, box: Box) -> bool:
+    top_limit = page.rect.y0 + page.rect.height * 0.22
+    return (
+        box.y0 <= top_limit
+        and box.width >= page.rect.width * 0.45
+        and box.height >= page.rect.height * TABLE_MIN_HEIGHT_RATIO
+    )
+
+
+def filter_table_boxes(
+    page: fitz.Page,
+    boxes: Sequence[Box],
+    caption_zones: Sequence[Box],
+) -> List[Box]:
+    out: List[Box] = []
+    for b in boxes:
+        wr = b.width / max(1.0, page.rect.width)
+        hr = b.height / max(1.0, page.rect.height)
+        if wr < TABLE_MIN_WIDTH_RATIO or hr < TABLE_MIN_HEIGHT_RATIO:
+            continue
+        near_caption = any(b.intersects(z) for z in caption_zones)
+        if hr < TABLE_MIN_HEIGHT_RATIO_NO_CAPTION and not near_caption:
+            continue
+        out.append(b.expand(4, 4, page.rect))
+    return merge_boxes(out, x_tol=8, y_tol=8)
+
+
 def detect_table_regions(pdf_path: Path, logger: logging.Logger) -> Dict[int, List[Box]]:
     regions: Dict[int, List[Box]] = {}
     with fitz.open(pdf_path) as doc:
         for pidx, page in enumerate(doc, start=1):
             boxes: List[Box] = []
+            table_caps = get_table_caption_boxes(page, lang="spa")
+            cap_zones = build_caption_anchor_zones(page, table_caps)
 
+            boxes.extend(detect_pymupdf_table_boxes(page))
             boxes.extend(detect_grid_boxes(page))
             boxes.extend(detect_columnar_boxes(page))
 
-            # Refuerzo por caption de tabla.
-            table_caps = extract_caption_boxes(page, TABLE_CAPTION_TERMS, TABLE_CAPTION_RE, require_start=True)
-            if table_caps and boxes:
-                anchored: List[Box] = []
-                for cap in table_caps:
-                    cap_zone = Box(page.rect.x0, max(page.rect.y0, cap.y0 - 20), page.rect.x1, min(page.rect.y1, cap.y1 + page.rect.height * 0.65))
-                    for b in boxes:
-                        if b.intersects(cap_zone):
-                            anchored.append(b)
-                if anchored:
-                    boxes = anchored
+            if cap_zones:
+                anchored = [b for b in boxes if any(b.intersects(z) for z in cap_zones)]
+                # Conserva también posibles continuaciones en cabecera de página.
+                top_cont = [b for b in boxes if is_top_continuation_candidate(page, b)]
+                fallback = caption_fallback_boxes(page, cap_zones)
+                boxes = merge_boxes([*anchored, *top_cont, *fallback], x_tol=10, y_tol=10)
 
-            merged = [b for b in merge_boxes(boxes, x_tol=10, y_tol=10) if b.width >= page.rect.width * 0.22 and b.height >= page.rect.height * 0.06]
+            merged = filter_table_boxes(page, merge_boxes(boxes, x_tol=10, y_tol=10), cap_zones)
             if merged:
                 regions[pidx] = merged
 
@@ -1394,18 +1513,34 @@ def union_table_box(page: fitz.Page, rects: List[Box]) -> Box:
     return box.expand(6, 6, page.rect)
 
 
+def boxes_overlap_strong(a: Box, b: Box, ratio: float = 0.90) -> bool:
+    min_area = max(1.0, min(a.area, b.area))
+    return (a.intersection_area(b) / min_area) >= ratio
+
+
+def choose_primary_table_box(page: fitz.Page, boxes: Sequence[Box], caption_boxes: Sequence[Box]) -> Box:
+    if not boxes:
+        return rect_to_box(page.rect)
+    if len(boxes) == 1:
+        return boxes[0]
+
+    zones = build_caption_anchor_zones(page, caption_boxes)
+    page_area = max(1.0, page.rect.width * page.rect.height)
+    scored: List[Tuple[float, Box]] = []
+    for b in boxes:
+        area_ratio = b.area / page_area
+        cap_ratio = 0.0
+        if zones:
+            cap_ratio = max((b.intersection_area(z) / max(1.0, b.area)) for z in zones)
+        top_bonus = 0.10 if is_top_continuation_candidate(page, b) else 0.0
+        score = area_ratio + (0.65 * cap_ratio) + top_bonus
+        scored.append((score, b))
+    scored.sort(key=lambda t: t[0], reverse=True)
+    return scored[0][1]
+
+
 def page_has_table_caption(page: fitz.Page, lang: str = "spa") -> bool:
-    native = extract_caption_boxes(page, TABLE_CAPTION_TERMS, TABLE_CAPTION_RE, require_start=True)
-    if native:
-        return True
-    ocr_caps = extract_caption_boxes_ocr(
-        page,
-        TABLE_CAPTION_TERMS,
-        TABLE_CAPTION_RE,
-        lang=lang,
-        require_start=True,
-    )
-    return bool(ocr_caps)
+    return bool(get_table_caption_boxes(page, lang=lang))
 
 
 def should_merge_table_pages(
@@ -1456,8 +1591,9 @@ def build_table_merge_groups(
     has_caption: Dict[int, bool] = {}
     for p in pages:
         page = doc[p - 1]
-        page_boxes[p] = union_table_box(page, table_regions.get(p, []))
-        has_caption[p] = page_has_table_caption(page, lang=lang)
+        caption_boxes = get_table_caption_boxes(page, lang=lang)
+        has_caption[p] = bool(caption_boxes)
+        page_boxes[p] = choose_primary_table_box(page, table_regions.get(p, []), caption_boxes).expand(4, 4, page.rect)
 
     groups: List[List[int]] = []
     idx = 0
@@ -1527,6 +1663,23 @@ def extract_tables_as_images(
                 out = out_dir / f"table_page_{p:03d}.png"
                 save_bytes(out, pix.tobytes("png"))
                 records.append(ExtractionRecord("table", p, str(out), "region", (box.x0, box.y0, box.x1, box.y1)))
+
+        # Exporta cajas adicionales por página cuando hay varias tablas distintas.
+        for p, boxes in sorted(table_regions.items()):
+            if not boxes:
+                continue
+            page = doc[p - 1]
+            primary = page_boxes.get(p)
+            extra_idx = 0
+            for b in sorted(boxes, key=lambda bb: (bb.y0, bb.x0)):
+                if primary is not None and boxes_overlap_strong(primary, b, ratio=0.90):
+                    continue
+                extra_idx += 1
+                clip = b.expand(4, 4, page.rect)
+                pix = page.get_pixmap(matrix=fitz.Matrix(2, 2), clip=clip.to_rect(), alpha=False)
+                out = out_dir / f"table_page_{p:03d}_extra_{extra_idx:02d}.png"
+                save_bytes(out, pix.tobytes("png"))
+                records.append(ExtractionRecord("table", p, str(out), "extra-region", (clip.x0, clip.y0, clip.x1, clip.y1)))
 
     logger.info("Tablas extraidas como imagen: %d", len(records))
     return len(records), records

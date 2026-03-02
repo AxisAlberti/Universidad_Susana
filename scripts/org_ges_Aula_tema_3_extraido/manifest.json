@@ -1,0 +1,96 @@
+{
+  "source_pdf": "/Users/josemanuelgonzalez/Repositorios/Universidad_Susana/scripts/org_ges_Aula_tema_3.pdf",
+  "items": [
+    {
+      "kind": "table",
+      "page": 1,
+      "path": "/Users/josemanuelgonzalez/Repositorios/Universidad_Susana/scripts/org_ges_Aula_tema_3_extraido/media/media_001_tabla.png",
+      "method": "extra-region",
+      "bbox": [
+        71.47003881036484,
+        75.4890686905016,
+        342.3739368813464,
+        194.47558456022213
+      ],
+      "text_ratio": null
+    },
+    {
+      "kind": "table",
+      "page": 1,
+      "path": "/Users/josemanuelgonzalez/Repositorios/Universidad_Susana/scripts/org_ges_Aula_tema_3_extraido/media/media_002_tabla.png",
+      "method": "region",
+      "bbox": [
+        63.972865337688916,
+        230.96871158119617,
+        531.8025199576249,
+        393.44953269686664
+      ],
+      "text_ratio": null
+    },
+    {
+      "kind": "table",
+      "page": 6,
+      "path": "/Users/josemanuelgonzalez/Repositorios/Universidad_Susana/scripts/org_ges_Aula_tema_3_extraido/media/media_003_tabla.png",
+      "method": "extra-region",
+      "bbox": [
+        63.972865337688916,
+        177.47571547410834,
+        305.3878810828118,
+        333.45738753003917
+      ],
+      "text_ratio": null
+    },
+    {
+      "kind": "figure",
+      "page": 6,
+      "path": "/Users/josemanuelgonzalez/Repositorios/Universidad_Susana/scripts/org_ges_Aula_tema_3_extraido/media/media_004_figura.png",
+      "method": "caption-guided",
+      "bbox": [
+        18.0,
+        207.24071655273434,
+        577.2755737304688,
+        662.2800903320312
+      ],
+      "text_ratio": null
+    },
+    {
+      "kind": "table",
+      "page": 6,
+      "path": "/Users/josemanuelgonzalez/Repositorios/Universidad_Susana/scripts/org_ges_Aula_tema_3_extraido/media/media_005_tabla.png",
+      "method": "region",
+      "bbox": [
+        58.99853515625,
+        585.2653198242188,
+        536.1998901367188,
+        817.9708251953125
+      ],
+      "text_ratio": null
+    },
+    {
+      "kind": "table",
+      "page": 7,
+      "path": "/Users/josemanuelgonzalez/Repositorios/Universidad_Susana/scripts/org_ges_Aula_tema_3_extraido/media/media_006_tabla.png",
+      "method": "region",
+      "bbox": [
+        58.99853515625,
+        5.815513474600655,
+        531.8025199576249,
+        817.9708251953125
+      ],
+      "text_ratio": null
+    },
+    {
+      "kind": "table",
+      "page": 14,
+      "path": "/Users/josemanuelgonzalez/Repositorios/Universidad_Susana/scripts/org_ges_Aula_tema_3_extraido/media/media_007_tabla.png",
+      "method": "region",
+      "bbox": [
+        63.972865337688916,
+        160.47794101017388,
+        263.40370963582666,
+        246.96871158119617
+      ],
+      "text_ratio": null
+    }
+  ]
+}

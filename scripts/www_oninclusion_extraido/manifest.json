@@ -1,0 +1,200 @@
+{
+  "source_pdf": "/Users/josemanuelgonzalez/Repositorios/Universidad_Susana/scripts/www_oninclusion.pdf",
+  "items": [
+    {
+      "kind": "table",
+      "page": 1,
+      "path": "/Users/josemanuelgonzalez/Repositorios/Universidad_Susana/scripts/www_oninclusion_extraido/media/media_001_tabla.png",
+      "method": "region",
+      "bbox": [
+        0.0,
+        0.0,
+        1072.0799560546875,
+        197.79425048828125
+      ],
+      "text_ratio": null
+    },
+    {
+      "kind": "table",
+      "page": 1,
+      "path": "/Users/josemanuelgonzalez/Repositorios/Universidad_Susana/scripts/www_oninclusion_extraido/media/media_002_tabla.png",
+      "method": "extra-region",
+      "bbox": [
+        120.44967305643576,
+        634.3220387505023,
+        952.6298913488854,
+        1034.715538983293
+      ],
+      "text_ratio": null
+    },
+    {
+      "kind": "figure",
+      "page": 1,
+      "path": "/Users/josemanuelgonzalez/Repositorios/Universidad_Susana/scripts/www_oninclusion_extraido/media/media_003_figura.jpeg",
+      "method": "embedded",
+      "bbox": [
+        97.52274322509766,
+        1221.28466796875,
+        974.4772338867188,
+        1899.4427490234375
+      ],
+      "text_ratio": null
+    },
+    {
+      "kind": "table",
+      "page": 2,
+      "path": "/Users/josemanuelgonzalez/Repositorios/Universidad_Susana/scripts/www_oninclusion_extraido/media/media_004_tabla.png",
+      "method": "extra-region",
+      "bbox": [
+        114.95182712795017,
+        23.9911365603363,
+        953.1296955242024,
+        346.90610293606267
+      ],
+      "text_ratio": null
+    },
+    {
+      "kind": "table",
+      "page": 2,
+      "path": "/Users/josemanuelgonzalez/Repositorios/Universidad_Susana/scripts/www_oninclusion_extraido/media/media_005_tabla.png",
+      "method": "region",
+      "bbox": [
+        114.95182712795017,
+        423.3804820557848,
+        953.1296955242024,
+        1039.2142925620903
+      ],
+      "text_ratio": null
+    },
+    {
+      "kind": "table",
+      "page": 2,
+      "path": "/Users/josemanuelgonzalez/Repositorios/Universidad_Susana/scripts/www_oninclusion_extraido/media/media_006_tabla.png",
+      "method": "extra-region",
+      "bbox": [
+        114.95182712795017,
+        1117.1882562080784,
+        953.1296955242024,
+        1516.0799560546875
+      ],
+      "text_ratio": null
+    },
+    {
+      "kind": "table",
+      "page": 3,
+      "path": "/Users/josemanuelgonzalez/Repositorios/Universidad_Susana/scripts/www_oninclusion_extraido/media/media_007_tabla.png",
+      "method": "region",
+      "bbox": [
+        114.95182712795017,
+        0.0,
+        953.1296955242024,
+        233.43754044861987
+      ],
+      "text_ratio": null
+    },
+    {
+      "kind": "table",
+      "page": 3,
+      "path": "/Users/josemanuelgonzalez/Repositorios/Universidad_Susana/scripts/www_oninclusion_extraido/media/media_008_tabla.png",
+      "method": "extra-region",
+      "bbox": [
+        114.95182712795017,
+        296.91552034070537,
+        953.1296955242024,
+        470.3718955986106
+      ],
+      "text_ratio": null
+    },
+    {
+      "kind": "table",
+      "page": 3,
+      "path": "/Users/josemanuelgonzalez/Repositorios/Universidad_Susana/scripts/www_oninclusion_extraido/media/media_009_tabla.png",
+      "method": "extra-region",
+      "bbox": [
+        121.44928140706949,
+        751.2896317992319,
+        953.1296955242024,
+        908.2505772682138
+      ],
+      "text_ratio": null
+    },
+    {
+      "kind": "table",
+      "page": 3,
+      "path": "/Users/josemanuelgonzalez/Repositorios/Universidad_Susana/scripts/www_oninclusion_extraido/media/media_010_tabla.png",
+      "method": "extra-region",
+      "bbox": [
+        121.44928140706949,
+        990.2234329842437,
+        953.1296955242024,
+        1188.1730221711564
+      ],
+      "text_ratio": null
+    },
+    {
+      "kind": "table",
+      "page": 3,
+      "path": "/Users/josemanuelgonzalez/Repositorios/Universidad_Susana/scripts/www_oninclusion_extraido/media/media_011_tabla.png",
+      "method": "extra-region",
+      "bbox": [
+        121.44928140706949,
+        1347.1245502354955,
+        953.1296955242024,
+        1516.0799560546875
+      ],
+      "text_ratio": null
+    },
+    {
+      "kind": "table",
+      "page": 4,
+      "path": "/Users/josemanuelgonzalez/Repositorios/Universidad_Susana/scripts/www_oninclusion_extraido/media/media_012_tabla.png",
+      "method": "extra-region",
+      "bbox": [
+        121.44928140706949,
+        482.8640015976601,
+        953.1296955242024,
+        787.2840921494421
+      ],
+      "text_ratio": null
+    },
+    {
+      "kind": "table",
+      "page": 4,
+      "path": "/Users/josemanuelgonzalez/Repositorios/Universidad_Susana/scripts/www_oninclusion_extraido/media/media_013_tabla.png",
+      "method": "region",
+      "bbox": [
+        121.44928140706949,
+        895.2497463207452,
+        953.1296955242024,
+        1211.166651573898
+      ],
+      "text_ratio": null
+    },
+    {
+      "kind": "table",
+      "page": 5,
+      "path": "/Users/josemanuelgonzalez/Repositorios/Universidad_Susana/scripts/www_oninclusion_extraido/media/media_014_tabla.png",
+      "method": "extra-region",
+      "bbox": [
+        89.46181418678977,
+        233.43310872878803,
+        518.3000629985249,
+        441.37992809080583
+      ],
+      "text_ratio": null
+    },
+    {
+      "kind": "table",
+      "page": 5,
+      "path": "/Users/josemanuelgonzalez/Repositorios/Universidad_Susana/scripts/www_oninclusion_extraido/media/media_015_tabla.png",
+      "method": "region",
+      "bbox": [
+        0.0,
+        546.3464132095775,
+        1072.0799560546875,
+        700.808051134783
+      ],
+      "text_ratio": null
+    }
+  ]
+}
