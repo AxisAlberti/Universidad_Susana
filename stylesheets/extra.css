@@ -1,0 +1,166 @@
+/* Aumentar ligeramente el tamaño de letra global para mejorar legibilidad */
+:root {
+  font-size: 128%;
+}
+
+.md-typeset {
+  font-size: 1.1rem !important;
+  line-height: 1.76 !important;
+}
+
+/* Unificar tamaño de texto en todos los apuntes al mismo cuerpo base */
+.md-typeset p,
+.md-typeset li,
+.md-typeset table:not([class]),
+.md-typeset table:not([class]) th,
+.md-typeset table:not([class]) td {
+  font-size: 1.1rem !important;
+}
+
+.md-nav,
+.md-tabs__link,
+.md-search__input {
+  font-size: 1.08rem !important;
+}
+
+.md-nav__link,
+.md-nav__title,
+.md-sidebar .md-nav__title,
+.md-sidebar .md-nav__link,
+.md-sidebar--secondary .md-nav__link,
+.md-tabs__link,
+.md-header__topic,
+.md-search__input {
+  font-size: 1.08rem !important;
+}
+
+.md-typeset h1 {
+  font-size: 2.35rem !important;
+}
+
+.md-typeset h2 {
+  font-size: 1.95rem !important;
+}
+
+.md-typeset h3 {
+  font-size: 1.55rem !important;
+}
+
+.md-typeset table:not([class]) th,
+.md-typeset table:not([class]) td {
+  line-height: 1.6;
+}
+
+/* Objetivos de aprendizaje al mismo tamaño exacto que el texto base */
+.md-typeset :is(h2, h3)[id^="objetivos-de-aprendizaje"] + ul,
+.md-typeset :is(h2, h3)[id^="objetivos-de-aprendizaje"] + ol {
+  font-size: 1.1rem !important;
+  line-height: 1.76 !important;
+}
+
+/* Vocabulario clave al mismo tamaño exacto que el texto base */
+.md-typeset :is(h2, h3)[id^="vocabulario-clave"] + .md-typeset__table,
+.md-typeset :is(h2, h3)[id^="vocabulario-clave"] + .md-typeset__table table,
+.md-typeset :is(h2, h3)[id^="vocabulario-clave"] + .md-typeset__table table th,
+.md-typeset :is(h2, h3)[id^="vocabulario-clave"] + .md-typeset__table table td {
+  font-size: 1.1rem !important;
+  line-height: 1.76 !important;
+}
+
+/* Tabla 2.2 sin huecos entre partes */
+.tabla22-bloque {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.tabla22-bloque .tabla22-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+/* Homogeneizar tamaño visual de los diagramas/tablas insertados en las unidades */
+.md-typeset img[alt^="Diagrama"] {
+  display: block;
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  margin: 0.1rem auto 0.15rem auto;
+}
+
+/* Centrar todas las imágenes de los apuntes */
+.md-typeset img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Centrar pies de imagen */
+.md-typeset figure > figcaption,
+.md-typeset img + p {
+  text-align: center;
+}
+
+/* Forzar centrado real para Markdown: <p><img/></p> + <p><strong>Figura...</strong></p> */
+.md-typeset p > img {
+  display: block !important;
+  margin: 0.2rem auto !important;
+}
+
+.md-typeset p:has(> img) {
+  text-align: center !important;
+}
+
+.md-typeset p:has(> img) + p {
+  text-align: center !important;
+}
+
+/* Usar todo el ancho disponible de pantalla */
+.md-grid {
+  max-width: none !important;
+  width: 100% !important;
+}
+
+.md-main__inner {
+  max-width: none !important;
+  width: 100% !important;
+  margin: 0 !important;
+}
+
+.md-content {
+  max-width: none !important;
+  width: 100% !important;
+}
+
+.md-content__inner {
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 0.35rem !important;
+}
+
+.md-typeset {
+  max-width: none !important;
+  width: 100% !important;
+}
+
+/* Mantener márgenes razonables en móvil */
+@media screen and (max-width: 44.9375em) {
+  :root {
+    font-size: 120%;
+  }
+
+  .md-typeset {
+    font-size: 1.02rem !important;
+    line-height: 1.72 !important;
+  }
+
+  .md-content__inner {
+    margin: 0 0.5rem;
+  }
+}
+
+/* Reducción puntual del 20% para párrafos marcados */
+.texto-reducido-20 {
+  font-size: 0.8em !important;
+}
