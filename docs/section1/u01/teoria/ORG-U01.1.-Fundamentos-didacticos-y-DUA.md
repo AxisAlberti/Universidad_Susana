@@ -344,4 +344,212 @@ Una ruta formativa útil es triangular tres tipos de evidencias:
 - Imagen aula (Wikimedia Commons): https://commons.wikimedia.org/wiki/File:Wikimedia_in_Education_illustration_classroom.svg
 - Material visual del tema base (PDF en español): `temas/Orga_ges_aula/Org_ges_Aula_tema_1.pdf`
 
-**Fecha de actualización:** 28/02/2026
+## 16. Contenido textual de los PDF (sin extraer imagenes ni tablas)
+
+Se muestra a continuación el texto OCR de los tres documentos proporcionados, incorporado directamente en la unidad.
+
+### Documento 1 — Pautas-3-0-On-Inclusion-03-02-2026_10_48_AM.pdf
+```text
+A a E O E a ad A A A
+Diseño de múltiples medios de Diseño de múltiples medios de Diseño de múltiples medios de
+compromiso representación acción y expresión
+El <<POR QUE>> del aprendizaje | | <<QUE>> del aprendizaj 3
+mea es ’ z AT ; PET q »
+Diseñar opciones para la Diseñar opciones para la percepción. Diseñar opciones para la interacción. |
+aceptacion de intereses e identidades. on ————— rr
+* Apoyar oportunidades para personalizar la visualización ‘ Diversificar y valorar los métodos de respuesta,
+2 + Optimizar la elección y autonomía. de la información. orientación y movimiento.
+2 * Optimizar la relevancia, el valor y la autenticidad. * Apoyar multiples formas de percibir información. * Optimizar el acceso a materiales accesibles, así como
++ Promover la alegría y el juego. + Representar diversas perspectivas e identidades de formas tecnologias y herramientas de asistencia y acceso.
+* Abordar sesgos, amenazas y distracciones. aoe
+Disenar opciones para Diseñar opciones para el b Diseñar opciones para la ee |
+mantener el esfuerzo y la constancia. lenguaje y los simbolos. | expresión y la comunicación. |
+« Aclarar el significado y el propósito de los « Aclarar vocabulario, símbolos y estructuras lingUisticas. + Usar múltiples medios para la comunicación . |
+S objetivos. + Respaldar la comprensión de textos, notaciones * Usar multiples herramientas para la construcción,
+> + Optimizar los desafíos y el apoyo. matemáticas y símbolos. composición y creatividad.
+= + Fomentar la colaboración, la interdependencia y * Promover la comprensión y el respeto en todos los * Desarrollar habilidades con apoyo gradual para la práctica
+el aprendizaje colectivo. ] idiomas y dialectos. y el desempeño.
++ Fomentar la pertenencia y la comunidad. + Abordar los sesgos en el uso del lenguaje y los símbolos. « Abordar los sesgos relacionados con los modos de
+« Ofrecer comentarios orientados a la acción. * llustrar a través de múltiples medios. IN:
+: re : A ¡de . Lee - a ea ea ae E .
+Diseñar opciones para la Diseñar opciones para | Diseñar opciones para el |
+EJ capacidad emocional. construir conocimientos. desarrollo de estrategias. :
+= 7 A = — e A
+4 * Reconocer expectativas, creencias y motivaciones. * Conectar el conocimiento previo con el nuevo aprendizaje. « Establecer objetivos significativos.
+La] + Desarrollar conciencia de sí mismo y de los demas. * Resaltar y explorar patrones, características clave, ideas « Planificar y anticipar los desafíos.
+= + Promover la reflexión individual y colectiva. relevantes y relaciones. * Organizar la información y los recursos.
+pm i 7 E Fons . . me a
+w * Fomentar la empatía y las prácticas reconfortantes. tad formas de conocimiento y creación de « Mejorar la capacidad para controlar el progreso.
+A eee * Desafiar las prácticas excluyentes.
++ Maximizar la transferencia y generalización.
+udiguidelines.cast.org | © CAST, Inc. 2024 || Suggested Citation: CAST (2024). Universal design for learning guidelines version 3.0 (graphic organizer).
+Traducción y adaptación: PhD. Sergio Sánchez Fuentes - Editorial Caligrafix.
+```
+
+### Documento 2 — Pautas-3-0-On-Inclusion-03-02-2026_10_49_AM.pdf
+```text
+Comparación general entre DUA 2.2 y DUA 3.0
+Optimizar la enseñanza y el ae
+o Abordar barreras críticas y
+aprendizaje para todos los rio err ereditiefiens Mayor enfoque en la inclusion y
+; arraiga uici OS ;
+Enfoque individuos basándose en a P ; y reconocimiento de la diversidad
+o PO sistemas de opresión. Incorporar
+General conocimientos científicos sobre cultural y personal en el
+y la identidad como parte de la oe
+cómo aprenden los seres o aprendizaje.
+variabilidad.
+humanos.
+Múltiples medios de y
+pa Representación
+Representación ;
+y y Terminología actualizada para
+o, o y Acción y expresión, ] o ;
+Principios Multiples medios de Acción y reflejar prócticas educativas más
+expresión Compromiso, pero con inclusivas y contemporáneos.
+o terminología actualizado.
+Multiples medios de Compromiso.
+Se cambió el lenguaje de "proveer"
+a “diseñar” en los tres principios y
+nueve directrices, utilizando
+verbos que reflejan un uso más
+aa PA ia flexible y compartido entre
+o Proveer múltiples medios de Diseñar múltiples medios de
+Eliminación de y y ie y estudiantes y educadores. Esto
+. , representación, acción y representación, acción y A y
+proveer y o, busca disminuir la percepción de
+expresión, y compromiso expresión, y compromiso ]
+las directrices como centradas
+exclusivamente en los educadores
+y promueve un enfoque más
+colaborativo y menos jerárquico
+en la educación.
+La eliminación de la numeración
+busca enfatizar la flexibilidad en la
+aplicación de las directrices. El
+cambio refuerza la idea de que las
+directrices del DUA no deben
+seguirse en un orden específico,
+e sino que deben adaptarse al
+Eliminación de os a | o
+pa Directrices numeradas Eliminación de numeración contexto específico y a las
+numeración
+necesidades de los estudiantes.
+Esto promueve una interpretación
+más abierta y adaptativa de las
+directrices, permitiendo a los
+educadores y diseñadores
+instruccionales utilizar las
+estrategias que mejor se adapten
+a sus situaciones particulares sin
+sentirse constreñidos por un orden
+prescrito.
+Reemplazo de El cambio busca evitar la
+puntos de A percepción de las directrices como
+Uso del término "puntos de : . : pane
+control’ por pear Reemplazo por "consideraciones una lista de verificación,
+contro
+consideracione permitiendo una aplicación más
+s flexible y creativo.
+"Construir se renombra como
+] o e ; o o ener aprendizajes LG noción Ge
+del etiquetado | Etiquetas ‘acceso’, "construir", Acceso’, ‘Apoyo’, "Funciones |
+. oo A funciones ejecutivas se extiende a
+de filas internalizar ejecutivas ) o
+través de la fila inferior,
+horizontales
+cambiando el nombre de la fila a
+Funciones ejecutivas” para reflejar
+su naturaleza interconectado.
+Los cambios reflejan una
+evolución en la meta del
+; , aprendizaje para abordar
+Estudiantes expertos que son Autonomía del estudiante que es
+o y preocupaciones sobre la
+Aprendizaje intencionales y motivados, intencional y reflexiva, ingeniosa y Rigi o
+ae . exclusividad y el fin definitivo del
+Experto ingeniosos y conocedores, y auténtica, estratégica y orientada —
+7 , e proceso de aprendizaje que el
+estratégicos y orientados a metas. | a la acción. E ; a
+término "experto" podría implicar.
+Se enfatiza la generación de
+conocimiento colectivamente y se
+reconoce la brillantez inherente en
+cada aprendiz, ajustando el
+lenguaje para alinearse mas
+plenamente con las características
+de la autonomía del estudiante y
+los temas ampliados a lo largo de
+la actualización.
+Tabla principios, pautas y consideraciones comparadas entre la versión actual y la versión 3.0
+```
+
+### Documento 3 — Pautas-3-0-On-Inclusion-03-02-2026_10_50_AM.pdf
+```text
+Tabla principios, pautas y consideraciones comparadas entre la versión actual y la versión 3.0
+1. Compromiso
+Las guías actualizadas para el compromiso se centran en diseñar estrategias que no solo capturen sino que también
+mantengan el interés de los estudiantes mediante la inclusión y la empatía. Estas estrategias buscan promover un sentido de
+pertenencia y reconocer la importancia de la interacción social y el apoyo emocional en el mantenimiento del esfuerzo y la
+persistencia. Ademós, se enfatiza la autorregulación a través de prócticas reflexivas e inclusivas que permiten a los estudiantes
+comprender y gestionar su propio aprendizaje de manera más autónoma y consciente, reforzando el objetivo de cultivar
+aprendices autodirigidos y resilientes.
+Proporcionar opciones para reclutar Diseñar opciones para acoger intereses | Ampliación para incluir identidades
+interés (7) e identidades (7) ademas de intereses.
+Optimizar elección individual y Optimizar elección y autonomía (7.1) Refinamiento en la formulación para
+autonomía (7.1) promover autonomía.
+Optimizar relevancia, valor y Optimizar relevancia, valor y Mantenimiento de la formulación con
+autenticidad (7.2) autenticidad (7.2) ¡gual enfoque.
+Minimizar amenazas y distracciones (7.3) | Abordar sesgos, amenazas y Cambio de enfoque hacia un abordaje
+distracciones (/.4) mas inclusivo de sesgos.
+Nuevo en 3.0: Fomentar la alegría y el Introducción de una nueva
+juego (7.3) consideración para fomentar aspectos
+positivos del aprendizaje.
+2. Representación
+Las Directrices del DUA 3.0 han sido actualizadas para enfatizar la importancia de la identidad y la representación cultural en
+la percepción. Esto incluye diseñar opciones que integren diversas perspectivas y que utilicen un lenguaje y símbolos accesibles
+para todos los estudiantes. Además, se busca profundizar la comprensión mediante el uso de contextos que sean culturalmente
+relevantes, reconociendo y valorando las experiencias y conocimientos previos de los estudiantes. Estos cambios apuntan a un
+enfoque mas inclusivo y holístico que promueve una educación mas equitativa y representativa.
+Proporcionar opciones para la Diseñar opciones para la percepción (l) | Cambio de "proporcionar” a "diseñar"
+percepción (1) para enfatizar la creación activa de
+opciones.
+Ofrecer formas de personalizar la Apoyar oportunidades para Cambio de ‘ofrecer’ a "apoyar para
+visualización (1.1) personalizar la visualización (1.1) fomentar una participación más activa.
+Ofrecer alternativas para información Apoyar múltiples formas de percibir Combinación de auditiva y visual en un
+auditiva (1.2) información (1.2) enfoque unificado de percepción.
+Ofrecer alternativas para información Nuevo en 3.0: Representar diversidad de | Inclusión de diversidad cultural y de
+visual (1.3) perspectivas e identidades de manera identidades en la representación.
+auténtica (1.3)
+3. Acción y Expresión
+En la versión 3.0, se ha expandido el enfoque de las guías de acción y expresión para incluir no solo interacciones físicas, sino
+también digitales, adaptándose a las necesidades de los entornos educativos modernos. Se fomenta que los estudiantes se
+expresen en múltiples formatos, apoyando así sus preferencias y fortalezas individuales. Además, se ha integrado el desarrollo
+de funciones ejecutivas en todos las actividades de aprendizaje, enfocándose en estrategias que permitan a los estudiantes
+gestionar y optimizar su propio aprendizaje de manera efectiva, lo que incluye un importante componente emocional y
+estratégico.
+Proporcionar opciones para acción Diseñar opciones para interacción (4) Expansión del concepto de acción física
+física (4) a interacción mas general.
+Variar métodos para respuesta y Variar y honrar métodos para respuesta, | Inclusión de respeto por diferentes
+navegación (4.1) navegación y movimiento (4.1) métodos de interacción.
+Optimizar acceso a herramientas y Optimizar acceso a materiales y Ampliación para incluir materiales
+tecnologías de asistencia (4.2) tecnologías accesibles y herramientas accesibles ademós de tecnologíos.
+de asistencia (4.2)
+Nuevo en 3.0: Abordar sesgos Reconocimiento de sesgos en la
+relacionados con modos de expresión y | comunicación y la expresión.
+comunicación (9.4)
+4. Funciones Ejecutivas
+Proporcionar opciones para funciones Diseñar opciones para desarrollo de Cambio de "proporcionar" a “diseñar”
+ejecutivas (6) estrategias (6) para enfatizar estrategias proactivas.
+Guiar la fijación de metas apropiadas Establecer metas significativas (6.1) Enfoque en la significatividad de las
+(6.1) metas establecidas.
+Apoyar la planificación y desarrollo de Anticipar y planificar para desafíos (6.2) | Enfoque proactivo en anticipación de
+estrategias (6.2) desafíos.
+liar estic e información v Oraanizar información v recursos {43} Refinamiento enla araanización de
+ved Uma respuesta
+Tu dirección de correo electrónico no será publicada. Los campos obligatorios están marcados
+con *
+Comentario
+```
+
+**Fecha de actualización:** 02/03/2026
