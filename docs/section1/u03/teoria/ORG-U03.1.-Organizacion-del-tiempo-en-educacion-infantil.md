@@ -142,6 +142,24 @@ _Imagen de apoyo para trabajar organización temporal del día en Educación Inf
 
 Esta tabla no debe aplicarse como plantilla rígida, sino como marco para ajustar decisiones según contexto, ratio y características del grupo.
 
+![Horario ampliado y tramo ordinario en primer ciclo](assets/imagenes_tema3/tema3_tabla_horario_0730_1730.png)
+
+_Ejemplo del tema base con secuencia 07:30-17:30 para primer ciclo, útil para planificar transición hogar-escuela, comida, descanso y salida._
+
+#### 3.2.3. Ejemplo del tema base: Tabla 3.2 (nivel de 3 años, jornada partida)
+
+![Tabla 3.2. Horario tipo para un nivel de 3 años en un CEIP de jornada partida](assets/imagenes_tema3/tema3_tabla_3_2.png)
+
+_Distribución semanal por sesiones y áreas en un grupo de 3 años._
+
+#### 3.2.4. Continuidad de la tabla semanal y arranque de Tabla 3.3 (nivel de 4 años)
+
+![Continuación de la planificación semanal y comienzo de Tabla 3.3](assets/imagenes_tema3/tema3_tabla_3_3_y_continuidad.png)
+
+_Bloque de continuidad de la planificación temporal: cierre de una tabla semanal y apertura de la siguiente para 4 años._
+
+Nota de lectura territorial: estas tablas del tema base están formuladas con ejemplos de la Comunidad de Madrid; en esta unidad se reinterpretan con criterios organizativos aplicables a Andalucía y con ejemplos contextualizados a Cádiz en el apartado de ratios y planificación.
+
 ## 4. Anticipación y seguridad emocional
 
 La anticipación organiza la experiencia infantil. Cuando el niño sabe qué va a pasar, con quién y para qué, aumenta su seguridad y su capacidad de autorregulación.
@@ -200,17 +218,28 @@ La escuela trabaja con grupo, pero educa personas. Esta tensión se gestiona con
 
 El texto base subraya que la ratio no es un dato administrativo neutro: determina tiempo de escucha real por niño, calidad de la observación y capacidad de personalización.
 
-#### 7.1.1. Ejemplo de ratios recogidas en el tema base
+#### 7.1.1. Ratios de referencia en Andalucía (actualizado a 02/03/2026)
 
-| Tramo | Red pública (ejemplo) | Red municipal (ejemplo) |
+| Tramo / situación | Referencia normativa andaluza | Ratio máxima de referencia |
 |---|---|---|
-| 0-1 | 8 niños por educador | 8 niños con 2 educadores |
-| 1-2 | 14 niños por educador | 13 niños con 2 educadores |
-| 2-3 | 20 niños por educador | 16 niños con 2 educadores |
+| 0-1 (primer ciclo) | Decreto 76/2025, art. 13 | 1/8 |
+| 1-2 (primer ciclo) | Decreto 76/2025, art. 13 | 1/13 |
+| 2-3 (primer ciclo) | Decreto 76/2025, art. 13 | 1/20 |
+| 3 años (2.º ciclo, admisión 2026/2027) | Resolución BOJA 02/02/2026 | 22 por unidad |
+| 2.º ciclo de Infantil (marco general) | Decreto 21/2020, art. 5.1.a) | 25 por unidad |
+| Incremento excepcional | Decreto 21/2020, art. 5.2 | hasta +10% |
 
-Estas referencias del documento base muestran que la disponibilidad adulta por niño cambia de forma significativa según red y contexto.
+Lectura pedagógica: en Andalucía conviven el marco general de 25 en segundo ciclo con la reducción específica a 22 en 3 años para el procedimiento de admisión del curso 2026/2027.
 
-#### 7.1.2. Tabla comparativa: impacto pedagógico de la ratio
+#### 7.1.2. Ejemplos prácticos orientados a Cádiz (Andalucía)
+
+Para aterrizar la organización temporal a contexto real de centro, estos ejemplos están diseñados con referencia territorial a Cádiz:
+
+- **CEIP de Cádiz capital con 3 líneas de 3 años**: con ratio de 22 en admisión 2026/2027, la previsión inicial es de 66 plazas (3x22), no 75 (3x25). Esto permite más tiempo de interacción individual en acogida, hábitos y evaluación inicial.
+- **Escuela infantil de 1-2 años en la Bahía de Cádiz**: con dos unidades de segundo curso de primer ciclo, la capacidad de referencia es 26 niños/as (2x13). La organización del día debe priorizar rutinas de cuidado sin saturar transiciones.
+- **Centro rural en la Sierra de Cádiz con agrupamientos especiales**: cuando se autorizan unidades mixtas, la planificación debe prever ratios reducidas y más coordinación interprofesional para sostener calidad de atención.
+
+#### 7.1.3. Tabla comparativa: impacto pedagógico de la ratio
 
 | Escenario | Riesgo temporal | Mejora esperable |
 |---|---|---|
@@ -351,6 +380,9 @@ Esta combinación mejora la coherencia entre teoría, normativa y práctica doce
 
 - BOE - Ley Orgánica 2/2006 y modificaciones (LOMLOE): https://www.boe.es/buscar/act.php?id=BOE-A-2006-7899
 - BOE - Real Decreto 95/2022 (Educación Infantil): https://www.boe.es/diario_boe/txt.php?id=BOE-A-2022-1654
+- BOJA - Decreto 76/2025 (primer ciclo de Educación Infantil en Andalucía): https://www.juntadeandalucia.es/boja/2025/45/1
+- BOJA - Decreto 21/2020 (admisión y plazas en segundo ciclo): https://www.juntadeandalucia.es/boja/2020/34/1
+- BOJA - Resolución de 27/01/2026 (ratio 22 en 3 años, curso 2026/2027): https://www.juntadeandalucia.es/boja/2026/21/25
 - UNESCO (es) - Atención y educación de la primera infancia: https://www.unesco.org/es/early-childhood-education
 - OCDE - Starting Strong (Educación y cuidado en primera infancia): https://www.oecd.org/education/school/startingstrong.htm
 - REdIneD - base de literatura y recursos educativos: https://redined.educacion.gob.es/xmlui/
@@ -369,5 +401,8 @@ Esta combinación mejora la coherencia entre teoría, normativa y práctica doce
   - `assets/internet/I_3_003_2025_0052_IF_01921.png`
   - `assets/internet/I_3_003_2025_0052_IL_01929.png`
   - `assets/internet/I_3_003_2025_0052_IL_01932.png`
+  - `assets/imagenes_tema3/tema3_tabla_horario_0730_1730.png`
+  - `assets/imagenes_tema3/tema3_tabla_3_2.png`
+  - `assets/imagenes_tema3/tema3_tabla_3_3_y_continuidad.png`
 
-**Fecha de actualización:** 28/02/2026
+**Fecha de actualización:** 02/03/2026
